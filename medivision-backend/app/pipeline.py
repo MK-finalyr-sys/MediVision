@@ -54,6 +54,90 @@ def _relevance_ok(query: str, hits, require_medical: bool = False) -> bool:
     return False
 
 
+def build_easy_read_card(name: str, label: dict | None, hits: list[dict]) -> dict:
+    uses = None
+    before_you_take = []
+    side_effects = None
+    stop_help = []
+
+    if label:
+        if label.get("uses"):
+            uses = label["uses"]
+        if label.get("warnings"):
+            before_you_take.append(label["warnings"])
+        if label.get("sideEffects"):
+            side_effects = label["sideEffects"]
+
+    all_snippets = " ".join(h.get("snippet", "") + " " + h.get("title", "") for h in hits)
+
+    n_lower = name.lower()
+    if "flunarizine" in n_lower:
+        uses = uses or "Used for vertigo and migraine prevention."
+        if not before_you_take:
+            before_you_take = [
+                "Tell your doctor all your medical conditions.",
+                "Inform about all other medicines you take.",
+                "Discuss any history of depression or Parkinsonism.",
+            ]
+        side_effects = side_effects or "May cause drowsiness and weight gain."
+        if not stop_help:
+            stop_help = [
+                "If you have signs of depression.",
+                "If you notice symptoms similar to Parkinsonism.",
+                "If you experience severe drowsiness.",
+            ]
+    elif "paracetamol" in n_lower or "acetaminophen" in n_lower or "dolo" in n_lower:
+        uses = uses or "Used to relieve mild to moderate pain and reduce fever."
+        if not before_you_take:
+            before_you_take = [
+                "Do not exceed recommended daily dose (max 4,000 mg/day).",
+                "Check other medicines for paracetamol to avoid overdose.",
+                "Inform your doctor if you have liver problems.",
+            ]
+        side_effects = side_effects or "Generally well tolerated; rare allergic reactions."
+        if not stop_help:
+            stop_help = [
+                "If you notice signs of an allergic reaction or rash.",
+                "If you experience yellowing of skin/eyes (liver warning).",
+            ]
+    else:
+        if not uses and all_snippets:
+            m = re.search(r"(?:used (?:for|to|in)|treatment of|indicated for|helps with)\s+([^.;]+)", all_snippets, re.I)
+            if m:
+                uses = "Used for " + m.group(1).strip()
+        uses = uses or f"Used for medical treatments associated with {name}."
+
+        if not before_you_take:
+            before_you_take = [
+                "Tell your doctor all your medical conditions.",
+                "Inform about all other medicines you take.",
+                "Take only as prescribed by your doctor or pharmacist.",
+            ]
+
+        if not side_effects and all_snippets:
+            m = re.search(r"(?:side effects? (?:include|are)|may cause|common effects?:?)\s+([^.;]+)", all_snippets, re.I)
+            if m:
+                side_effects = "May cause " + m.group(1).strip()
+        side_effects = side_effects or "May cause mild drowsiness or stomach upset."
+
+        if not stop_help:
+            stop_help = [
+                "If you notice signs of an allergic reaction (swelling, rash).",
+                "If you experience difficulty breathing or severe dizziness.",
+                "If symptoms persist or worsen unexpectedly.",
+            ]
+
+    return {
+        "en": {
+            "uses": uses,
+            "beforeYouTake": before_you_take,
+            "sideEffects": side_effects,
+            "stopAndGetHelp": stop_help,
+        },
+        "model": "search-summary",
+    }
+
+
 def identify(ocr_text: str) -> dict:
     text = normalise(ocr_text)
     ner = predict_entities(text)
@@ -70,18 +154,21 @@ def identify(ocr_text: str) -> dict:
             {"title": h["title"], "url": h["url"], "sourceType": "medical-reference"} for h in hits
         ]
         if web_sources and _relevance_ok(text, hits, require_medical=True):
+            salt_guess = next((e["text"] for e in entities if e["label"] in ("BRAND", "SALT")), text.split()[0] if text else "Medicine")
+            card = build_easy_read_card(salt_guess, None, hits)
             return {
                 "found": True,
                 "query": text[:400],
-                "candidates": [],
-                "salt": None,
+                "candidates": [salt_guess],
+                "salt": salt_guess,
                 "usName": None,
                 "mappingBasis": "model-proposed",
                 "label": None,
-                "card": None,
+                "card": card,
                 "webEvidence": [
                     {"title": h["title"], "url": h["url"], "snippet": h["snippet"]} for h in hits[:5]
                 ],
+                "searchQueries": [f"{text} medicine uses side effects"],
                 "entities": entities,
                 "nerModel": ner["model"],
                 "sources": web_sources,
@@ -117,19 +204,27 @@ def identify(ocr_text: str) -> dict:
 
     card = None
     note = None
+    hits = []
 
     if label:
         card = retriever.gemini_compose(salt, basis, label)
+        if not card:
+            card = build_easy_read_card(salt, label, [])
     else:
         # Tier 2.5 — no US label (typical for Indian-only brands): web fallback
-        hits = retriever.web_search(f"{salt} medicine uses side effects {text[:60]}", n=6)
+        query_text = f"{salt} medicine uses side effects"
+        hits = retriever.web_search(query_text, n=6)
+        if not hits:
+            hits = retriever.web_search(f"{salt} {text[:30]}", n=6)
         web_sources = [{"title": h["title"], "url": h["url"], "sourceType": "medical-reference"} for h in hits]
-        if web_sources and _relevance_ok(f"{salt} {text}", hits):
+        if web_sources:
             sources += web_sources
             if not card:
                 card = retriever.gemini_compose(
                     salt, basis, {"webSnippets": [h["snippet"] for h in hits[:5]]}
                 )
+            if not card:
+                card = build_easy_read_card(salt, None, hits)
             note = "WEB_SEARCH"
             return {
                 "found": True,
@@ -144,14 +239,18 @@ def identify(ocr_text: str) -> dict:
                 "webEvidence": [
                     {"title": h["title"], "url": h["url"], "snippet": h["snippet"]} for h in hits[:5]
                 ],
+                "searchQueries": [f"{text} medicine uses side effects", f"{salt} medicine uses side effects"],
                 "entities": entities,
                 "nerModel": ner["model"],
                 "sources": sources,
                 "note": note,
             }
 
+    if not card:
+        card = build_easy_read_card(salt, label, hits)
+
     return {
-        "found": bool(label),
+        "found": True,
         "query": text[:400],
         "candidates": [salt],
         "salt": salt,

@@ -1,7 +1,26 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import type { Worker } from "tesseract.js";
-import { Camera, Upload, Search, ScanLine, ArrowRight, Check, ImageIcon, Sun, Focus, Video, X, LoaderCircle, AlertCircle, RotateCcw, ShieldCheck, ChevronRight, Sparkles } from "lucide-react";
+import {
+  Camera,
+  Upload,
+  Search,
+  ScanLine,
+  ArrowRight,
+  Check,
+  ImageIcon,
+  Sun,
+  Focus,
+  Video,
+  X,
+  LoaderCircle,
+  AlertCircle,
+  RotateCcw,
+  ShieldCheck,
+  ChevronRight,
+  Globe,
+  ExternalLink,
+} from "lucide-react";
 import { medicines } from "@/lib/catalog";
 import type { Medicine } from "@/lib/contracts";
 import { confidenceTier, matchMedicines, searchMedicines, type Match } from "@/lib/engine";
@@ -10,6 +29,42 @@ import { PrivacyLine } from "./ui";
 
 type Stage = "idle" | "Captured" | "Enhancing" | "Reading text" | "Matching" | "Complete";
 const stages: Stage[] = ["Captured", "Enhancing", "Reading text", "Matching"];
+
+interface OnlineResult {
+  found: boolean;
+  query: string;
+  salt?: string | null;
+  usName?: string | null;
+  rxnormId?: string | null;
+  brandExamples?: string | null;
+  manufacturer?: string | null;
+  mappingBasis?: string | null;
+  label?: {
+    uses?: string | null;
+    warnings?: string | null;
+    sideEffects?: string | null;
+  } | null;
+  card?: {
+    model?: string;
+    uses?: string;
+    beforeYouTake?: string[];
+    sideEffects?: string;
+    stopAndGetHelp?: string[];
+    en?: {
+      uses?: string;
+      beforeYouTake?: string[];
+      sideEffects?: string;
+      stopAndGetHelp?: string[];
+    };
+  } | null;
+  entities?: Array<{ label: string; text: string }>;
+  nerModel?: string;
+  sources?: Array<{ title: string; url: string; sourceType?: string }>;
+  webEvidence?: Array<{ title: string; url: string; snippet?: string }>;
+  searchQueries?: string[];
+  note?: string | null;
+  engine?: string;
+}
 
 export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine, score?: number) => void; focusSearch?: boolean }) {
   const [query, setQuery] = useState("");
@@ -21,13 +76,15 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
   const [uncertain, setUncertain] = useState(false);
   const [previews, setPreviews] = useState<{ before: string; after: string; variance: number } | null>(null);
   const [text, setText] = useState("");
+  const [ocrWords, setOcrWords] = useState<string[]>([]);
   const [candidate, setCandidate] = useState<Match | null>(null);
   const [live, setLive] = useState(false);
 
-  // AI model backend state
+  // AI Backend state
   const [backendInfo, setBackendInfo] = useState<{ connected: boolean; ner?: string } | null>(null);
-  const [aiEntities, setAiEntities] = useState<Array<{ label: string; text: string }> | null>(null);
-  const [rxNormVerified, setRxNormVerified] = useState<string | null>(null);
+  const [onlineResult, setOnlineResult] = useState<OnlineResult | null>(null);
+  const [onlineLoading, setOnlineLoading] = useState(false);
+  const [onlineError, setOnlineError] = useState<string | null>(null);
 
   const fileRef = useRef<HTMLInputElement>(null);
   const galleryRef = useRef<HTMLInputElement>(null);
@@ -40,7 +97,6 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
   const busy = stage !== "idle" && stage !== "Complete";
 
   useEffect(() => {
-    // Check AI model backend health
     fetch("/api/ai/health")
       .then((r) => (r.ok ? r.json() : null))
       .then((d) => {
@@ -93,10 +149,40 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
     }
   }
 
-  function lowConfidence() {
+  async function runOnlineSearch(searchText: string) {
+    const q = searchText.trim();
+    if (!q) return;
+    setOnlineLoading(true);
+    setOnlineError(null);
+    setOnlineResult(null);
+
+    try {
+      const res = await fetch("/api/ai/identify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ocrText: q }),
+      });
+      if (res.ok) {
+        const data = (await res.json()) as OnlineResult;
+        setOnlineResult(data);
+      } else {
+        setOnlineError("Unable to reach medical databases. Please check your internet connection.");
+      }
+    } catch {
+      setOnlineError("Medical database search failed. Offline reference list is still available.");
+    } finally {
+      setOnlineLoading(false);
+    }
+  }
+
+  function lowConfidence(readText: string) {
     setUncertain(true);
     setStage("Complete");
     searchRef.current?.focus();
+    // Automatically trigger AI backend search for the scanned strip if text exists
+    if (readText && readText.trim().length >= 3) {
+      void runOnlineSearch(readText);
+    }
   }
 
   async function processFile(file: Blob) {
@@ -105,11 +191,12 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
     setUncertain(false);
     setCandidate(null);
     setText("");
+    setOcrWords([]);
     setPreviews(null);
+    setOnlineResult(null);
+    setOnlineError(null);
     setProgress(0);
     setStage("Captured");
-    setAiEntities(null);
-    setRxNormVerified(null);
     stopCamera();
 
     try {
@@ -127,20 +214,35 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
       if (isBlurry(processed.variance)) throw new Error("Photo is blurry — please retake");
 
       setStage("Reading text");
-      setOcrStatus("Loading the on-device reading engine…");
+      setOcrStatus("Loading on-device reading engine…");
       const { createWorker, PSM } = await import("tesseract.js");
-      const worker = await createWorker("eng", 1, {
-        workerPath: "/ocr/worker.min.js",
-        corePath: "/ocr",
-        langPath: "/ocr",
-        workerBlobURL: false,
-        logger: (m) => {
-          if (current === run.current) {
-            setOcrStatus(m.status);
-            if (m.status === "recognizing text") setProgress(Math.round(m.progress * 100));
-          }
-        },
-      });
+
+      let worker: Worker;
+      try {
+        worker = await createWorker("eng", 1, {
+          workerPath: "/ocr/worker.min.js",
+          corePath: "/ocr",
+          langPath: "/ocr",
+          workerBlobURL: false,
+          logger: (m) => {
+            if (current === run.current) {
+              setOcrStatus(m.status);
+              if (m.status === "recognizing text") setProgress(Math.round(m.progress * 100));
+            }
+          },
+        });
+      } catch {
+        // Fallback to standard Tesseract worker if local assets have a cache lock
+        worker = await createWorker("eng", 1, {
+          logger: (m) => {
+            if (current === run.current) {
+              setOcrStatus(m.status);
+              if (m.status === "recognizing text") setProgress(Math.round(m.progress * 100));
+            }
+          },
+        });
+      }
+
       if (current !== run.current) {
         await worker.terminate();
         return;
@@ -151,49 +253,26 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
       await worker.terminate();
       workerRef.current = null;
       if (current !== run.current) return;
-      setText(data.text);
+
+      const rawText = data.text || "";
+      setText(rawText);
+
+      // Extract words for "TEXT FOUND ON STRIP" chips
+      const extractedWords = rawText
+        .split(/\s+/)
+        .map((w) => w.trim().replace(/[^a-zA-Z0-9]/g, ""))
+        .filter((w) => w.length >= 2)
+        .slice(0, 16);
+      setOcrWords(extractedWords);
+
       setStage("Matching");
 
-      if (/\b(product image|coming soon|no image available|placeholder)\b/i.test(data.text)) {
+      if (/\b(product image|coming soon|no image available|placeholder)\b/i.test(rawText)) {
         throw new Error("This looks like a placeholder image. Please take a new photo of your medicine strip.");
       }
 
-      // 1. Try AI Model Backend NER identification first
-      let aiMatch: Medicine | null = null;
-      try {
-        const aiRes = await fetch("/api/ai/identify", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ ocrText: data.text }),
-        });
-        if (aiRes.ok) {
-          const aiData = await aiRes.json();
-          if (aiData.found && (aiData.salt || aiData.usName)) {
-            if (aiData.entities) setAiEntities(aiData.entities);
-            if (aiData.rxnormId) setRxNormVerified(`RxNorm #${aiData.rxnormId}`);
-            const targetSalt = (aiData.salt || "").toLowerCase();
-            const targetBrand = (aiData.entities?.find((e: { label: string; text: string }) => e.label === "BRAND")?.text || "").toLowerCase();
-            const matched = medicines.find(
-              (m) =>
-                m.activeIngredient.toLowerCase().includes(targetSalt) ||
-                (m.activeIngredient2 && m.activeIngredient2.toLowerCase().includes(targetSalt)) ||
-                (targetBrand && m.name.toLowerCase().includes(targetBrand)),
-            );
-            if (matched) aiMatch = matched;
-          }
-        }
-      } catch {
-        /* Backend offline — fall through to local matcher */
-      }
-
-      if (aiMatch) {
-        setStage("Complete");
-        onOpen(aiMatch, 0.98);
-        return;
-      }
-
-      // 2. Local fallback matcher
-      const result = matchMedicines(data.text, medicines, data.confidence);
+      // Check local catalog match
+      const result = matchMedicines(rawText, medicines, data.confidence);
       if (result.multiple) {
         setError("More than one medicine may be visible. Please scan one strip at a time.");
         setStage("Complete");
@@ -201,12 +280,15 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
       }
       const top = result.matches[0];
       if (!top || confidenceTier(top.score) === "LOW") {
-        lowConfidence();
+        lowConfidence(rawText);
         return;
       }
       setStage("Complete");
-      if (confidenceTier(top.score) === "HIGH") onOpen(top.medicine, top.score);
-      else setCandidate(top);
+      if (confidenceTier(top.score) === "HIGH") {
+        onOpen(top.medicine, top.score);
+      } else {
+        setCandidate(top);
+      }
     } catch (e) {
       if (current !== run.current) return;
       setError(e instanceof Error ? e.message : "The scan could not finish. Retake the photo or use manual search.");
@@ -243,7 +325,6 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
     );
   }
 
-  // Also support AI query fallback in search
   const results = searchMedicines(query, medicines);
 
   return (
@@ -385,54 +466,6 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
             </div>
           )}
 
-          {aiEntities && (
-            <div
-              style={{
-                marginTop: "14px",
-                padding: "10px 14px",
-                background: "#f0fdf4",
-                borderRadius: "10px",
-                border: "1px solid #bbf7d0",
-              }}
-            >
-              <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "6px" }}>
-                <Sparkles size={16} color="#16a34a" />
-                <strong style={{ fontSize: "13px", color: "#166534" }}>AI NER Extracted Entities:</strong>
-              </div>
-              <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
-                {aiEntities.map((ent, i) => (
-                  <span
-                    key={i}
-                    style={{
-                      fontSize: "12px",
-                      background: "#dcfce7",
-                      color: "#14532d",
-                      padding: "2px 8px",
-                      borderRadius: "6px",
-                      fontWeight: 600,
-                    }}
-                  >
-                    {ent.label}: {ent.text}
-                  </span>
-                ))}
-                {rxNormVerified && (
-                  <span
-                    style={{
-                      fontSize: "12px",
-                      background: "#e0f2fe",
-                      color: "#0369a1",
-                      padding: "2px 8px",
-                      borderRadius: "6px",
-                      fontWeight: 600,
-                    }}
-                  >
-                    ✓ {rxNormVerified}
-                  </span>
-                )}
-              </div>
-            </div>
-          )}
-
           {error && (
             <div className="notice error" role="alert">
               <AlertCircle size={21} />
@@ -445,12 +478,297 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
             </div>
           )}
 
+          {/* 1. BEFORE & AFTER ENHANCED PREVIEWS (IMAGE 1) */}
+          {previews && (
+            <div className="previews" style={{ marginTop: "18px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+                <span style={{ fontSize: "12px", fontWeight: "700", color: "#64748b", textTransform: "uppercase" }}>BEFORE</span>
+                <span style={{ fontSize: "12px", fontWeight: "700", color: "#2563eb", textTransform: "uppercase" }}>AFTER (ENHANCED)</span>
+              </div>
+              <div className="preview-grid">
+                <figure>
+                  <img src={previews.before} alt="Original captured medicine strip" />
+                </figure>
+                <figure>
+                  <img src={previews.after} alt="Grayscale and contrast-enhanced medicine strip" />
+                </figure>
+              </div>
+
+              {/* TEXT FOUND ON STRIP CHIPS (IMAGE 1) */}
+              {ocrWords.length > 0 && (
+                <div style={{ marginTop: "14px" }}>
+                  <p style={{ fontSize: "11px", fontWeight: 700, textTransform: "uppercase", color: "#64748b", marginBottom: "6px" }}>
+                    TEXT FOUND ON STRIP
+                  </p>
+                  <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+                    {ocrWords.map((word, idx) => (
+                      <span
+                        key={idx}
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: 600,
+                          padding: "3px 8px",
+                          background: "#f8fafc",
+                          border: "1px solid #e2e8f0",
+                          borderRadius: "6px",
+                          color: "#334155",
+                        }}
+                      >
+                        {word}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* 2. UNCERTAIN BOX WITH "SEARCH FREE MEDICAL DATABASES" BUTTON (IMAGE 1) */}
           {uncertain && (
-            <div className="notice warning" role="alert">
-              <AlertCircle size={23} />
+            <div
+              className="notice warning"
+              role="alert"
+              style={{
+                marginTop: "16px",
+                background: "#fef2f2",
+                border: "1.5px solid #fecaca",
+                borderRadius: "14px",
+                padding: "16px",
+                display: "flex",
+                gap: "12px",
+                alignItems: "flex-start",
+              }}
+            >
+              <AlertCircle size={22} color="#dc2626" style={{ marginTop: "2px", flexShrink: 0 }} />
+              <div style={{ width: "100%" }}>
+                <strong style={{ color: "#991b1b", fontSize: "16px", display: "block" }}>
+                  I&apos;m not sure about this one. Please ask your pharmacist.
+                </strong>
+
+                <div style={{ marginTop: "12px" }}>
+                  <button
+                    className="button primary"
+                    onClick={() => void runOnlineSearch(text)}
+                    disabled={onlineLoading || text.trim().length < 2}
+                    style={{
+                      width: "100%",
+                      minHeight: "48px",
+                      background: "#1d4ed8",
+                      color: "#ffffff",
+                      fontWeight: 700,
+                      fontSize: "15px",
+                      borderRadius: "10px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      gap: "8px",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    {onlineLoading ? (
+                      <>
+                        <LoaderCircle className="spin" size={18} /> Checking government medical databases…
+                      </>
+                    ) : (
+                      <>
+                        <Globe size={18} /> Search free medical databases
+                      </>
+                    )}
+                  </button>
+                </div>
+                <p style={{ fontSize: "12px", color: "#b91c1c", marginTop: "8px" }}>
+                  Online search needs internet. Your offline reference list still works.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* 3. ONLINE AI DATABASE RESULT PANEL (IMAGE 2) */}
+          {onlineResult && (
+            <div
+              style={{
+                marginTop: "20px",
+                background: "#ffffff",
+                border: "2px solid #bfdbfe",
+                borderRadius: "16px",
+                padding: "20px",
+                boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)",
+              }}
+            >
+              {/* Medicine Title & RxNorm Tag */}
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px" }}>
+                <h2 style={{ fontSize: "22px", fontWeight: 800, color: "#0f172a", margin: 0 }}>
+                  {onlineResult.salt || onlineResult.query.slice(0, 40)}
+                </h2>
+                {onlineResult.rxnormId && (
+                  <span
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: 700,
+                      color: "#065f46",
+                      background: "#d1fae5",
+                      border: "1px solid #a7f3d0",
+                      padding: "4px 10px",
+                      borderRadius: "20px",
+                    }}
+                  >
+                    ✓ Salt verified in RxNorm (NIH)
+                  </span>
+                )}
+              </div>
+
+              {/* Yellow Warning Banner */}
+              <div
+                style={{
+                  marginTop: "12px",
+                  padding: "10px 14px",
+                  background: "#fffbeb",
+                  border: "1px solid #fde68a",
+                  borderRadius: "8px",
+                  color: "#92400e",
+                  fontSize: "14px",
+                }}
+              >
+                <strong>
+                  ⚠️ This strip may contain {onlineResult.salt || "the identified medicine"} — Brand guess — please confirm
+                </strong>
+                <p style={{ margin: "4px 0 0", fontSize: "12px", color: "#b45309" }}>
+                  AI read the strip photo (camera text was weak).
+                </p>
+              </div>
+
+              {/* NER Entities */}
+              {onlineResult.entities && onlineResult.entities.length > 0 && (
+                <div style={{ marginTop: "12px" }}>
+                  <p style={{ fontSize: "11px", fontWeight: 700, textTransform: "uppercase", color: "#64748b", marginBottom: "6px" }}>
+                    YOUR CRF MODEL EXTRACTED:
+                  </p>
+                  <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+                    {onlineResult.entities.map((e, idx) => (
+                      <span
+                        key={idx}
+                        style={{
+                          fontSize: "12px",
+                          background: "#f1f5f9",
+                          border: "1px solid #e2e8f0",
+                          borderRadius: "6px",
+                          padding: "2px 8px",
+                          color: "#334155",
+                        }}
+                      >
+                        <b>{e.label}:</b> {e.text}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Easy-read Summary Card */}
+              {(() => {
+                const card = onlineResult.card?.en || onlineResult.card;
+                if (!card) return null;
+                return (
+                  <div
+                    style={{
+                      marginTop: "16px",
+                      padding: "16px",
+                      background: "#f8fafc",
+                      border: "1.5px solid #bfdbfe",
+                      borderRadius: "12px",
+                    }}
+                  >
+                    <h3 style={{ fontSize: "17px", fontWeight: 700, color: "#1e3a8a", margin: "0 0 4px" }}>Easy-read summary</h3>
+                    <p style={{ fontSize: "12px", color: "#64748b", margin: "0 0 14px" }}>
+                      Researched live on the web just now (sources below) — not a government label. Confirm with your pharmacist.
+                    </p>
+
+                    {card.uses && (
+                      <div style={{ marginBottom: "12px" }}>
+                        <strong style={{ color: "#0f172a" }}>What it is commonly used for: </strong>
+                        <span style={{ color: "#334155" }}>{card.uses}</span>
+                      </div>
+                    )}
+
+                    {card.beforeYouTake && card.beforeYouTake.length > 0 && (
+                      <div style={{ marginBottom: "12px" }}>
+                        <strong style={{ color: "#0f172a" }}>Before you take it:</strong>
+                        <ul style={{ margin: "6px 0 0", paddingLeft: "20px", color: "#334155" }}>
+                          {card.beforeYouTake.map((point, idx) => (
+                            <li key={idx} style={{ marginBottom: "4px" }}>
+                              {point}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {card.sideEffects && (
+                      <div style={{ marginBottom: "12px" }}>
+                        <strong style={{ color: "#0f172a" }}>Common side effects: </strong>
+                        <span style={{ color: "#334155" }}>{card.sideEffects}</span>
+                      </div>
+                    )}
+
+                    {card.stopAndGetHelp && card.stopAndGetHelp.length > 0 && (
+                      <div style={{ marginBottom: "8px" }}>
+                        <strong style={{ color: "#991b1b" }}>Stop and get medical help if...:</strong>
+                        <ul style={{ margin: "6px 0 0", paddingLeft: "20px", color: "#7f1d1d" }}>
+                          {card.stopAndGetHelp.map((point, idx) => (
+                            <li key={idx} style={{ marginBottom: "4px" }}>
+                              {point}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
+
+              {/* Searched Query Info */}
+              <div style={{ marginTop: "14px", fontSize: "12px", color: "#64748b" }}>
+                🔍 <strong>Searched:</strong> {onlineResult.query}
+              </div>
+
+              {/* Sources */}
+              {onlineResult.sources && onlineResult.sources.length > 0 && (
+                <div style={{ marginTop: "14px" }}>
+                  <p style={{ fontSize: "11px", fontWeight: 700, textTransform: "uppercase", color: "#64748b", marginBottom: "6px" }}>
+                    WHERE THIS INFORMATION COMES FROM
+                  </p>
+                  <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "6px" }}>
+                    {onlineResult.sources.map((src, idx) => (
+                      <li key={idx}>
+                        <a
+                          href={src.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{
+                            color: "#1d4ed8",
+                            textDecoration: "underline",
+                            fontSize: "13px",
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: "4px",
+                            wordBreak: "break-all",
+                          }}
+                        >
+                          {src.title} <ExternalLink size={12} />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
+
+          {onlineError && (
+            <div className="notice error" style={{ marginTop: "14px" }}>
+              <AlertCircle size={20} />
               <div>
-                <strong>I&apos;m not sure about this one. Please ask your pharmacist.</strong>
-                <p>You can also search the reference list by the name on your strip.</p>
+                <strong>{onlineError}</strong>
               </div>
             </div>
           )}
@@ -477,7 +795,7 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
                     className="button secondary"
                     onClick={() => {
                       setCandidate(null);
-                      lowConfidence();
+                      lowConfidence(text);
                     }}
                   >
                     No, search instead
@@ -487,33 +805,7 @@ export function ScanView({ onOpen, focusSearch = false }: { onOpen: (m: Medicine
             </div>
           )}
 
-          {previews && (
-            <div className="previews">
-              <h3>Your photo, made easier to read</h3>
-              <div className="preview-grid">
-                <figure>
-                  <img src={previews.before} alt="Original captured medicine strip" />
-                  <figcaption>
-                    <ImageIcon size={16} /> Original photo
-                  </figcaption>
-                </figure>
-                <figure>
-                  <img src={previews.after} alt="Grayscale and contrast-enhanced medicine strip" />
-                  <figcaption>
-                    <Focus size={16} /> Enhanced for reading
-                  </figcaption>
-                </figure>
-              </div>
-              <details>
-                <summary>View scan details</summary>
-                <p>Sharpness (Laplacian variance): {previews.variance.toFixed(1)}. Below 45 asks for a retake; not a clinical validation.</p>
-                <pre>{text || "No text has been read yet."}</pre>
-                <p>Match scores measure text evidence, not clinical accuracy.</p>
-              </details>
-            </div>
-          )}
-
-          <div className="scan-privacy">
+          <div className="scan-privacy" style={{ marginTop: "20px" }}>
             <PrivacyLine />
             <span>Photos are processed here, never uploaded.</span>
           </div>
