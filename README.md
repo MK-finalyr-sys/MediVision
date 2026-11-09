@@ -1,133 +1,190 @@
-# MediVision AI
+# MediVision AI — "Know what you take. Think before you take it."
 
-**Know what you take. Think before you take it.**
+A mobile-first **PWA** for elderly users and caregivers: scan a medicine blister strip with the
+phone camera, read plain-language safety information in **English / Tamil / Hindi** (with
+text-to-speech), get a **Possible Double Dose** alert when two brands share the same active
+ingredient, and keep a 7-day adherence log with a shareable caregiver summary.
 
-**Verified sandbox HTTPS preview:** https://3000-i43ciffuh3pvohzuafdza.e2b.app/  
-**Preview QR PNG:** [public/medivision-qr.png](public/medivision-qr.png) (also downloadable in Share & care).
+**Zero-key baseline**: OCR runs 100% in the browser (Tesseract.js + Canvas preprocessing).
+No API keys, no accounts, no cloud, no tracking. All data stays in `localStorage` on the device.
 
-Private, mobile-first medicine-reference PWA. No accounts, API keys, paid services, runtime AI answers, medicine uploads or cloud records. This is **not a medical device** or a clinically validated medicine identifier. All reference records deliberately have `verified: false`.
+---
 
-## Running the app
+## Stack
 
-1. Use Node.js 22 or newer and run `npm install`.
-2. Run `npm run dev`, then open `http://localhost:3000`.
-3. For production, run `npm run build` and deploy with the committed Vercel or Netlify configuration.
-4. Do not use an unencrypted LAN HTTP address for mobile-camera testing. Use the HTTPS preview or your deployment.
+| Layer | Choice |
+|---|---|
+| Framework | Next.js 16 (App Router) + TypeScript |
+| Styling | Tailwind CSS 4, Calm Medical Blue (#1D4ED8) / Alabaster White, WCAG-AA+ contrast |
+| Fonts | Plus Jakarta Sans (display), Public Sans (body ≥18px), JetBrains Mono (numbers) |
+| OCR | tesseract.js (`eng`, lazy worker) |
+| Fuzzy match | fuse.js multi-token scoring |
+| Speech | Web Speech API (`en-IN` / `ta-IN` / `hi-IN`, graceful disable) |
+| Persistence | `localStorage` (schema-validated), service worker offline shell |
+| QR | qrcode (client-side PNG) |
 
-The repository already includes the OCR worker, WASM variants, English traineddata, icons, fonts and decorative hero. No download script or API key is required at runtime beyond fetching these same-origin app assets on the first visit. `node scripts/setup-assets.mjs` can refresh the OCR assets and icons; it needs internet during this development operation.
+## Phase 4 — Online retrieval (active, free)
 
-### Existing-runtime decision
+The knowledge layer is no longer capped at the bundled 40 medicines. Any scan that
+fails the local match is checked against **free government medical databases**, then —
+if those have nothing (common for Indian brands) — against a **live web-search tier**
+(the "Google Lens" path), and an optional **free AI key** adds easy-read cards in
+EN/TA/HI + vision reading of damaged strips.
 
-Phase 0 found an untouched **Next.js App Router + Drizzle/PostgreSQL starter**, not a Vite repository. The required hosting runtime was preserved rather than replacing it. React + TypeScript implement every client flow; the app's core has **no database or backend dependency**. The existing real Drizzle database health check remains at `/api/health` when `DATABASE_URL` is configured; without that variable the endpoint reports the browser-only core as healthy. No medicine or personal data is written to PostgreSQL. This is a deliberate deviation from the requested Vite stack.
+**Phase 4 backend (`medivision-backend/`, FastAPI + trained CRF NER model):** the
+dedicated brain for this tier. The proxy route `/api/ai/identify` tries the backend
+first — its CRF model extracts BRAND/SALT/STRENGTH/FORM entities from the noisy OCR
+text (entity F1 ≈ 0.996 on the validation split), maps them to canonical salts, then
+runs the RxNorm/openFDA/DailyMed + web-fallback + Gemini pipeline above. When the
+backend is not running the proxy silently falls back to the built-in tier, so the app
+never breaks. The Scan view shows a "🧠 AI model backend connected" badge and the
+model's extracted entities on every backend result. See
+`medivision-backend/INTEGRATION.md` for local run + Render/Vercel deployment.
 
-## What works
+```
+Tier 1    bundled 40-medicine dataset (offline, always)                     — no key
+Tier 2    RxNorm (NIH) + openFDA (FDA) + DailyMed (NIH) at runtime          — no key
+Tier 2.5  LIVE WEB SEARCH when Tier 2 has no label (Indian brands,
+          medicines outside the local lexicon):
+            a) Gemini + google_search tool — searches the web, cites real URLs
+            b) fallback: web_search API + AI compose from the snippets      — no key
+Tier 3    Gemini free-tier key → grounded EN/TA/HI easy-read card
+          + vision fallback that reads the strip photo when OCR is weak
+          + automatic forced-vision retry when a search finds nothing       — free key
+```
 
-### Phase 1: scan → confidence gate
+**Order of operations per scan:** OCR text → backend NER model (when running) →
+Tier 2 lookups → AI card from the label
+evidence → if no label: Tier 2.5 web search → if still nothing and we have the photo:
+force AI vision and retry once → only then "ask your pharmacist".
 
-- Primary camera file input with `capture="environment"`; independent gallery input.
-- Optional rear-camera `getUserMedia` preview and capture, with visible permission/unsupported fallback to the file input.
-- EXIF-aware `createImageBitmap`, maximum 1600-pixel dimension, empty/oversize/tiny/uniform frame checks, previous-frame pixel fingerprint, Laplacian-variance blur retake.
-- Luminance grayscale and percentile contrast stretch, with real before/after previews.
-- Tesseract.js English worker runs on device and is created only for a scan. Stage changes and OCR progress come from actual pipeline events; there are no fake timers or mock results.
-- Fuse.js-assisted token evidence ranking. Name + strength evidence outranks a single name. Unsupported strengths, release variants, suffixes, units, contradictory ingredients and poor OCR reduce confidence.
-- HIGH ≥0.75 opens the card; MEDIUM 0.50–<0.75 requires confirmation; LOW shows exactly **“I'm not sure about this one. Please ask your pharmacist.”** and focuses manual search. Multiple explicit labels ask for one strip at a time.
-- Manual fuzzy search is always available within the 40-entry reference list. Unknown medicines are never filled in by an LLM.
+**Safety rails:** the AI may compose ONLY from retrieved evidence (prompt-enforced,
+schema-validated); a relevance gate rejects web results that don't actually contain a
+≥5-letter token from the strip text — and on the no-salt web path the source must also
+be medical in nature (gibberish OCR can never resolve to a medicine);
+every fact renders with its real source URL; brand→salt guesses (brand hints, model
+proposals) always require explicit user confirmation; no dosing, no diagnosis; the key
+lives server-side only (`/api/identify`), never in the browser.
 
-Scores are **heuristic evidence scores, not calibrated probabilities or proof of identity**. OCR can misread names, strengths, combination products and package text. Always verify the actual packet with a pharmacist. A five-photo test suite cannot establish clinical performance.
+**Setup (recommended):** get a free key at [aistudio.google.com](https://aistudio.google.com)
+→ "Get API key", then:
 
-### Phase 2: card, cabinet and care
+```bash
+cp .env.example .env.local   # paste GEMINI_API_KEY=...
+npm run dev                  # restart so the key is picked up
+# on Vercel: Project → Settings → Environment Variables → GEMINI_API_KEY
+```
 
-- Large-text label-style medicine cards with uses, cautions, possible side effects, emergency warning signs, pre-checklist and real reference links.
-- English, Tamil and Hindi content; every Tamil/Hindi field is stored with `[TODO: Verify translation]`. A prominent draft warning is shown in translated cards. English also needs clinical editorial review.
-- Web Speech API reads only with an installed, local-service **en-IN / ta-IN / hi-IN** voice. Listen is disabled with an explanation when unavailable. Pause/resume/stop are provided. Device-specific speech remains a phone test.
-- Shared-ingredient guard normalizes salts, synonyms and combination ingredients. Saving Dolo 650 then Calpol 500 requires an explicit acknowledgement and second confirmation.
-- Morning / Afternoon / Evening / Night in-app schedules. No dosing recommendation, background alarm or push-notification claim.
-- Taken/Missed records, local-calendar 7-day rolling window, bars and caregiver text summary. Unrecorded slots are not silently counted as missed. Logs are self-reported.
-- Schedule changes apply to the displayed period; schedule history is not retained. This limitation is visible in the app and summary.
-- Language persists. Storage is Zod-validated; corrupt or blocked storage shows recovery steps instead of silently deleting or overwriting data.
+Without a key the app still runs Tiers 1–2.5 (label extracts in English + web-search
+results with sources where supported).
 
-### Phase 3: evidence and sharing
+**Deploy:** push to GitHub → import in Netlify/Vercel → build `next build`. The API route
+deploys as a serverless function on the free tier; add `GEMINI_API_KEY` in env settings.
+HTTPS is required for camera.
 
-- Priority-ordered tag rules read saved medicines and actual recent confirmed scans. No free-form AI advice.
-- `src/data/medicines.json`: exactly 40 records. All source URLs are real NHS or Drugs.com reference pages; automated HTTP results are in `test-results/source-audit.json`. Source accessibility is **not** medical validation.
-- `src/data/tips.json`: source-linked deterministic tip cards.
-- Share screen previews the exact caregiver text before a share-sheet or clipboard action. A manual-copy fallback is visible if the clipboard is blocked.
-- QR represents the **current app origin**, never medicine records. Downloadable PNG. A local HTTP preview is clearly labelled as such.
-- Privacy screen explains local records, photo memory, offline caching, external-source navigation, exports and deletion.
+## Troubleshooting (your machine)
 
-### Phase 4: not implemented
+**`npm install` error: esbuild version mismatch ("Expected 0.25.12 but got 0.28.2")**
+This happens when the project was installed once with bun and then again with npm
+(two lockfiles / mixed `node_modules`). Pick ONE package manager and start clean:
 
-No search API, LLM, RAG endpoint, secret or feature flag has been added. Written approval is required before any runtime RAG development. A bounded proposal is in `docs/OPTIONAL_RAG.md`.
+```bash
+rm -rf node_modules package-lock.json bun.lock bun.lockb
+npm install        # if you prefer npm   (or: bun install, if you prefer bun)
+npm run dev
+```
 
-## Local data and offline behavior
+Also delete any stale `.next` folder: `rm -rf .next`. Do not run `npm install` and
+`bun install` in the same clone.
 
-User records use these localStorage keys:
+**"Offline preparation failed" banner**
+That string does not exist in this codebase — you were running a stale earlier copy.
+Re-sync the source, reinstall as above, and hard-refresh the browser (the service
+worker caches the app shell; use DevTools → Application → Service Workers → Unregister
+if a ghost version sticks around).
 
-- `medivision_saved_meds`
-- `medivision_dose_logs`
-- `medivision_recent_scans`
-- `medivision_language`
+**Testing the camera on a phone**
+- Easiest: open the deployed HTTPS URL (Vercel/Netlify, or the Z.ai preview link) on
+  your phone → "Scan medicine" → 📷 button opens the **rear camera** directly
+  (`capture="environment"`), no app install needed.
+- The 🎥 live-camera mode uses `getUserMedia`, which browsers only allow on HTTPS
+  (or on `localhost`).
+- On plain `http://<your-LAN-IP>:3000` the 📷 capture button still opens the camera;
+  only the live preview needs HTTPS.
 
-Photos are not persisted; only confirmed medicine IDs, scores and timestamps enter recent scans. The app shell, same-origin static assets and bundled English OCR assets use Service Worker Cache Storage. Tesseract may cache its traineddata in IndexedDB. Neither cache contains medicine records or uploaded photos. No analytics scripts or remote voice services are used.
+**Verifying the AI tier is live:** visit `/api/identify` in the browser — it should
+answer `{"online":true,"geminiEnabled":true}`.
 
-First-visit offline preparation is substantial (the full `public/ocr` bundle is approximately 54 MB before transfer compression; only the worker, model and embedded WASM variants are pre-cached). Wait for **“Offline-ready. Always private.”** on the desktop sidebar before testing airplane mode. On mobile, confirm preparation through a successful offline reload. In Private Browsing or under storage pressure, browsers may block or evict caches. Reconnect and reload to prepare again. External reference links always need internet.
+## Scan pipeline (deterministic, auditable)
 
-## Automated tests and evidence
+```
+capture (file input / getUserMedia) → EXIF-safe draw → resize ≤1600px
+  → grayscale luminance + 2–98 percentile contrast stretch
+  → Laplacian-variance blur gate (advisory retake)
+  → Tesseract.js OCR (word confidences)
+  → tokenize (drop stop-words, short & low-confidence tokens)
+  → Fuse.js multi-token match vs 40-medicine index (brand+aliases+salts+strength)
+  → confidence gate:
+      HIGH  (score ≥0.75 AND brand-alias hit or ≥2 agreeing tokens) → Medicine Card
+      MEDIUM (score ≥0.50, weak/salt-only evidence)                → "Is this correct?" confirm
+      LOW    (<0.50) → "I'm not sure about this one. Please ask your pharmacist."
+```
 
-- `npx vitest run` — tokenizer, matcher, confidence boundaries, unsupported formulations, duplicate salts, schemas, 7-day dates, summaries, tips, image primitives and actual OCR over real photographs.
-- `npx playwright install --with-deps chromium` — one-time browser setup; may require permission to install Linux libraries.
-- With a running production preview: `TEST_BASE_URL=https://YOUR-HTTPS-URL npx playwright test` (defaults to `http://127.0.0.1:3000`).
-- `npx next typegen`
-- `npm exec tsc -- --noEmit --pretty false`
-- `npm run build`
+**Safety boundaries (hard):** no diagnosis, no dose recommendations, no generative AI, no ordering.
+Every medicine card shows its public sources (MedlinePlus / NHS, URL-verified at build time),
+a fixed disclaimer, and a `verified:false` flag. Tamil & Hindi strings are machine-drafted and
+marked **unverified** in the UI (`translationsPending` badge) until reviewed.
 
-Raw outputs and screenshots are under `test-results/`; original photograph provenance is under `tests/fixtures/provenance.json`. Retail photos are test-only, not included in the public app. They are copyrighted by their respective owners and are **not licensed for marketing redistribution**. Derived blur/occlusion fixtures explicitly record their transformations. The decorative generated hero is never an OCR fixture.
+## Run
 
-The OCR integration suite tests that a high-confidence match is correct; a low-confidence rejection is separately recorded as a safety pass, **not a successful identification**. See `test-results/ocr-evidence.json` for actual OCR text, scores and decisions. Real handheld Indian-strip photography needs a broader, consented test set and physical-phone evaluation.
+```bash
+bun install
+bun run dev        # http://localhost:3000
+bun run lint
+bun run scripts/test-pipeline.ts   # 36 pipeline self-tests
+```
 
-## Deploy over HTTPS
+Deploy: push to GitHub → import in Netlify/Vercel → build `next build`. HTTPS is required for camera.
 
-### Vercel (recommended)
+## Repo map
 
-1. Put this source in a GitHub repository (`git init`, `git add .`, `git commit -m "Ship MediVision AI"`, then push to your own repository). Do not commit `.env`.
-2. At **vercel.com → Add New → Project → Import Git Repository**, select that repository.
-3. Confirm **Framework Preset: Next.js**, **Build Command: npm run build**. No API keys or database environment variables are required for the core app.
-4. Click **Deploy**. Open the resulting `https://…vercel.app` URL.
-5. In **Share & care**, download the QR PNG for that exact deployed URL. Test camera permissions on the HTTPS origin.
+```
+src/data/          types.ts · medicines-1.ts · medicines-2.ts (40 records, EN/TA/HI) · medicines.ts · tips.ts
+src/lib/           pipeline.ts (preprocess/blur/OCR/match) · guard.ts (double-dose) · storage.ts · i18n.ts · tts.ts
+src/components/    MediVisionApp.tsx (shell/state) · views/{ScanView, MedicineCard, MyMedsView, TipsView, ShareView}
+public/            manifest.webmanifest · sw.js · icons/
+scripts/           test-pipeline.ts · verify_urls.sh (source-URL gate) · make_icons.py
+```
 
-### Netlify
+## What is tested vs. needs a phone
 
-1. Push the source to your Git provider.
-2. At **app.netlify.com → Add new project → Import an existing project**, connect the repository.
-3. The committed `netlify.toml` sets `npm run build`, `.next`, Node 22 and the Next.js plugin. Click **Deploy site**.
-4. Open its HTTPS URL and generate the QR from **Share & care**.
+**Tested in sandbox (36/36 passing):** dataset integrity (40 meds, all sources verified
+`https://medlineplus.gov|nhs.uk`), tokenizer filters, matcher confidence tiers
+(5 brand cases HIGH · garbled/salt-only/strength-only → medium · unknown → low "ask pharmacist"),
+duplicate-salt guard (Dolo 650 + Crocin → paracetamol warning), storage schema validation,
+tips engine, caregiver share text, ESLint clean.
 
-**Do not drag a nonexistent `dist/` folder to Netlify Drop.** This preserved Next.js runtime needs the framework deployment above, not a Vite static-folder deploy. The sandbox HTTPS preview is a verification environment, not a permanent user-owned Netlify/Vercel deployment.
+**Needs a real phone (camera + voices cannot be verified headlessly):**
+1. Open the deployed HTTPS link on Android Chrome / iOS Safari.
+2. "Scan Medicine Strip" → native camera opens → photo runs the pipeline.
+3. "Live camera view" → rear camera preview → Capture.
+4. Scan a real Dolo 650 strip → card opens (high confidence).
+5. Switch to தமிழ் / हिंदी → "Listen" reads the card (needs Google TTS voices installed).
+6. Save Dolo 650, then save Crocin → "Possible double dose" modal.
+7. My Meds → mark doses → 7-day bars → "Share summary".
 
-## Three-minute demo
+## Decisions & limitations
 
-**0:00–1:00 — clarity.** Open Scan medicine. Photograph the printed side of one strip in even daylight. Show the original/enhanced image and real OCR events. If uncertain, demonstrate the pharmacist message and manual search; do not claim a successful recognition. Open a card and compare its name and strength with the packet. Open a real source.
-
-**1:00–2:00 — awareness.** Search and save Dolo 650. Search Calpol 500 and attempt to save it. Show the explicit shared-paracetamol warning. Cancel unless keeping both is appropriate for the reference cabinet. Switch languages and show the unverified-translation notice. Use Listen only if a local voice is available.
-
-**2:00–3:00 — connection.** Choose only a prescribed time in My medicines. Record a dose truthfully, inspect the weekly bars and open the caregiver summary. Review the exact text before sharing. Show the app-link QR and privacy controls. Do not pollute a real care record with demonstration doses; clear a dedicated test browser afterwards.
-
-## Human phone-test checklist
-
-1. On Android Chrome and iPhone Safari, open the actual HTTPS URL. At 360px and with increased system text size, check navigation, every modal and the card footer; no horizontal scrolling or clipped controls.
-2. Tap **Scan medicine → Take a photo**. Photograph the printed side of each physical Dolo 650, Azithral 500, Pan 40, Ecosprin 75 and Glycomet 500 strip separately. Compare original/enhanced orientation and every accepted name/strength with its packet; never rely on the scan for treatment.
-3. Rotate the phone for portrait and landscape captures. Try bright glare, low light, blur and partial masking. Blur must request a retake; uncertain scans must not silently open a guessed card.
-4. Upload the same photo twice. Expect the duplicate-capture warning. Upload a blank photo, unsupported format and a very large image; expect a visible recovery message.
-5. Try **Live camera**, allow rear-camera permission, capture, then leave the scan view; the camera indicator must turn off. Repeat after denying permission; a file-input fallback must remain available.
-6. Put two different labelled strips in one frame. Expect the one-strip-at-a-time message or a conservative low-confidence rejection, never an unconfirmed guess.
-7. Search Dolo 650 manually and save it. Save Calpol 500 next: verify the shared ingredient and both names, disabled confirmation until acknowledgement, cancel, and deliberate override on a separate test record.
-8. Select a prescribed reminder slot, tap Taken then Missed to correct it, reload, and check the 7-day view and previewed summary. Verify day rollover in the phone’s local timezone. No background alarm is promised.
-9. Select Tamil and Hindi, reload, and confirm the selection persists. Ask native-language clinical reviewers to validate all draft content before any clinical rollout.
-10. Install local en-IN, ta-IN and hi-IN speech voices in device settings. Try Listen, pause, resume and stop. When a voice is absent, the disabled button must explain why. Check that audio stops when the card closes or language changes.
-11. Wait for offline preparation, install the PWA (Safari Share → Add to Home Screen; Chrome menu → Install app), enable airplane mode, fully close/reopen, then search, open/save a card and run a new real-photo OCR job. If storage is evicted, reconnect and reload.
-12. Preview and share the summary through the native share sheet; cancel once. Test clipboard fallback and scan the downloaded QR from a second phone. Confirm the QR opens only the app, not private records.
-13. Export records from Privacy & data, then clear all data in a test browser and reload. Confirm deletion is intentional and that browser-private-mode/storage-block errors are visible.
-
-## Remaining release gates
-
-Clinical and translation review, broad field OCR validation, physical-phone camera/speech/install checks, accessibility testing with elderly users, and a permanent owner-controlled deployment are prerequisites for any production medical use. The complete gate results and batched unblocking steps are in `docs/FINAL_REPORT.md`. Final sandbox checks: **53 unit/OCR/QR tests and 16 browser tests passed**, plus route type generation, TypeScript, production build and HTTPS health. These pass counts cover pipeline/safety behavior, not recognition accuracy. On the final five genuine product photographs, four reflective printed strips were LOW and Pan 40 (packaging with a strip visible) was correctly MEDIUM; none is claimed as a high-confidence identification. A clean isolated printed-Pan-strip capture and broader real-phone OCR validation remain required.
+- **Deterministic OCR pipeline, not generative AI** — deliberate: hallucinated medical facts are a
+  patient-safety failure; the pipeline is inspectable and fails closed ("ask your pharmacist").
+- **40-medicine curated dataset** — a pilot validating the architecture; `aliases + salts` schema
+  is designed for a larger dataset swap-in (CDSCO/open data) later.
+- **Build-time evidence grounding instead of runtime RAG** — every card links its real public
+  sources; a runtime RAG upgrade (serverless search + grounding, keys server-side) is designed as
+  Phase 4 but intentionally not enabled without owner approval.
+- **Tamil/Hindi machine-drafted, marked unverified** — visible badge, never silently presented as
+  reviewed clinical content.
+- **OCR limits** — curved foil glare and tiny print degrade Tesseract; the blur gate and
+  confidence floor fail safe, and manual search is always available.
+- **Reminders are in-app logs**, not OS push notifications (keeps zero-key baseline; native
+  scheduling is future work).

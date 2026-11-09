@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MediVision AI — backend demo client (for your own UI)</title>
+<!--
+  WHAT IS THIS FILE?
+  A complete, dependency-free reference showing how ANY frontend connects to the
+  medivision-backend FastAPI service. Open it in a browser (double-click) while
+  the backend is running, and everything works: health check, NER extraction,
+  full identification, photo OCR.
+
+  Copy the JS functions at the bottom (checkHealth, runExtract, runIdentify)
+  into your own UI — the request/response shapes are all you need:
+
+    GET  {BACKEND}/health                       -> { status, ner, gemini, geminiModel }
+    POST {BACKEND}/extract   { text }           -> { entities[], salt, brand, strength, mappingBasis, model }
+    POST {BACKEND}/identify  { ocrText }        -> full result (see renderIdentify below)
+
+  CORS is open in dev (allow_origins=["*"]). For production, edit app/main.py
+  and set allow_origins=["https://your-frontend.example"].
+-->
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f1f5f9; color: #0f172a; }
+  main { max-width: 720px; margin: 0 auto; padding: 20px 16px 60px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: #475569; font-size: 14px; margin: 0 0 18px; }
+  .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 16px; margin-bottom: 14px; }
+  .card h2 { font-size: 15px; margin: 0 0 10px; text-transform: uppercase; letter-spacing: .04em; color: #64748b; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 10px 0 4px; }
+  input[type=text], input[type=url], textarea { width: 100%; border: 1px solid #cbd5e1; border-radius: 10px; padding: 10px 12px; font-size: 15px; font-family: inherit; }
+  textarea { min-height: 84px; resize: vertical; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  button { border: 0; border-radius: 10px; padding: 12px 16px; font-size: 15px; font-weight: 700; cursor: pointer; }
+  button.primary { background: #1d4ed8; color: #fff; }
+  button.secondary { background: #e2e8f0; color: #0f172a; }
+  button:disabled { opacity: .5; cursor: wait; }
+  .chip { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 4px 10px; margin: 2px 4px 2px 0; border: 1px solid #cbd5e1; background: #f8fafc; }
+  .chip.ok { background: #ecfdf5; border-color: #6ee7b7; color: #065f46; }
+  .chip.warn { background: #fffbeb; border-color: #fcd34d; color: #92400e; }
+  .chip.bad { background: #fef2f2; border-color: #fca5a5; color: #991b1b; }
+  .banner { border-radius: 10px; padding: 10px 12px; font-size: 14px; margin: 10px 0; display: none; }
+  .banner.error { display: block; background: #fef2f2; border: 1px solid #fca5a5; color: #991b1b; }
+  .banner.info { display: block; background: #eff6ff; border: 1px solid #93c5fd; color: #1e3a8a; }
+  .section { margin-top: 10px; font-size: 14px; line-height: 1.5; }
+  .section b { display: block; margin-bottom: 2px; }
+  a { color: #1d4ed8; word-break: break-all; }
+  ul { margin: 4px 0 8px 18px; padding: 0; }
+  .muted { color: #64748b; font-size: 12px; }
+  code { background: #f1f5f9; border-radius: 6px; padding: 1px 5px; font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🧠 MediVision AI — backend demo client</h1>
+  <p class="sub">Reference UI for wiring <b>your own frontend</b> to the FastAPI backend. View source — copy the three fetch functions.</p>
+
+  <div class="card">
+    <h2>0 · Backend connection</h2>
+    <label for="baseUrl">Backend base URL</label>
+    <input id="baseUrl" type="url" placeholder="http://localhost:8000" />
+    <div class="row">
+      <button id="btnHealth" class="secondary">Check connection</button>
+      <span id="healthChip" class="chip">not checked</span>
+    </div>
+    <p class="muted" style="margin:8px 0 0">Start it with: <code>cd medivision-backend && uvicorn app.main:app --port 8000</code></p>
+  </div>
+
+  <div class="card">
+    <h2>1 · Strip text</h2>
+    <label for="ocrText">OCR text (what the camera/OCR read from the strip)</label>
+    <textarea id="ocrText" placeholder="e.g. Do1o 650 Tablet — OCR noise is fine, the model handles it"></textarea>
+    <div class="row">
+      <input id="photo" type="file" accept="image/*" capture="environment" style="display:none" />
+      <button id="btnPhoto" class="secondary">📷 Photo → OCR (tesseract.js, fills the box)</button>
+    </div>
+    <p class="muted" style="margin:8px 0 0">Your UI can also skip OCR and let users type the strip text — every endpoint takes plain text.</p>
+  </div>
+
+  <div class="card">
+    <h2>2 · Call the model &amp; pipeline</h2>
+    <div class="row">
+      <button id="btnExtract" class="secondary">1 · Extract entities (fast, offline NER)</button>
+      <button id="btnIdentify" class="primary">2 · Identify medicine (full pipeline)</button>
+    </div>
+    <div id="banner" class="banner"></div>
+    <div id="out"></div>
+  </div>
+</main>
+
+<!-- tesseract.js: only needed for the optional photo→OCR button. Your UI may already have OCR. -->
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+<script>
+const $ = (id) => document.getElementById(id);
+const url = () => ($('baseUrl').value || 'http://localhost:8000').replace(/\/+$/, '');
+$('baseUrl').value = localStorage.getItem('mv_backend') || 'http://localhost:8000';
+$('baseUrl').addEventListener('change', () => localStorage.setItem('mv_backend', url()));
+
+function banner(msg, kind) { const b = $('banner'); b.className = 'banner ' + (kind || 'info'); b.textContent = msg || ''; }
+
+async function checkHealth() {
+  const chip = $('healthChip');
+  chip.className = 'chip'; chip.textContent = 'checking…';
+  try {
+    const r = await fetch(url() + '/health');
+    const j = await r.json();
+    chip.className = 'chip ' + (j.status === 'ok' ? 'ok' : 'bad');
+    chip.textContent = j.status === 'ok' ? 'connected · ' + (j.ner || 'model loaded') : 'unhealthy';
+  } catch {
+    chip.className = 'chip bad';
+    chip.textContent = 'not reachable';
+    banner('Cannot reach ' + url() + ' — is uvicorn running?', 'error');
+  }
+}
+
+// POST /extract — the trained CRF model only. No network, instant. Use it to show
+// "what the model saw" (BRAND / SALT / STRENGTH / FORM / MFR) before full lookup.
+async function runExtract() {
+  const text = $('ocrText').value.trim();
+  if (!text) return banner('Type some strip text first.', 'error');
+  banner('Extracting…');
+  try {
+    const r = await fetch(url() + '/extract', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    });
+    const j = await r.json();
+    banner('');
+    $('out').innerHTML =
+      '<div class="section"><b>Model: ' + esc(j.model) + '</b></div>' +
+      '<div class="section">' + (j.entities || []).map(e =>
+        '<span class="chip">' + esc(e.label) + ' ' + esc(e.text) + '</span>').join('') + '</div>' +
+      '<div class="section"><b>Derived</b> salt: ' + esc(j.salt || '—') +
+      ' · brand: ' + esc(j.brand || '—') + ' · strength: ' + esc(j.strength || '—') +
+      ' · basis: <code>' + esc(j.mappingBasis) + '</code></div>';
+  } catch {
+    banner('Extract failed — backend not reachable.', 'error');
+  }
+}
+
+// POST /identify — the full pipeline: NER → salt mapping → RxNorm/openFDA/DailyMed
+// → web fallback → optional Gemini card. This one response is all your UI needs.
+async function runIdentify() {
+  const text = $('ocrText').value.trim();
+  if (!text) return banner('Type some strip text first.', 'error');
+  banner('Identifying — this calls live government databases, may take ~10 s…');
+  $('btnIdentify').disabled = true;
+  try {
+    const r = await fetch(url() + '/identify', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ocrText: text }),
+    });
+    const j = await r.json();
+    banner('');
+    renderIdentify(j);
+  } catch {
+    banner('Identify failed — backend not reachable.', 'error');
+  } finally {
+    $('btnIdentify').disabled = false;
+  }
+}
+
+function renderIdentify(j) {
+  let h = '';
+  h += '<div class="section"><b>' + esc(j.salt || j.query || 'Unknown strip') + '</b>' +
+    (j.rxnormId ? ' <span class="chip ok">✓ verified in RxNorm (NIH)</span>' : '') +
+    (j.mappingBasis && j.mappingBasis !== 'salt-in-text'
+      ? ' <span class="chip warn">⚠ ' + esc(j.mappingBasis) + ' — confirm with a pharmacist</span>' : '') +
+    '</div>';
+  if (j.found === false) h += '<div class="section"><b>No match.</b> Never guess — ask a pharmacist.</div>';
+  if ((j.entities || []).length)
+    h += '<div class="section">' + j.entities.map(e =>
+      '<span class="chip">' + esc(e.label) + ' ' + esc(e.text) + '</span>').join('') +
+      '<p class="muted">Extracted by: ' + esc(j.nerModel || 'NER model') + '</p></div>';
+  if (j.label) {
+    h += '<div class="section"><b>From the official US label</b>';
+    if (j.label.uses) h += '<p><b>Uses:</b> ' + esc(j.label.uses) + '</p>';
+    if (j.label.warnings) h += '<p><b>Before you take — warnings:</b> ' + esc(j.label.warnings) + '</p>';
+    if (j.label.sideEffects) h += '<p><b>Side effects:</b> ' + esc(j.label.sideEffects) + '</p>';
+    h += '</div>';
+  }
+  if (j.card) {
+    const c = j.card.en || {};
+    h += '<div class="section"><b>AI easy-read card (composed ONLY from the sources below)</b>';
+    if (c.uses) h += '<p><b>Uses:</b> ' + esc(c.uses) + '</p>';
+    if ((c.beforeYouTake || []).length) h += '<p><b>Before you take:</b></p><ul>' + c.beforeYouTake.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
+    if (c.sideEffects) h += '<p><b>Side effects:</b> ' + esc(c.sideEffects) + '</p>';
+    if ((c.stopAndGetHelp || []).length) h += '<p><b>Stop and get help if:</b></p><ul>' + c.stopAndGetHelp.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
+    h += '<p class="muted">model: ' + esc(j.card.model || 'gemini') + '</p></div>';
+  }
+  if ((j.webEvidence || []).length)
+    h += '<div class="section"><b>Web evidence</b><ul>' + j.webEvidence.map(w =>
+      '<li><a href="' + esc(w.url) + '" target="_blank" rel="noopener">' + esc(w.title) + '</a>' +
+      (w.snippet ? '<br /><span class="muted">' + esc(w.snippet.slice(0, 140)) + '…</span>' : '') + '</li>').join('') + '</ul></div>';
+  if ((j.sources || []).length)
+    h += '<div class="section"><b>Where this information comes from</b><ul>' + j.sources.map(s =>
+      '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a></li>').join('') + '</ul></div>';
+  h += '<p class="muted">No dosing. No diagnosis. Always confirm with your pharmacist.</p>';
+  $('out').innerHTML = h;
+}
+
+// Optional photo → OCR with tesseract.js (client-side, no backend changes needed).
+$('btnPhoto').onclick = () => $('photo').click();
+$('photo').onchange = async (e) => {
+  const file = e.target.files && e.target.files[0];
+  if (!file) return;
+  if (typeof Tesseract === 'undefined') return banner('tesseract.js did not load (offline?) — type the text instead.', 'error');
+  banner('Reading photo with tesseract.js…');
+  try {
+    const res = await Tesseract.recognize(file, 'eng');
+    $('ocrText').value = (res.data.text || '').replace(/\s+/g, ' ').trim();
+    banner('OCR done — now press "Identify medicine".');
+  } catch {
+    banner('OCR failed — type the text instead.', 'error');
+  }
+};
+
+$('btnHealth').onclick = checkHealth;
+$('btnExtract').onclick = runExtract;
+$('btnIdentify').onclick = runIdentify;
+
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+
+checkHealth();
+</script>
+</body>
+</html>

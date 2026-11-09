@@ -1,9 +1,33 @@
+# dependencies
 node_modules/
+
+# next.js
 .next/
-.env
-.env.*
-!.env.example
+out/
+next-env.d.ts
 *.tsbuildinfo
+
+# production / hosting
+.vercel/
+.netlify/
+
+# env files — NEVER commit real keys
+.env
+.env.local
+.env*.local
+!.env.example
+
+# logs / os
+npm-debug.log*
 .DS_Store
-test-results/browser-artifacts/
-test-results/trace/
+
+# python backend (medivision-backend/)
+.venv/
+venv/
+__pycache__/
+*.pyc
+medivision-backend/.env
+
+# NOTE: medivision-backend/models/ner_crf.joblib (the trained model)
+# and medivision-backend/data/*.jsonl (the dataset) MUST stay in git —
+# Render needs them to build the service.

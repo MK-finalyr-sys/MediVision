@@ -1,2 +1,5 @@
-import MediVision from "@/components/medivision";
-export default function HomePage() { return <MediVision />; }
+import MediVisionApp from "@/components/MediVisionApp";
+
+export default function Page() {
+  return <MediVisionApp />;
+}

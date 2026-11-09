@@ -1,15 +1,42 @@
 import type { Metadata, Viewport } from "next";
-import type { ReactNode } from "react";
 import "./globals.css";
+import { Toaster } from "@/components/ui/toaster";
+
 export const metadata: Metadata = {
-  title: "MediVision AI — A little clarity. Better care.",
-  description: "Know what you take. Think before you take it. Private, on-device medicine scanning, plain-language references and everyday care tools.",
-  manifest: "/manifest.webmanifest",
+  title: "MediVision AI — Know what you take. Think before you take it.",
+  description:
+    "Scan a medicine strip with your phone camera. Get plain-language safety information in English, Tamil and Hindi, double-dose warnings, and a 7-day caregiver summary. All data stays on your device.",
   applicationName: "MediVision AI",
-  appleWebApp: { capable: true, statusBarStyle: "default", title: "MediVision" },
-  icons: { icon: "/icon.svg", apple: "/icon-192.png" },
+  manifest: "/manifest.webmanifest",
+  keywords: ["medicine scanner", "OCR", "elderly", "medication safety", "PWA"],
 };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#4164db", colorScheme: "light" };
-export default function RootLayout({ children }: { children: ReactNode }) {
-  return <html lang="en"><body>{children}<noscript><div style={{padding:30,fontSize:20}}>MediVision needs JavaScript for private, on-device scanning and storage. Please enable it in your browser. For medicine questions, ask your pharmacist.</div></noscript></body></html>;
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1D4ED8",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+      </head>
+      <body className="antialiased bg-slate-50 text-slate-900 min-h-screen flex flex-col">
+        {children}
+        <Toaster />
+      </body>
+    </html>
+  );
 }

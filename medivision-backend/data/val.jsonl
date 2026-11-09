@@ -1,0 +1,600 @@
+{"tokens": ["Ecosprin", "0.4", "TAB"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Hifenac", "Aceclofenac", "Suspension"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Voltaren", "Diclofenac", "Cipla"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Razo", "Rabeprazole", "Maleods"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Levocet", "10Mcg", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Ibugesic", "Ibuprofen", "Intas", "strip", "•", "of", "15", "tab1ets"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Folvite", "500", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["zithro", "|", "Azithromyin"], "tags": ["B-BRAND", "O", "B-SALT"]}
+{"tokens": ["Loxof", "0.4mg", "Sachet", "|", "Mankind"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Levocet", "•", "150g", "Strip", "50/10", "Zydus"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Pantprazole", "650MG", "Suspension"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Rabium", "Rabeprazole", "CAP", "Dr", "Reddys"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Calpol", "40Mcg", "suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Montelukast", "325MG", "Sachet"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Salbtol", "TAB", "•", "IP"], "tags": ["B-BRAND", "B-FORM", "O", "O"]}
+{"tokens": ["Cifran", "300", "Aristo"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["rstor", "Rosuvastatin", "Tab", "lupin"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Rabium", "20", "Tab", "Sun", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Carace", "•", "Injection"], "tags": ["B-BRAND", "O", "B-FORM"]}
+{"tokens": ["Glimestar", "Glimepiride", "Intas"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["5tamlo", "Amlodipine", "USV"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Glizid", "100", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cetzine", "•", "1000mcg", "Keep", "•", "out", "•", "of", "reach", "of", "chilren"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Calcirol", "Cho1ecalciferol", "Only"], "tags": ["B-BRAND", "B-SALT", "O"]}
+{"tokens": ["Panoprazole", "|", "0.4MG", "Injection", "Mankind"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Voveran", "|", "Diclofenac", "|", "Suspension", "Batch", "No", "B245"], "tags": ["B-BRAND", "O", "B-SALT", "O", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Diclomol", "500Mcg", "Strip"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cardace", "300Mcg", "Pac", "10", "•", "x", "•", "10"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Amlog", "0.4", "Capsule"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Vomistop", "25Mcg", "Strip", "Regd"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Omez", "Tablets", "Mankind"], "tags": ["B-BRAND", "B-FORM", "B-MFR"]}
+{"tokens": ["Atorlip", "850", "Injection", "Lupin", "Each", "film", "coated", "tablet", "contains"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Levofloxacin", "1000mg", "Cap", "Mfg", "Lic", "No", "112"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Doxt", "300", "Aristo"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Pantoprazole", "1000MG", "TAB", "IP"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Calcirol", "Cholecalciferol", "Dr", "Reddys", "Regd"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["Alerid", "Cetirizine", "Injetion", "Zydus"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["0oxt", "Doxycyline", "Injection", "Macleods"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Glizid", "10", "Sachet", "Alkem"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Loprin", "Aspirin", "Sacet", "50/10", "USV", "|", "Pack", "I0", "x", "10"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-STRENGTH", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Vo1taren", "|", "Diclofenac", "Strip"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM"]}
+{"tokens": ["Aceclofenac", "325MG", "•", "SR", "Tab", "Glenmark"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "I-FORM", "B-MFR"]}
+{"tokens": ["Ofloxacin", "10O0MG", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Levotas", "1Omcg", "•", "Tablet", "•", "MRP", "Rs", "35.00"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Dispirin", "40mcg", "Injection"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cip1ox", "Ciprofloxacin", "CAP", "Red"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O"]}
+{"tokens": ["Ofloxacin", "10O0MG", "|", "Injection"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Zanocin", "20mg", "CAP", "Macleods", "Estd", "1984"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O"]}
+{"tokens": ["Flvite", "|", "Folic", "Acid"], "tags": ["B-BRAND", "O", "B-SALT", "I-SALT"]}
+{"tokens": ["Azee", "0.5", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Levotas", "850", "Capsule", "1ntas", "Batch", "No", "8245"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Domstal", "Domperidone", "SR", "Tab"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "I-FORM"]}
+{"tokens": ["Folvite", "Folic", "Acid"], "tags": ["B-BRAND", "B-SALT", "I-SALT"]}
+{"tokens": ["Folic", "Acid", "1000mg", "Tablets", "Dr", "|", "Reddys"], "tags": ["B-SALT", "I-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O", "I-MFR"]}
+{"tokens": ["Ranitiine", "0.4", "5R", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["5ompraz", "2.5", "2/500", "•", "0r", "Reddys"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH", "O", "B-MFR", "I-MFR"]}
+{"tokens": ["Glimpirid", "300mg", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Losartan", "2.5MG", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Asthalin", "Salbutamol", "CAP", "Glenmark"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Diclofenac", "60K", "Cipla", "MRP", "Rs", "35.00"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Ibugesic", "•", "20", "•", "Suspension", "|", "GSK"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Levofloxacin", "5MG", "Tablets", "|", "Not", "for", "sale"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Ateno1ol", "20mg", "Not", "for", "sale"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Azithromycin", "100", "Aristo", "•", "Estd", "1984"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Razo", "75mg", "Capu1e"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Doxycycline", "0.5mg", "Torrent", "|", "Pharma"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O", "I-MFR"]}
+{"tokens": ["Betacrd", "325", "strip", "Abbott"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Metacin", "100mg", "•", "Suspesion"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Clotnil", "5mg", "Tablets", "Pack", "10", "|", "x", "10"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Ranitidine", "850", "Injection", "Abbott", "Only"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Nexpro", "50mg", "Sterile"], "tags": ["B-BRAND", "B-STRENGTH", "O"]}
+{"tokens": ["Doxy-I", "5", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["G1ucophge", "75", "CAP", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Rosuvastatin", "850MG", "Abbott", "IP"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O"]}
+{"tokens": ["Levotas", "500", "|", "Cap", "5/500", "•", "Torrent", "Pharma", "Keep", "out", "of", "reach", "|", "of", "children"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-STRENGTH", "O", "B-MFR", "I-MFR", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Glucophage", "60K", "|", "Capsule", "Micro", "Labs"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Betaloc", "60Kmcg", "Capsule", "GSK", "Strip", "of", "15", "tblets"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Cardace", "Ramipril", "Tablet"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Ofloxacin", "650MG", "CAP"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Rosuvastatin", "500MG", "Capsle"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Alerid", "40Mcg", "10/650"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Omez", "650MG", "•", "Macleods", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Tramadol", "0.4MG", "Capsule", "Torrent", "Pharma"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Pantocid", "25", "Injection", "•", "Torrent", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR", "I-MFR"]}
+{"tokens": ["Rabium", "Injection", "6lnmark"], "tags": ["B-BRAND", "B-FORM", "B-MFR"]}
+{"tokens": ["Volmax", "50MG", "Sachet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Sitagliptin", "75", "•", "Tab", "Not", "for", "sale"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Levocetirizine", "10MG", "Cap"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Diclofenac", "100", "Cap", "Cipla"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["beta1oc", "Metoprolo1", "Tab1et"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Thyronorm", "75MG", "|", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Levocetirizine", "300", "Strip", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Glyomet", "75", "Capsule", "Sterile"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["2anocin", "Oflxacin", "CAP", "Cipla"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Aceclo", "2.5g", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ranitidine", "|", "75", "Tablets"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Clotnil", "50", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Histac", "|", "0.5mg", "Estd", "1984"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "O"]}
+{"tokens": ["Aspirin", "325mg", "Aristo"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Atorlip", "5OMcg", "SR", "|", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "I-FORM"]}
+{"tokens": ["Montair", "LC", "Montelukast", "Tablet", "|", "USV"], "tags": ["B-BRAND", "I-BRAND", "B-SALT", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Vomistop", "1Og", "Intas", "each", "•", "film", "cated", "tabl", "ontains"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Cefolac", "25", "Cap"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Tyronorm", "•", "0.5", "Sacet", "Mfg", "Lic", "No", "112"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Brufen", "Ibuprofen", "Tab"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Tramadol", "20", "2/500"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Thyronorm", "300", "TAB", "•", "Store", "below", "25", "C"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Am1opres", "650", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Sitagliptin", "•", "850mg", "Sun", "Pharma", "Batch", "No", "B245"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O"]}
+{"tokens": ["Voltaren", "300mcg", "CAP", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Te1ma", "|", "Te1misartan", "Suspension", "Mankind"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Diclofenac", "0.4", "•", "20/750", "Mankind"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Crocin", "Paracetamol", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O", "O"]}
+{"tokens": ["Atenolo1", "20MG", "TAB", "10/650"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Ibuprofen", "850MG", "Strip", "50/10"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Sitazit", "100Mcg", "Zdu", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Atorvastatin", "850MG", "Capsule", "|", "Mankind", "Pack", "10", "x", "10"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Rantac", "Raniidine", "2/500", "Cipla", "Sore", "below", "25", "C"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Contrama1", "1000mg", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Salbutamol", "|", "1000MG"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Omez", "5", "Store", "|", "below", "25", "C"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Glimis", "100", "•", "CAP", "GSK", "•", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR", "O", "O"]}
+{"tokens": ["Repace", "SR", "Tab", "USV"], "tags": ["B-BRAND", "B-FORM", "I-FORM", "B-MFR"]}
+{"tokens": ["Amaryl", "Glimepiride", "Tab", "0nly"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O"]}
+{"tokens": ["G1imis", "•", "Regd"], "tags": ["B-BRAND", "O", "O"]}
+{"tokens": ["6lizid", "50O", "•", "Sachet", "•", "Zydus", "Each", "film", "coated", "tablet", "contains"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "O", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Clotnil", "75Mcg", "Cap", "Abbott"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Aspirin", "|", "60K", "Tablets", "|", "Torrent", "Pharma"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM", "O", "B-MFR", "I-MFR"]}
+{"tokens": ["Cefolac", "0.4g", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Vomikind", "50", "TAB", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Amlopres", "50Mcg", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Hifenac", "2.5", "Strp"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ofloxacin", "0.5MG", "Stip"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Beta1oc", "Metoprolol", "•", "Strip", "Zydus", "Estd", "1984"], "tags": ["B-BRAND", "B-SALT", "O", "B-FORM", "B-MFR", "O", "O"]}
+{"tokens": ["Diclomol", "2.5mg", "TAB", "Cipla", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Azithro", "500mcg", "Torrent", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["1bugesic", "Ibuprofen", "•", "5O0/125", "MP", "Rs", "•", "35.00"], "tags": ["B-BRAND", "B-SALT", "O", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["amsar", "•", "Ramipril", "Talet", "20/750"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Tramatas", "50O", "Abbott", "Not", "for", "sale"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Domsta1", "20", "Lupin"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["0omstal", "0omperidone", "50O/125", "Torrent", "Pharma", "Each", "film", "coated", "tablet", "contains"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Montair", "20Mcg", "Cap"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Somraz", "1Omcg", "Store", "below", "25", "C"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Tramadol", "650", "Tablets", "•", "IP"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O"]}
+{"tokens": ["Cefixime", "325mg", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Asthalin", "Capsule", "Only"], "tags": ["B-BRAND", "B-FORM", "O"]}
+{"tokens": ["Clopidogrel", "O.5mg", "Injection"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Brufen", "2.5", "Sun", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Razo", "•", "Rabeprazole", "IP"], "tags": ["B-BRAND", "O", "B-SALT", "O"]}
+{"tokens": ["Tramadol", "20mg", "|", "CAP", "20/750"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Storvas", "0.4mg", "Lupin", "On1y"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O"]}
+{"tokens": ["Paracetamol", "40", "Tables"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Volmax", "•", "Salbutamol", "CAP", "Lupin"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Ciplox", "10", "Each", "film", "coated", "•", "tablet", "contains"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Losar", "75g", "Capsu1e", "20/750"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Levotas-500", "0.4", "Lupin", "Est", "1984"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O", "O"]}
+{"tokens": ["Cefixime", "500MG", "|", "Strip", "Alkm"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "B-MFR"]}
+{"tokens": ["Atenolol", "•", "40MG"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Rabium", "850", "|", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Vomistop", "•", "0.4Mcg", "Tablets"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Voltaren", "I0", "1ntas"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Metolar", "150g", "CAP", "Dr", "|", "Reddys"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "I-MFR"]}
+{"tokens": ["Volmax", "300g", "Tab", "USV"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Januvia", "650mcg", "•", "Cap", "Alkem"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR"]}
+{"tokens": ["Betacard", "Ateno1ol", "•", "10/650", "Steril"], "tags": ["B-BRAND", "B-SALT", "O", "B-STRENGTH", "O"]}
+{"tokens": ["Esomeprazole", "75MG", "Capsule"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Rantac", "Raniidine", "TAB"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Pacimol", "100Mcg", "|", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Mox", "Aoxcillin", "Only"], "tags": ["B-BRAND", "B-SALT", "O"]}
+{"tokens": ["Emeset", "•", "10", "TaB", "•", "2/500", "Aristo", "Not", "for", "•", "sale"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "O", "B-STRENGTH", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Contramal", "Tramadol", "Estd", "1984"], "tags": ["B-BRAND", "B-SALT", "O", "O"]}
+{"tokens": ["Rosuvastatin", "75", "TAB", "Micro", "Labs"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Levothyroxine", "300MG", "Suspension", "•", "Mfg", "Lic", "No", "112"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Aceclo", "|", "Aceclofenac", "GSK", "•", "Not", "•", "for", "sale"], "tags": ["B-BRAND", "O", "B-SALT", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Levotas-5OO", "50MG", "Cap", "|", "Abbott"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Ibugesic", "Ibuprofen", "Tab"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Diclomol", "1000", "Capsule", "100+5"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Clopilet", "Clopidogrel", "Intas", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Cetirizne", "•", "75mg", "Cap", "2/500"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Repace", "25mg", "Micro", "Labs", "MRP", "Rs", "35.00"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O"]}
+{"tokens": ["Folvite", "Folic", "Acid", "•", "USV"], "tags": ["B-BRAND", "B-SALT", "I-SALT", "O", "B-MFR"]}
+{"tokens": ["Omeprazole", "40", "Injection", "Macleods"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Aceclo", "Aceclofenac", "Cipla"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Rabeprazole", "500mg", "TAB", "Sterile"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Zanocin", "100", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Aze", "Tablets", "Lupin"], "tags": ["B-BRAND", "B-FORM", "B-MFR"]}
+{"tokens": ["Folic", "|", "Acid", "500", "Sachet"], "tags": ["B-SALT", "O", "I-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cefixime", "60K", "50/10", "Micro", "Labs"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Clopidogrel", "2.5mg", "100+5"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Clotnil", "75", "Tab", "Glenmark"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Cetzine", "Cap", "Store", "below", "25", "C"], "tags": ["B-BRAND", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Montair", "Montelukast", "Intas", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Levothyroxine", "325mg", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Pan", "40", "0.4Mcg", "Tablt", "Micro", "Labs", "Sterile"], "tags": ["B-BRAND", "I-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["Rozavel", "Rosuvasatin", "Cap", "Sn", "harma"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Folvite", "Folic", "Acid", "•", "Tab", "Mankind"], "tags": ["B-BRAND", "B-SALT", "I-SALT", "O", "B-FORM", "B-MFR"]}
+{"tokens": ["Metformin", "10MG", "IP"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Teczine", "1O00g", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Repace", "•", "60K", "Sterile"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O"]}
+{"tokens": ["Metolar", "100MG", "Sachet", "Not", "for", "sale"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Sitagliptin", "60Kmg", "|", "1njection"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Levcetrizine", "300mg", "Tablts"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Losar", "650g", "Zydus"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Telmisartan", "100mg", "TAB", "Strip", "of", "|", "15", "tablets"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Cardace", "2.5", "Tablet", "500/I25", "|", "Keep", "out", "of", "reach", "of", "chi1dren"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Cetzine", "Cetirizine", "Tab", "50/10", "Cipla", "Regd"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-STRENGTH", "B-MFR", "O"]}
+{"tokens": ["Montek", "Montelukast", "500/125", "Glenmark", "Pack", "10", "|", "x", "|", "10"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Razo", "Rabeprazole", "SR", "Tab", "Keep", "out", "of", "•", "reach", "of", "|", "children"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "I-FORM", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Azithromycin", "500M6", "TA8", "500/125"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Clavam", "500", "Ca"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Eltroxin", "|", "40", "Each", "film", "coatd", "tablet", "contans"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["antoprazole", "500mg", "Capsu1e"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Paracetamol", "0.5mg", "Injection"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Salbutamol", "0.5", "SR", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Ciprodac", "150Mcg", "Intas", "Strip", "•", "of", "15", "tablets"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Zanocin", "100", "•", "Zydus"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-MFR"]}
+{"tokens": ["Folvite", "2.5", "Sachet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ratac", "100mg", "Aristo"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Hifenac", "0.4", "Capsule"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Doxycycline", "850MG", "|", "Strip", "of", "15", "tab1ets"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Ofloxacin", "50mg", "Sun", "Pharma", "Only"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["cifran", "Cipofloxacin", "5/50O", "Nt", "for", "sale"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Glimepiride", "•", "50mg", "•", "Tab", "•", "10/650"], "tags": ["B-SALT", "O", "B-STRENGTH", "O", "B-FORM", "O", "B-STRENGTH"]}
+{"tokens": ["Rosuvas", "Rosuvastatin", "SR", "Tab", "Lupn"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "I-FORM", "B-MFR"]}
+{"tokens": ["Sitazit", "20", "Tablets", "500/125", "Sun", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Xyzal", "Levocetirizine", "Tab", "Sun", "Pharma", "Each", "film", "oaed", "tablet", "contains"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Amlodiine", "0.4MG", "Batch", "No", "B245"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Diclofenac", "60K", "|", "Strip", "of", "15", "•", "tablets"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Losartan", "|", "1000", "Injection"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Doxt", "Doxycycline", "Sachet", "Torrent", "Pharma", "Regd"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["Oflox", "0.4", "Tab", "Dr", "•", "Reddys"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "I-MFR"]}
+{"tokens": ["Ocid", "omeprazole", "20/750", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Reclide", "10O", "|", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Losar", "75mcg", "Tab", "Glenmark", "Regd"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Ibugesic", "ibuprofen", "Suspension", "Makind"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Levocetirizine", "75", "Cp", "Arsto"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Cetzine", "|", "Cetirizine", "Injection", "Macleods"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Levofloxacin", "0.5MG", "Injection"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Aciloc", "150", "Macleos", "Sterile"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O"]}
+{"tokens": ["Mox", "300", "Cap", "5/500"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Levofloxacin", "650MG", "Tablet", "|", "2/500", "Sun", "Pharma"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Clotni1", "Clopidogrel", "Tablets", "Abbott"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Tramatas", "Tramadol", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O", "O"]}
+{"tokens": ["Folvite", "100", "Injection"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Repace", "|", "325mg", "CAP"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Pantop", "40", "•", "Susenio"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Teczine", "25mg", "•", "TAB", "2/500", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-STRENGTH", "O"]}
+{"tokens": ["Telvas", "•", "5Mcg", "|", "Capsule"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Ofloxacin", "•", "325mg", "Aristo"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Salbutamol", "325", "Injection"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ramstar", "2.5", "Capsule", "|", "Alkem"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Clopilet", "40", "TB", "Torrent", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Calpol", "0.5MG", "Cap", "100+5", "Glenmark"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Salbutamol", "50", "|", "USV"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-MFR"]}
+{"tokens": ["Sompraz", "|", "75MG"], "tags": ["B-BRAND", "O", "B-STRENGTH"]}
+{"tokens": ["Folvite", "Folic", "Acid", "50/10", "Batch", "•", "No", "•", "B245"], "tags": ["B-BRAND", "B-SALT", "I-SALT", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Zifi", "100Mcg", "Sun", "Pharma", "Only"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["Levotas", "100MG", "Strip", "Torrent", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Montair", "•", "850", "|", "Suspension", "Regd"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "B-FORM", "O"]}
+{"tokens": ["Ciprofloxacin", "150MG", "Cap"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["aciloc", "Ranitidn", "Injectio"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Aceclo", "850", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Oflox", "0floxai", "2/500", "Sun", "Pharma", "•", "MRP", "|", "Rs", "•", "35.00"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Ondansetron", "40", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Betaloc", "Metoprolol", "Dr", "Reddys"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "I-MFR"]}
+{"tokens": ["Amlopres", "|", "Amldipine", "SR", "Tab", "Strip", "of", "15", "|", "tablets"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "I-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Salbetol", "5MG", "TAB"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Histac", "Ranitidin", "CAP", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Voltaren", "Diclofenac", "Cap", "20/750", "Intas"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Reclide", "|", "75", "Capsule", "•", "Alkem"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Loprin", "Aspirin", "Tablet", "Zydus"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Calpol", "5", "Talet", "Alkem"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Januvia", "Sitagliptin", "Tab", "Not", "for", "sale"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Rsutor", "500mcg", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Zifi", "•", "Ceixime", "•", "Capsule"], "tags": ["B-BRAND", "O", "B-SALT", "O", "B-FORM"]}
+{"tokens": ["Cetirizine", "850mg", "Tablets"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ceixime", "75mg", "0r", "Reddys", "Mf", "Lic", "No", "112"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Levothyroxine", "•", "25", "Capsule"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Doxy-1", "SR", "Tab"], "tags": ["B-BRAND", "B-FORM", "I-FORM"]}
+{"tokens": ["Betaloc", "Metoprolol", "Capsule"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Clopilet", "60Kmg", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Tamadol", "100MG", "CAP", "U5V"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Folvite", "Folic", "|", "Acid"], "tags": ["B-BRAND", "B-SALT", "O", "I-SALT"]}
+{"tokens": ["Cifran", "Cprofloxain", "20/75O", "Dr", "Redys", "ot", "for", "sale"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O"]}
+{"tokens": ["Glucophage", "40mg", "Store", "below", "25", "C"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Thyronorm", "50", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "O"]}
+{"tokens": ["Domstal", "•", "Domperidone", "Abbott"], "tags": ["B-BRAND", "O", "B-SALT", "B-MFR"]}
+{"tokens": ["Razo", "Rabeprazole", "Tablet", "2O/750"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Contramal", "0.5MG", "•", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "I-FORM"]}
+{"tokens": ["Levofloxacin", "I00MG", "USV", "MRP", "Rs", "35.00"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Omeprazole", "20MG", "Cap"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Levotas-5O0", "20MG", "|", "Suspension", "mRP", "Rs", "35.0O"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Azithro", "Azithromycin", "CAP", "USV", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Tramadol", "•", "300mg", "20/750"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Levocet", "40Mcg", "Cap", "Keep", "out", "of", "|", "reach", "of", "children"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Ofloxacin", "850MG", "Strip", "of", "I5", "tablets"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Azee", "Micro", "Labs"], "tags": ["B-BRAND", "B-MFR", "I-MFR"]}
+{"tokens": ["Raium", "Rabeprazole", "10/650", "Each", "|", "film", "cated", "tablet", "contains"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Levotas-500", "Levofloxacin", "Strip"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Aspirin", "5", "|", "TAB", "USV", "Store", "below", "25", "C"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Levotas-500", "Levofloxacin", "TAB", "1P"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O"]}
+{"tokens": ["Gliclazide", "150mg", "Injection", "2/500", "Torrent", "Pharma", "Estd", "1984"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O"]}
+{"tokens": ["Salbutamol", "•", "50MG"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Vomikind", "40", "•", "Stoe", "•", "below", "25", "C"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Metopro1ol", "2.5", "Injection"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ramipril", "75", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Rosuvas", "650", "Suspension", "USV", "Only"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Zifi", "5Mcg", "5/500", "|", "Intas", "Estd", "1984"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH", "O", "B-MFR", "O", "O"]}
+{"tokens": ["Amlopres", "100mcg", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Tramatas", "5", "SR", "Tab", "Cipla", "1P"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM", "B-MFR", "O"]}
+{"tokens": ["Levocet", "10mcg", "CAP", "Strip", "of", "15", "•", "tablets"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Okacet", "50mg", "Cap"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Volmax", "Salbutamol", "Macleods"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Rosuvastatin", "20mg", "Micro", "|", "Labs", "Estd", "1984"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O", "I-MFR", "O", "O"]}
+{"tokens": ["Emeset", "0ndansetron", "Glenmark"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Azithromycin", "5O0", "ablet", "Micro", "Labs"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Losartan", "•", "75M6", "IP"], "tags": ["B-SALT", "O", "B-STRENGTH", "O"]}
+{"tokens": ["astha1i", "|", "Sa1butamol", "SR", "Tab"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "I-FORM"]}
+{"tokens": ["Obimet", "|", "150g", "IP"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O"]}
+{"tokens": ["Vovran", "5Og", "Micro", "Lab", "Only"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["Betacard", "TAB", "Zydus", "Mfg", "Lic", "No", "112"], "tags": ["B-BRAND", "B-FORM", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Cefixime", "650MG", "•", "Each", "film", "coated", "tablet", "contains"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Montelukast", "650", "Tab", "2/500", "GSK"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Vomistop", "Domperidone", "Strip", "USV"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Metformin", "150", "Capsule"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Pantcid", "10", "|", "Strip", "|", "2/500"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "O", "B-STRENGTH"]}
+{"tokens": ["Hifenac", "40mcg", "50/10", "Mankind", "Estd", "|", "1984"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Folvie", "Folic", "Acid", "Tablet"], "tags": ["B-BRAND", "B-SALT", "I-SALT", "B-FORM"]}
+{"tokens": ["Lipvas", "Atorvastatin", "•", "Strip", "•", "Alkem"], "tags": ["B-BRAND", "B-SALT", "O", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Amoxicil1in", "850MG", "Inas"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Ciprofloxacin", "60K", "Tblets", "Batch", "No", "8245"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Clopidogrel", "1O0", "Serile"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["reclide", "Gliclazide", "Mfg", "Lic", "No", "112"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O", "O"]}
+{"tokens": ["Levofloxacin", "40mg", "Tablet", "Only"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Glimepiride", "40mg", "Store", "below", "25", "C"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Glimepiride", "100", "Injection", "Torrent", "Pharma"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Drise", "50", "CAP", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Augmentin", "Aoxicillin", "Intas"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Salbutamol", "150MG", "|", "5tore", "below", "25", "C"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Tramatas", "15O", "Only"], "tags": ["B-BRAND", "B-STRENGTH", "O"]}
+{"tokens": ["Razo", "Rabeprazole", "SR", "Tab"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "I-FORM"]}
+{"tokens": ["Dispirin", "325", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Esomeprazole", "20mg", "10/650", "Dr", "Reddys", "IP"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH", "B-MFR", "I-MFR", "O"]}
+{"tokens": ["Diclomol", "0iclofenac", "|", "Cap", "No", "for", "|", "ale"], "tags": ["B-BRAND", "B-SALT", "O", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Cefixime", "1000MG", "IP"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Glimestar", "•", "325", "Suspension", "Cipla"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Atorvastatin", "100", "Tablet", "Estd", "1984"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O"]}
+{"tokens": ["ardace", "40", "Dr", "Reddys", "Keep", "out", "|", "of", "reach", "of", "chi1drn"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Ibuprofen", "650", "CAP", "Intas", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Atenolol", "0.4MG", "5R", "Tab", "|", "10/650", "Zydus"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "I-FORM", "O", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Clotnil", "0.4MG", "50/10", "Not", "for", "|", "sa1e"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["Omez", "•", "Omeprazole"], "tags": ["B-BRAND", "O", "B-SALT"]}
+{"tokens": ["Calpol", "Paracetamol", "TAB"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Folvite", "20mg", "TAB"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Te1sartan", "5", "|", "5uspension", "Mankind"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR"]}
+{"tokens": ["Sitazit", "25Mcg", "500/125"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Cetirizine", "0.4", "CAP", "Mfg", "Lic", "No", "|", "112"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Crdace", "•", "75mg", "Injecton"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Sitazit", "Sitagliptin", "10/650", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["telisartan", "500MG", "Injection", "I0/650", "Intas", "|", "Pack", "10", "•", "x", "10"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Sa1butamol", "850mG", "5R", "|", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "I-FORM"]}
+{"tokens": ["Levofloxacin", "•", "25mg", "Tablets"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Stalo", "Tlet", "Lupin"], "tags": ["B-BRAND", "B-FORM", "B-MFR"]}
+{"tokens": ["Nexpro", "850", "Capsu1e"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Montelukast", "0.5mg", "strip", "•", "USV", "Keep", "|", "out", "of", "reah", "|", "of", "children"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "B-MFR", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Hifenac", "Aceclofenac", "2/500", "Only"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Rabium", "Rabepraole", "Suspension", "Sun", "Pharma", "|", "Regd"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR", "O", "O"]}
+{"tokens": ["Dolo", "|", "Paracetamol", "20/750", "IP"], "tags": ["B-BRAND", "O", "B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Cetzine", "•", "Cetirizine", "5/50O"], "tags": ["B-BRAND", "O", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["Vomikind", "60KMcg", "|", "Tablets", "100+5"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["m1dipine", "O.5MG", "5trip", "Alkem", "5tore", "below", "25", "|", "C"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Rabeprazo1e", "50OMG", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Thyronorm", "Levothyroxine", "CAP", "Lupin"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Ondansetron", "150mg", "TAB", "Macleods", "Keep", "out", "of", "reach", "of", "|", "chi1dren"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Calciro1", "|", "Cholecalciferol", "Cap"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM"]}
+{"tokens": ["Asthalin", "|", "325"], "tags": ["B-BRAND", "O", "B-STRENGTH"]}
+{"tokens": ["Nexpro", "Esomeprazole", "5uspension", "Estd", "1984"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O"]}
+{"tokens": ["Cefixime", "•", "60K", "Sahet"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cetzine", "50OMcg", "|", "TaB", "G5K", "Each", "film", "coaed", "tablet", "•", "contains"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Glimestar", "500", "CaP"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Hifenac", "Aceclofenac", "Torrent", "Pharma"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "I-MFR"]}
+{"tokens": ["Aceclofenac", "|", "500mg", "Suspension", "Only"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Gliclazide", "•", "50mg"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Rosuvastatin", "10G", "Batch", "o", "B245"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Razo", "75g", "2/500"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Oflox", "O.4g", "TAB", "sun", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Brufen", "Ibuprofen", "Capsule"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Cip1ox", "Ciprofloxacin", "Alkem"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Obimet", "Metformn", "500/125"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["Glimestar", "25", "Capsule"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Sitagliptin", "50", "TAB", "Torrnt", "Pharma"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Vomikind", "Ondansetron", "SR", "Tab"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "I-FORM"]}
+{"tokens": ["Amoxicillin", "5", "SR", "•", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "I-FORM"]}
+{"tokens": ["Tramatas", "325g", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Oflox", "Ofloxacin", "2/50O"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["zanocin", "1000", "Micro", "Labs"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Zifi", "•", "650mcg", "USv"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Zifi", "325", "Macleods"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Cefixime", "3O0", "Casule", "Mankind", "IP"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Voveran", "25g", "Strip"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Metoprolol", "0.5mg", "USV", "Strip", "of", "15", "tablets"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Ramipri1", "|", "25MG", "•", "TAB", "Torrent", "|", "Pharma", "5ore", "below", "25", "C"], "tags": ["B-SALT", "O", "B-STRENGTH", "O", "B-FORM", "B-MFR", "O", "I-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Clopidogrel", "20MG", "Micro", "Labs"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Atenlol", "20", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cefixime", "•", "300MG", "•", "Injection", "20/750"], "tags": ["B-SALT", "O", "B-STRENGTH", "O", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Telmisartan", "50", "Cap", "Intas"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Rosutor", "650mcg", "Batch", "•", "No", "•", "B245"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Aspirin", "500MG", "Injection", "Zydus"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Voltaren", "0.4", "Tablets", "Lupin"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Vo1taren", "Diclofnac", "Strip", "2/500"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Cardce", "Ramipril", "Cap", "USV"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Salbutamol", "0.5mg", "Regd"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Omez", "Omerazo1e", "•", "5R", "Tab"], "tags": ["B-BRAND", "B-SALT", "O", "B-FORM", "I-FORM"]}
+{"tokens": ["Losar", "•", "650Mcg", "Capsule", "Torrent", "•", "Pharma"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "B-MFR", "O", "I-MFR"]}
+{"tokens": ["Zifi", "60Kmcg", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Folvite", "10mg", "Tab", "•", "Dr", "Reddys"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR", "I-MFR"]}
+{"tokens": ["Azithra1", "650mg", "Sachet", "Abbott"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Clopidogrel", "10mg", "Tablets", "|", "Pack", "10", "x", "10"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Cholecalciferol", "•", "20mg"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Xyzal", "850mg", "Tablet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Repace", "|", "3OOg"], "tags": ["B-BRAND", "O", "B-STRENGTH"]}
+{"tokens": ["Hifenac", "Cap", "Abbott"], "tags": ["B-BRAND", "B-FORM", "B-MFR"]}
+{"tokens": ["8rufen", "325MG", "U5V", "Regd"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "O"]}
+{"tokens": ["Rabeprazole", "50", "TAB"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["olvite", "50mg", "Capsule", "•", "Mankind", "Mfg", "Lic", "•", "No", "112"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Metolar", "20", "Capsule"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ibuprofen", "2.5MG", "CAP", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Levofloxacin", "•", "150MG", "USV"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Glizid", "100MG", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Ocid", "50MG", "CAP"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Ciprodac", "2.5mcg", "•", "Suspension", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "O", "O", "O"]}
+{"tokens": ["ltroxin", "Levothyroxine", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O"]}
+{"tokens": ["Cefo1ac", "|", "Cefixime", "CAP"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM"]}
+{"tokens": ["Gliclazide", "0.5mg", "SR", "Tab", "Abbott"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "I-FORM", "B-MFR"]}
+{"tokens": ["Eltroxin", "levothyroxine", "Capsule", "•", "Cpla"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Tramadol", "150mg", "Each", "film", "coated", "tablet", "•", "contains"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Dep1att", "Clopiogrel", "Cap"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Ramistar", "850mg", "Tablet", "Arit"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Januvia", "850cg", "Mankind"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Zanocin", "850", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cardace", "20", "Intas"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Histac", "2.5", "Capsule", "Intas"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["G1izid", "6liclazide", "500/125"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["Domperidone", "|", "150mg", "|", "Macleods"], "tags": ["B-SALT", "O", "B-STRENGTH", "O", "B-MFR"]}
+{"tokens": ["Stamlo", "500", "torrent", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Amlopres", "Amlodipine", "Tablets", "Micro", "Labs"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Montair", "Mnte1ukast", "Store", "below", "25", "C"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O", "O"]}
+{"tokens": ["Aceclo", "Aceclofenac", "Injection", "Mfg", "|", "Lic", "No", "112"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O", "O", "O", "O"]}
+{"tokens": ["Gliclazie", "650MG", "20/750"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Betloc", "Metopro1o1", "Cpsule", "Alkem", "•", "On1y"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "O", "O"]}
+{"tokens": ["Doxy-1", "|", "Doxycycline", "Cap", "2/500", "Batch", "No", "B245"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Levotas", "Lvofloxacin", "TAB", "USV", "Mfg", "Lic", "No", "112"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Diclofenc", "650MG", "Suspension", "Alkem"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Aspirin", "650MG", "SR", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Ondansetron", "850mg", "Cap"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Doxycycline", "0.5", "|", "TAB", "Glenmark"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "B-MFR"]}
+{"tokens": ["Ecosprin", "0.4mcg", "Strip", "50/1O"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Cifran", "|", "10mg"], "tags": ["B-BRAND", "O", "B-STRENGTH"]}
+{"tokens": ["Amlong", "Capsule", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Ondem", "650", "Tablets", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Drise", "60Kmcg", "|", "SR", "Tab", "5/500"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "I-FORM", "B-STRENGTH"]}
+{"tokens": ["Oflox", "Ofloxacin", "Sterile"], "tags": ["B-BRAND", "B-SALT", "O"]}
+{"tokens": ["Cetzine", "Cetirizine", "Cap", "0ly"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O"]}
+{"tokens": ["Contramal", "Tramado1", "Tablet"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Eltroxin", "•", "Levothyroxine"], "tags": ["B-BRAND", "O", "B-SALT"]}
+{"tokens": ["Folvite", "0.4", "Suspension"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Levofloxacin", "0.5mg", "20/750", "Macleods"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Cholecalciferol", "650mg", "CAP"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Rabium", "Rabeprazole", "|", "Tablet"], "tags": ["B-BRAND", "B-SALT", "O", "B-FORM"]}
+{"tokens": ["Rmipril", "2.5", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cetzine", "Cetiizine", "Tab", "Intas", "IP"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Calpol", "50", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Ramipril", "10", "Sachet", "GSK"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["C1opidogrel", "40mg", "|", "Aristo", "Sterile"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-MFR", "O"]}
+{"tokens": ["Ecosprin", "|", "0.4MG", "20/750"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Salbetol", "85O", "TAB"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Aceclo", "5", "Tab1et", "•", "Aristo"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Glimepiride", "500MG", "|", "Batc", "No", "B245"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O"]}
+{"tokens": ["C1avam", "|", "60K", "SR", "Tab", "Keep", "out", "of", "reach", "of", "chi1dren"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "I-FORM", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Cetirizine", "150M6", "•", "injectio", "5/5O0"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Ciprofloxacin", "75", "Cap", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Doxy-1", "2.5g", "Tablet", "Estd", "1984"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "O"]}
+{"tokens": ["Doxt", "Doxcycline", "Strip", "Aristo", "Each", "film", "coated", "tablet", "contains"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "O", "O", "O", "O", "O"]}
+{"tokens": ["Betacard", "60K", "SR", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM"]}
+{"tokens": ["Ramistar", "2.5Mcg", "Injction"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Telmisartan", "10", "Tablet"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Montair", "25Mcg", "Tablet", "5/500", "Mankind", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR", "O"]}
+{"tokens": ["Losar", "1000", "Only"], "tags": ["B-BRAND", "B-STRENGTH", "O"]}
+{"tokens": ["Montair", "LC", "•", "Montelukast", "Cap", "Mfg", "Lic", "No", "112"], "tags": ["B-BRAND", "I-BRAND", "O", "B-SALT", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["2anocin", "Ofloxan", "SR", "Tab", "5OO/125"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "I-FORM", "B-STRENGTH"]}
+{"tokens": ["Amlopres", "Amlodipine", "stor", "below", "25", "C"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O", "O"]}
+{"tokens": ["Telmisartan", "20M6", "5/500", "Dr", "Redys", "Keep", "out", "of", "rach", "of", "children"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Parcetamol", "325M6", "Torrent", "Pharma", "|", "IP"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "I-MFR", "O", "O"]}
+{"tokens": ["Clotnil", "•", "1000g", "CAP"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Glycomet", "150", "Tablet", "2/500", "USV"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Cholecalciferol", "500mg", "Only"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Omez", "40", "Injction"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Folvite", "lic", "Acid"], "tags": ["B-BRAND", "B-SALT", "I-SALT"]}
+{"tokens": ["Razo", "Lupin", "Pack", "10", "x", "10"], "tags": ["B-BRAND", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Ofloxacin", "325mg", "Regd"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Ibuprofen", "50mg", "Sachet", "Alkem", "Mfg", "Lic", "No", "112"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["ceclofenac", "325mg", "100+5"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Betaloc", "325mcg", "2/500"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Teczie", "Levocetirizine", "GSK"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Ibuprofen", "0.5mg", "USV"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Atorva", "Atorvastatin", "Capsule", "Dr", "Reddys"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Paracetamol", "10MG", "20/750", "Alkem"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Glimepiride", "325MG", "Glenmark"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Rosuvastatn", "650", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Vo1max", "5albtamol", "1njectin", "5un", "hara"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Diclofenac", "100m", "Tab", "0nly"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Xyzal", "60Kmcg", "Macleods"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Vomistop", "0.4mcg", "Keep", "out", "•", "of", "•", "reach", "of", "children"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Hifenac", "Acec1ofenac", "1njection", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Vo1mx", "Salbtamol", "CAP", "Mfg", "Lic", "No", "II2"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Histac", "20MG", "Cap", "Stri1"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Amlopres", "|", "Amlodipine", "Tab", "Macleods"], "tags": ["B-BRAND", "O", "B-SALT", "B-FORM", "B-MFR"]}
+{"tokens": ["Crocin", "75", "TAB", "Aristo", "Mfg", "Lic", "No", "112"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O", "O", "O", "O"]}
+{"tokens": ["Montair", "LC", "325mcg", "100+5"], "tags": ["B-BRAND", "I-BRAND", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Sompraz", "25Mcg", "TAB", "USV", "Sterile"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Repace", "650", "GSK"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Ondem", "0ndansetron", "Each", "film", "coated", "tblet", "contains"], "tags": ["B-BRAND", "B-SALT", "O", "O", "O", "O", "O"]}
+{"tokens": ["Aciloc", "Ranitidine", "Tablets", "5/500"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Obime", "60K", "20/750", "Sun", "|", "Pharma"], "tags": ["B-BRAND", "B-STRENGTH", "B-STRENGTH", "B-MFR", "O", "I-MFR"]}
+{"tokens": ["Dispirin", "25mg", "TAB", "Cipla"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["0platt", "Clopidogrel", "Alkem", "Only"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "O"]}
+{"tokens": ["Augmentin", "25Mcg", "Srip", "Glemark"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Amxicillin", "5M6", "Alkem"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Azee", "500mcg", "Injection", "|", "Mac1eods"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Atorva", "50", "Aristo"], "tags": ["B-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Loartan", "0.4mg", "Sachet"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Amlodipine", "325mg", "Tablets"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Atrvastatin", "25mg", "SR", "Tab", "1O0+5"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "I-FORM", "B-STRENGTH"]}
+{"tokens": ["Aleri", "25Mcg", "5achet", "Micro", "Labs"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["6limi", "|", "75g", "Tablet", "Zdus"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Pan", "40", "5", "Tablets"], "tags": ["B-BRAND", "I-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cefixime", "0.5mg", "Talets", "Micro", "Labs"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Domperidone", "O.5", "Strip"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cifran", "Ciprofloxacin", "100+5"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["Losar", "Losartan", "•", "Cap"], "tags": ["B-BRAND", "B-SALT", "O", "B-FORM"]}
+{"tokens": ["Omez", "0mprazole", "20/75O", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Domstal", "Suspension", "Alkem"], "tags": ["B-BRAND", "B-FORM", "B-MFR"]}
+{"tokens": ["Nexpr", "100MG", "Injectio", "|", "Dr", "Reddys", "Estd", "1984"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O", "B-MFR", "I-MFR", "O", "O"]}
+{"tokens": ["Pantoprazole", "•", "75mg", "Cap"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Rosuvastatin", "850", "Tab"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Cefixime", "0.4", "Est", "|", "1984"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["Pantop", "Pantoprazole", "Glenmark"], "tags": ["B-BRAND", "B-SALT", "B-MFR"]}
+{"tokens": ["Losartan", "850", "Tablets", "Estd", "1984"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O"]}
+{"tokens": ["Dolo", "2.5", "|", "TAB"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Atorvastatin", "•", "100mg"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Clopidogrel", "500mg", "CAP", "pack", "10", "x", "10"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Vo1max", "|", "0.5Mcg", "Sachet", "ot", "for", "sale"], "tags": ["B-BRAND", "O", "B-STRENGTH", "B-FORM", "O", "O", "O"]}
+{"tokens": ["Cetirizine", "25", "50O/125"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Levothyroxine", "25mg", "Cap", "Alkem"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["0ispirin", "Pack", "10", "x", "I0"], "tags": ["B-BRAND", "O", "O", "O", "O"]}
+{"tokens": ["Razo", "Rabeprazole", "Sachet", "Keep", "out", "of", "reach", "of", "children"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "O", "O", "O", "O", "O"]}
+{"tokens": ["Levotas-500", "Levofloxacin", "Capsule"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Te1misartan", "|", "850"], "tags": ["B-SALT", "O", "B-STRENGTH"]}
+{"tokens": ["Ondansetron", "325MG", "100+5"], "tags": ["B-SALT", "B-STRENGTH", "B-STRENGTH"]}
+{"tokens": ["Folic", "•", "Acid", "325mg"], "tags": ["B-SALT", "O", "I-SALT", "B-STRENGTH"]}
+{"tokens": ["Pantocid", "50MG", "Sachet"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Pan", "•", "40", "75", "Zydus"], "tags": ["B-BRAND", "O", "I-BRAND", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Tramadol", "60K", "Tab", "•", "500/125", "|", "Abbott"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM", "O", "B-STRENGTH", "O", "B-MFR"]}
+{"tokens": ["Ciprofloxacin", "•", "50Omg", "Suspesio", "GSK"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-FORM", "B-MFR"]}
+{"tokens": ["Telsartan", "2.5", "•", "Tablet", "Macleods", "•", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR", "O", "O"]}
+{"tokens": ["Ocid", "Omepraole", "ablets", "|", "5/500"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "B-STRENGTH"]}
+{"tokens": ["ifenac", "Aeclofenac", "Tbles"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Cetzine", "850mg", "•", "Strip", "•", "Dr", "Reddys"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "O", "B-MFR", "I-MFR"]}
+{"tokens": ["Rosutor", "500mg", "•", "Only"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O"]}
+{"tokens": ["Teczine", "75", "|", "Tab", "Dr", "Reddys"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["Cholecalciferol", "50mg", "Strip"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Levofloxacin", "10mg", "•", "Cap"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Glizid", "25", "5R", "Tab", "20/750", "•", "Glenmark"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "I-FORM", "B-STRENGTH", "O", "B-MFR"]}
+{"tokens": ["aten", "TAB", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-FORM", "O", "O", "O", "O"]}
+{"tokens": ["Telsartan", "Telmisartan", "Strip"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Atenolol", "•", "75MG", "|", "Dr", "Reddys"], "tags": ["B-SALT", "O", "B-STRENGTH", "O", "B-MFR", "I-MFR"]}
+{"tokens": ["Ondansetron", "5", "Suspension"], "tags": ["B-SALT", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["Pan", "40", "2.5MG", "Suspension", "20/750"], "tags": ["B-BRAND", "I-BRAND", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Levocet", "•", "500MG", "MRP", "Rs", "35.00"], "tags": ["B-BRAND", "O", "B-STRENGTH", "O", "O", "O"]}
+{"tokens": ["E1troxin", "30Omcg", "|", "Strip", "of", "15", "tablets"], "tags": ["B-BRAND", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Januvia", "|", "Sitagliptin", "20/750"], "tags": ["B-BRAND", "O", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["Losar", "25", "|", "CAP", "Cipla"], "tags": ["B-BRAND", "B-STRENGTH", "O", "B-FORM", "B-MFR"]}
+{"tokens": ["Sitazit", "Sitaliptin", "Tablets", "|", "Abbott"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "O", "B-MFR"]}
+{"tokens": ["Glimestar", "5", "Injection", "Micro", "Labs"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "B-MFR", "I-MFR"]}
+{"tokens": ["ltroxin", "Levothyroxine", "Strip", "Glenmark", "Sterile"], "tags": ["B-BRAND", "B-SALT", "B-FORM", "B-MFR", "O"]}
+{"tokens": ["Folic", "Acid", "60Kmg", "Cap", "10/650"], "tags": ["B-SALT", "I-SALT", "B-STRENGTH", "B-FORM", "B-STRENGTH"]}
+{"tokens": ["Salutaml", "1000mg", "Sun", "Pharma"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR", "I-MFR"]}
+{"tokens": ["Pa", "4O", "Pantoprazole"], "tags": ["B-BRAND", "I-BRAND", "B-SALT"]}
+{"tokens": ["Contramal", "Tramadol", "100+5"], "tags": ["B-BRAND", "B-SALT", "B-STRENGTH"]}
+{"tokens": ["Ibugesic", "850", "Sachet", "IP"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM", "O"]}
+{"tokens": ["Levocetirizine", "100", "•", "CAP"], "tags": ["B-SALT", "B-STRENGTH", "O", "B-FORM"]}
+{"tokens": ["Atenolol", "40MG", "Mfg", "Lic", "|", "No", "112"], "tags": ["B-SALT", "B-STRENGTH", "O", "O", "O", "O", "O"]}
+{"tokens": ["Salbutamol", "0.5", "Sterile"], "tags": ["B-SALT", "B-STRENGTH", "O"]}
+{"tokens": ["Vomistop", "60Kmg", "Tab"], "tags": ["B-BRAND", "B-STRENGTH", "B-FORM"]}
+{"tokens": ["antoprazole", "•", "40", "Lupin"], "tags": ["B-SALT", "O", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Obimet", "•", "Metformin", "Estd", "1984"], "tags": ["B-BRAND", "O", "B-SALT", "O", "O"]}
+{"tokens": ["Glimestar", "Glimepiride", "Capsule"], "tags": ["B-BRAND", "B-SALT", "B-FORM"]}
+{"tokens": ["Levocetirizine", "60Kmg", "Lupin"], "tags": ["B-SALT", "B-STRENGTH", "B-MFR"]}
+{"tokens": ["Rozavel", "Rosuvastatin", "USV", "Batch", "No", "B245"], "tags": ["B-BRAND", "B-SALT", "B-MFR", "O", "O", "O"]}
+{"tokens": ["Cefolac", "•", "850mcg"], "tags": ["B-BRAND", "O", "B-STRENGTH"]}

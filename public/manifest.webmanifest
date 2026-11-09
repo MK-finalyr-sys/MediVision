@@ -1,17 +1,15 @@
 {
-  "id": "/",
-  "name": "MediVision AI",
-  "short_name": "MediVision",
-  "description": "Know what you take. Think before you take it.",
+  "name": "MediVision AI — Know what you take",
+  "short_name": "MediVision AI",
+  "description": "Scan a medicine strip, read plain-language safety info in EN/TA/HI, prevent double dosing, track 7-day adherence. On-device only.",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "background_color": "#f8f9fc",
-  "theme_color": "#4164db",
-  "lang": "en-IN",
-  "categories": ["health", "medical", "utilities"],
+  "background_color": "#F8FAFC",
+  "theme_color": "#1D4ED8",
+  "orientation": "portrait",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
