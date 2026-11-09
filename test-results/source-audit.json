@@ -1,0 +1,268 @@
+[
+  {
+    "url": "https://www.nhs.uk/medicines/pantoprazole/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/pantoprazole/",
+    "title": "Pantoprazole: medicine to lower stomach acid - NHS",
+    "checkedAt": "2026-11-08T12:12:41.283Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/azithromycin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/azithromycin/",
+    "title": "Azithromycin: antibiotic to treat bacterial infections - NHS",
+    "checkedAt": "2026-11-08T12:12:41.285Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+    "title": "Paracetamol for adults: painkiller for pain and high temperature - NHS",
+    "checkedAt": "2026-11-08T12:12:41.285Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/metformin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/metformin/",
+    "title": "Metformin: a medicine to treat type 2 diabetes - NHS",
+    "checkedAt": "2026-11-08T12:12:41.289Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/low-dose-aspirin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/aspirin/",
+    "title": "Aspirin: medicine for pain relief or preventing blood clots - NHS",
+    "checkedAt": "2026-11-08T12:12:41.477Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/loratadine/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/loratadine/",
+    "title": "Loratadine (Clarityn): antihistamine that relieves allergy symptoms - NHS",
+    "checkedAt": "2026-11-08T12:12:41.643Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/cetirizine/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/cetirizine/",
+    "title": "Cetirizine: antihistamine that relieves allergy symptoms - NHS",
+    "checkedAt": "2026-11-08T12:12:41.647Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+    "title": "Ibuprofen for adults: painkiller that also treats inflammation - NHS",
+    "checkedAt": "2026-11-08T12:12:41.656Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/amoxicillin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/amoxicillin/",
+    "title": "Amoxicillin: an antibiotic used to treat bacterial infections - NHS",
+    "checkedAt": "2026-11-08T12:12:41.670Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/fexofenadine/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/fexofenadine/",
+    "title": "Fexofenadine: antihistamine medicine that relieves allergy symptoms - NHS",
+    "checkedAt": "2026-11-08T12:12:41.672Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/metronidazole/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/metronidazole/",
+    "title": "Metronidazole: antibiotic medicine used to treat infections - NHS",
+    "checkedAt": "2026-11-08T12:12:41.840Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/co-amoxiclav/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/co-amoxiclav/",
+    "title": "Co-amoxiclav: antibiotic for bacterial infections - NHS",
+    "checkedAt": "2026-11-08T12:12:41.842Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/doxycycline/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/doxycycline/",
+    "title": "Doxycycline: antibiotic for bacterial infections - NHS",
+    "checkedAt": "2026-11-08T12:12:41.848Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/ciprofloxacin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/ciprofloxacin/",
+    "title": "Ciprofloxacin: antibiotic for bacterial infections - NHS",
+    "checkedAt": "2026-11-08T12:12:41.865Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/amlodipine/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/amlodipine/",
+    "title": "Amlodipine: medicine to treat high blood pressure and angina - NHS",
+    "checkedAt": "2026-11-08T12:12:41.873Z"
+  },
+  {
+    "url": "https://www.drugs.com/telmisartan.html",
+    "status": 200,
+    "finalUrl": "https://www.drugs.com/mtm/telmisartan.html",
+    "title": "Telmisartan Uses, Side Effects &amp; Warnings",
+    "checkedAt": "2026-11-08T12:12:42.059Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/ramipril/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/ramipril/",
+    "title": "Ramipril: medicine to treat high blood pressure - NHS",
+    "checkedAt": "2026-11-08T12:12:42.065Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/losartan/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/losartan/",
+    "title": "Losartan: medicine for high blood pressure - NHS",
+    "checkedAt": "2026-11-08T12:12:42.166Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/bisoprolol/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/bisoprolol/",
+    "title": "Bisoprolol: a beta blocker medicine for blood pressure and heart conditions - NHS",
+    "checkedAt": "2026-11-08T12:12:42.170Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/atenolol/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/atenolol/",
+    "title": "Atenolol: a beta blocker medicine for blood pressure and heart conditions - NHS",
+    "checkedAt": "2026-11-08T12:12:42.283Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/clopidogrel/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/clopidogrel/",
+    "title": "Clopidogrel: an antiplatelet medicine to prevent blood clots - NHS",
+    "checkedAt": "2026-11-08T12:12:42.574Z"
+  },
+  {
+    "url": "https://www.drugs.com/famotidine.html",
+    "status": 200,
+    "finalUrl": "https://www.drugs.com/famotidine.html",
+    "title": "Famotidine Uses, How to Take, Side Effects, Warnings - Drugs.com",
+    "checkedAt": "2026-11-08T12:12:42.642Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/rosuvastatin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/rosuvastatin/",
+    "title": "Rosuvastatin - NHS",
+    "checkedAt": "2026-11-08T12:12:42.695Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/atorvastatin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/atorvastatin/",
+    "title": "Atorvastatin - NHS",
+    "checkedAt": "2026-11-08T12:12:42.696Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/omeprazole/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/omeprazole/",
+    "title": "Omeprazole: a medicine to treat heartburn and indigestion - NHS",
+    "checkedAt": "2026-11-08T12:12:42.714Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/domperidone/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/domperidone/",
+    "title": "Domperidone: anti-sickness medicine for nausea and vomiting - NHS",
+    "checkedAt": "2026-11-08T12:12:43.015Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/sitagliptin/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/sitagliptin/",
+    "title": "Sitagliptin: medicine to treat type 2 diabetes - NHS",
+    "checkedAt": "2026-11-08T12:12:43.015Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/levothyroxine/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/levothyroxine/",
+    "title": "Levothyroxine: a medicine for an underactive thyroid (hypothyroidism) - NHS",
+    "checkedAt": "2026-11-08T12:12:43.123Z"
+  },
+  {
+    "url": "https://www.drugs.com/ondansetron.html",
+    "status": 200,
+    "finalUrl": "https://www.drugs.com/ondansetron.html",
+    "title": "Ondansetron Uses, Dosage &amp; Side Effects - Drugs.com",
+    "checkedAt": "2026-11-08T12:12:43.151Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/glimepiride/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicine-page-no-longer-available/",
+    "title": "Medicine page no longer available - NHS",
+    "checkedAt": "2026-11-08T12:12:43.308Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/gliclazide/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/gliclazide/",
+    "title": "Gliclazide: medicine for type 2 diabetes - NHS",
+    "checkedAt": "2026-11-08T12:12:43.596Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/naproxen/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/naproxen/",
+    "title": "Naproxen: a painkiller that also treats inflammation - NHS",
+    "checkedAt": "2026-11-08T12:12:43.717Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/diclofenac/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/diclofenac/",
+    "title": "Diclofenac: a medicine to treat pain and swelling - NHS",
+    "checkedAt": "2026-11-08T12:12:43.721Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/folic-acid/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/folic-acid/",
+    "title": "Folic acid: medicine used to keep your baby healthy in pregnancy and to treat folate deficiency anaemia. - NHS",
+    "checkedAt": "2026-11-08T12:12:43.744Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/fluconazole/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/fluconazole/",
+    "title": "Fluconazole: a medicine to treat fungal infections - NHS",
+    "checkedAt": "2026-11-08T12:12:43.759Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/",
+    "title": "Medicines A to Z - NHS",
+    "checkedAt": "2026-11-08T12:12:44.055Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/antibiotics/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/antibiotics/",
+    "title": "Antibiotics - NHS",
+    "checkedAt": "2026-11-08T12:12:44.126Z"
+  },
+  {
+    "url": "https://www.nhs.uk/medicines/prednisolone/",
+    "status": 200,
+    "finalUrl": "https://www.nhs.uk/medicines/prednisolone-tablets-and-liquid/",
+    "title": "Prednisolone: a steroid that treats swelling (inflammation) and can calm the immune system - NHS",
+    "checkedAt": "2026-11-08T12:12:44.425Z"
+  }
+]

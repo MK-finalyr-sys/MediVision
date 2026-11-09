@@ -1,0 +1,10 @@
+{
+  "url": "https://3000-i43ciffuh3pvohzuafdza.e2b.app/api/health",
+  "httpStatus": 200,
+  "body": {
+    "ok": true,
+    "core": "on-device",
+    "database": "connected"
+  },
+  "checkedAt": "2026-11-08T12:36:38.030Z"
+}

@@ -1,0 +1,3173 @@
+[
+  {
+    "id": "dolo-650",
+    "name": "Dolo 650",
+    "aliases": [
+      "Dolo"
+    ],
+    "activeIngredient": "Paracetamol",
+    "activeIngredient2": null,
+    "strength": "650 mg",
+    "form": "Tablet",
+    "category": "Pain & fever",
+    "tags": [
+      "pain",
+      "paracetamol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Paracetamol",
+        "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Commonly used for mild to moderate pain and fever.",
+      "beforeYouTake": [
+        "Do not combine with other medicines containing paracetamol without professional advice.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist if you regularly drink alcohol.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Side effects are uncommon when used correctly. See the leaflet for the complete list.",
+      "stopAndGetHelp": [
+        "You may have taken too much paracetamol, even if you feel well: get urgent medical help.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] லேசான முதல் மிதமான வலி மற்றும் காய்ச்சலுக்குப் பொதுவாகப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] மருத்துவ ஆலோசனையின்றி பாராசிட்டமால் உள்ள பிற மருந்துகளுடன் சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] நீங்கள் அடிக்கடி மது அருந்தினால் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] சரியாகப் பயன்படுத்தும்போது பக்கவிளைவுகள் அரிது. முழுப் பட்டியலுக்கு வழிமுறையைப் பார்க்கவும்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] அதிக பாராசிட்டமால் எடுத்திருக்கலாம் என நினைத்தால், நலமாக இருந்தாலும் உடனே மருத்துவ உதவி பெறவும்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] आमतौर पर हल्के से मध्यम दर्द और बुखार के लिए उपयोग होता है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] चिकित्सकीय सलाह के बिना पैरासिटामोल वाली अन्य दवाओं के साथ न लें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] यदि नियमित शराब पीते हैं तो फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सही उपयोग पर दुष्प्रभाव कम होते हैं। पूरी सूची के लिए पर्चा देखें।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] पैरासिटामोल अधिक लिया हो सकता है तो ठीक महसूस होने पर भी तुरंत चिकित्सा मदद लें।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "calpol-500",
+    "name": "Calpol 500",
+    "aliases": [
+      "Calpol"
+    ],
+    "activeIngredient": "Paracetamol",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Tablet",
+    "category": "Pain & fever",
+    "tags": [
+      "pain",
+      "paracetamol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Paracetamol",
+        "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Commonly used for mild to moderate pain and fever.",
+      "beforeYouTake": [
+        "Do not combine with other medicines containing paracetamol without professional advice.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist if you regularly drink alcohol.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Side effects are uncommon when used correctly. See the leaflet for the complete list.",
+      "stopAndGetHelp": [
+        "You may have taken too much paracetamol, even if you feel well: get urgent medical help.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] லேசான முதல் மிதமான வலி மற்றும் காய்ச்சலுக்குப் பொதுவாகப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] மருத்துவ ஆலோசனையின்றி பாராசிட்டமால் உள்ள பிற மருந்துகளுடன் சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] நீங்கள் அடிக்கடி மது அருந்தினால் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] சரியாகப் பயன்படுத்தும்போது பக்கவிளைவுகள் அரிது. முழுப் பட்டியலுக்கு வழிமுறையைப் பார்க்கவும்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] அதிக பாராசிட்டமால் எடுத்திருக்கலாம் என நினைத்தால், நலமாக இருந்தாலும் உடனே மருத்துவ உதவி பெறவும்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] आमतौर पर हल्के से मध्यम दर्द और बुखार के लिए उपयोग होता है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] चिकित्सकीय सलाह के बिना पैरासिटामोल वाली अन्य दवाओं के साथ न लें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] यदि नियमित शराब पीते हैं तो फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सही उपयोग पर दुष्प्रभाव कम होते हैं। पूरी सूची के लिए पर्चा देखें।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] पैरासिटामोल अधिक लिया हो सकता है तो ठीक महसूस होने पर भी तुरंत चिकित्सा मदद लें।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "crocin-500",
+    "name": "Crocin 500",
+    "aliases": [
+      "Crocin"
+    ],
+    "activeIngredient": "Paracetamol",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Tablet",
+    "category": "Pain & fever",
+    "tags": [
+      "pain",
+      "paracetamol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Paracetamol",
+        "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Commonly used for mild to moderate pain and fever.",
+      "beforeYouTake": [
+        "Do not combine with other medicines containing paracetamol without professional advice.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist if you regularly drink alcohol.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Side effects are uncommon when used correctly. See the leaflet for the complete list.",
+      "stopAndGetHelp": [
+        "You may have taken too much paracetamol, even if you feel well: get urgent medical help.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] லேசான முதல் மிதமான வலி மற்றும் காய்ச்சலுக்குப் பொதுவாகப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] மருத்துவ ஆலோசனையின்றி பாராசிட்டமால் உள்ள பிற மருந்துகளுடன் சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] நீங்கள் அடிக்கடி மது அருந்தினால் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] சரியாகப் பயன்படுத்தும்போது பக்கவிளைவுகள் அரிது. முழுப் பட்டியலுக்கு வழிமுறையைப் பார்க்கவும்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] அதிக பாராசிட்டமால் எடுத்திருக்கலாம் என நினைத்தால், நலமாக இருந்தாலும் உடனே மருத்துவ உதவி பெறவும்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] आमतौर पर हल्के से मध्यम दर्द और बुखार के लिए उपयोग होता है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] चिकित्सकीय सलाह के बिना पैरासिटामोल वाली अन्य दवाओं के साथ न लें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] यदि नियमित शराब पीते हैं तो फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सही उपयोग पर दुष्प्रभाव कम होते हैं। पूरी सूची के लिए पर्चा देखें।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] पैरासिटामोल अधिक लिया हो सकता है तो ठीक महसूस होने पर भी तुरंत चिकित्सा मदद लें।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "azithral-500",
+    "name": "Azithral 500",
+    "aliases": [
+      "Azithral"
+    ],
+    "activeIngredient": "Azithromycin",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Tablet",
+    "category": "Antibiotic",
+    "tags": [
+      "antibiotic"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Azithromycin",
+        "url": "https://www.nhs.uk/medicines/azithromycin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A prescription antibiotic used for certain bacterial infections, not viral colds.",
+      "beforeYouTake": [
+        "Use only when prescribed for you. Antibiotics do not treat colds or flu.",
+        "Follow the prescribed course. Do not share antibiotics or keep leftovers for a future illness.",
+        "Tell your doctor if you have heart rhythm problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You have severe or bloody diarrhoea during or after antibiotic treatment.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You faint or develop a new fast or irregular heartbeat."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பாக்டீரியா தொற்றுகளுக்கான மருத்துவர் பரிந்துரைக்கும் மருந்து; வைரஸ் சளிக்கல்ல.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உங்களுக்கு பரிந்துரைக்கப்பட்டால் மட்டுமே பயன்படுத்தவும். நுண்ணுயிர் எதிர்ப்பு மருந்துகள் சளி அல்லது காய்ச்சல் வைரஸ்களுக்கு சிகிச்சையல்ல.",
+        "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட காலம் வரை எடுத்துக்கொள்ளவும். மருந்தைப் பகிரவோ மீதியை எதிர்கால நோய்க்காக வைத்திருக்கவோ வேண்டாம்.",
+        "[TODO: Verify translation] இதயத் துடிப்பு பிரச்சினைகள் இருந்தால் மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] நுண்ணுயிர் எதிர்ப்பு சிகிச்சையின்போது அல்லது பின்னர் கடுமையான அல்லது இரத்த வயிற்றுப்போக்கு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ बैक्टीरियल संक्रमणों के लिए पर्चे की एंटीबायोटिक; वायरल सर्दी के लिए नहीं।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] केवल अपने लिए लिखे पर्चे पर लें। एंटीबायोटिक सर्दी या फ्लू का इलाज नहीं हैं।",
+        "[TODO: Verify translation] निर्धारित कोर्स का पालन करें। एंटीबायोटिक साझा न करें या अगली बीमारी के लिए न बचाएं।",
+        "[TODO: Verify translation] दिल की धड़कन की समस्या हो तो डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] एंटीबायोटिक के दौरान या बाद में गंभीर या खूनी दस्त हों।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "pan-40",
+    "name": "Pan 40",
+    "aliases": [
+      "PAN"
+    ],
+    "activeIngredient": "Pantoprazole",
+    "activeIngredient2": null,
+    "strength": "40 mg",
+    "form": "Gastro-resistant tablet",
+    "category": "Stomach & digestion",
+    "tags": [
+      "acid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Pantoprazole",
+        "url": "https://www.nhs.uk/medicines/pantoprazole/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Reduces stomach acid; used for acid reflux and some stomach ulcers.",
+      "beforeYouTake": [
+        "Tell your doctor about difficulty swallowing, unexplained weight loss or persistent symptoms.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Headache, nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வயிற்று அமிலத்தைக் குறைக்கிறது; அமிலம் மேலே வருதல் மற்றும் சில வயிற்றுப் புண்களுக்குப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] விழுங்குவதில் சிரமம், காரணமற்ற எடை குறைதல் அல்லது தொடரும் அறிகுறிகளை மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி, குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] पेट का एसिड कम करती है; एसिड रिफ्लक्स और कुछ अल्सर में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] निगलने में कठिनाई, बिना कारण वजन कम होना या लगातार लक्षण डॉक्टर को बताएं।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द, मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "ecosprin-75",
+    "name": "Ecosprin 75",
+    "aliases": [
+      "Ecosprin"
+    ],
+    "activeIngredient": "Aspirin",
+    "activeIngredient2": null,
+    "strength": "75 mg",
+    "form": "Gastro-resistant tablet",
+    "category": "Heart health",
+    "tags": [
+      "bleeding"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Aspirin",
+        "url": "https://www.nhs.uk/medicines/low-dose-aspirin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Helps prevent blood clots in people for whom a clinician has prescribed it.",
+      "beforeYouTake": [
+        "Tell your pharmacist about blood thinners, bleeding problems or a planned operation.",
+        "Ask first if you have had a stomach ulcer, bleeding, kidney disease or an NSAID allergy.",
+        "Do not give aspirin to a child under 16 unless a doctor specifically prescribes it.",
+        "Do not stop a prescribed long-term medicine without discussing it with your doctor."
+      ],
+      "sideEffects": "Indigestion, bruising or bleeding more easily can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] மருத்துவர் பரிந்துரைத்தவர்களுக்கு இரத்தக் கட்டிகள் உருவாவதைத் தடுக்க உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] இரத்தம் உறைவதைத் தடுக்கும் மருந்துகள், இரத்தப்போக்கு அல்லது திட்டமிட்ட அறுவைசிகிச்சை பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] வயிற்றுப் புண், இரத்தப்போக்கு, சிறுநீரக நோய் அல்லது NSAID ஒவ்வாமை இருந்தால் முதலில் கேட்கவும்.",
+        "[TODO: Verify translation] மருத்துவர் குறிப்பாக பரிந்துரைக்காவிட்டால் 16 வயதுக்குக் குறைந்தவர்களுக்கு ஆஸ்பிரின் கொடுக்க வேண்டாம்.",
+        "[TODO: Verify translation] நீண்டகால மருந்தை மருத்துவரிடம் பேசாமல் நிறுத்த வேண்டாம்."
+      ],
+      "sideEffects": "[TODO: Verify translation] அஜீரணம், சிராய்ப்புகள் அல்லது எளிதில் இரத்தப்போக்கு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] डॉक्टर द्वारा निर्धारित लोगों में खून के थक्के रोकने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] खून पतला करने वाली दवाओं, रक्तस्राव या होने वाले ऑपरेशन के बारे में बताएं।",
+        "[TODO: Verify translation] पेट के अल्सर, रक्तस्राव, किडनी की बीमारी या NSAID एलर्जी में पहले पूछें।",
+        "[TODO: Verify translation] डॉक्टर के विशेष निर्देश के बिना 16 साल से कम बच्चे को एस्पिरिन न दें।",
+        "[TODO: Verify translation] लंबे समय की निर्धारित दवा डॉक्टर से बात किए बिना बंद न करें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] अपच, नील पड़ना या आसानी से खून आना हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "glycomet-500",
+    "name": "Glycomet 500",
+    "aliases": [
+      "Glycomet"
+    ],
+    "activeIngredient": "Metformin",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Tablet",
+    "category": "Diabetes",
+    "tags": [
+      "diabetes"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Metformin",
+        "url": "https://www.nhs.uk/medicines/metformin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Helps control blood sugar in type 2 diabetes as part of prescribed treatment.",
+      "beforeYouTake": [
+        "Seek advice if vomiting, diarrhoea or illness causes dehydration; mention kidney problems.",
+        "Tell your pharmacist if you regularly drink alcohol.",
+        "Know your clinician’s plan for low blood sugar, especially if taking other diabetes medicines.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You have marked weakness with vomiting, tummy pain or fast breathing.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட சிகிச்சையின் ஒரு பகுதியாக வகை 2 நீரிழிவில் இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] வாந்தி, வயிற்றுப்போக்கு அல்லது நோயால் நீரிழப்பு ஏற்பட்டால் ஆலோசனை பெறவும்; சிறுநீரகப் பிரச்சினைகளைச் சொல்லவும்.",
+        "[TODO: Verify translation] நீங்கள் அடிக்கடி மது அருந்தினால் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] குறிப்பாக மற்ற நீரிழிவு மருந்துகளுடன் எடுத்தால், குறைந்த இரத்தச் சர்க்கரைக்கான மருத்துவரின் திட்டத்தை அறியவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] கடுமையான பலவீனத்துடன் வாந்தி, வயிற்றுவலி அல்லது வேகமான மூச்சு இருந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] निर्धारित इलाज के हिस्से के रूप में टाइप 2 मधुमेह में शुगर नियंत्रित करने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] उल्टी, दस्त या बीमारी से पानी की कमी हो तो सलाह लें; किडनी की समस्या बताएं।",
+        "[TODO: Verify translation] यदि नियमित शराब पीते हैं तो फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] खासकर अन्य मधुमेह दवाओं के साथ, कम शुगर के लिए डॉक्टर की योजना जानें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बहुत कमजोरी के साथ उल्टी, पेट दर्द या तेज सांस हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "combiflam",
+    "name": "Combiflam",
+    "aliases": [
+      "Combiflam 400 325"
+    ],
+    "activeIngredient": "Ibuprofen",
+    "activeIngredient2": "Paracetamol",
+    "strength": "400 mg + 325 mg",
+    "form": "Tablet",
+    "category": "Pain & fever",
+    "tags": [
+      "pain",
+      "nsaid",
+      "paracetamol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Ibuprofen",
+        "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+        "sourceType": "medical-reference"
+      },
+      {
+        "title": "NHS — Paracetamol",
+        "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "An anti-inflammatory painkiller used for pain and inflammation.",
+      "beforeYouTake": [
+        "Ask first if you have had a stomach ulcer, bleeding, kidney disease or an NSAID allergy.",
+        "Do not add another anti-inflammatory painkiller such as ibuprofen or naproxen without advice.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take.",
+        "Do not combine with other medicines containing paracetamol without professional advice."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You may have taken too much paracetamol, even if you feel well: get urgent medical help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வலி மற்றும் அழற்சிக்குப் பயன்படுத்தப்படும் அழற்சி எதிர்ப்பு வலிநிவாரணி.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] வயிற்றுப் புண், இரத்தப்போக்கு, சிறுநீரக நோய் அல்லது NSAID ஒவ்வாமை இருந்தால் முதலில் கேட்கவும்.",
+        "[TODO: Verify translation] ஆலோசனையின்றி இபுபுரோஃபென் அல்லது நாப்ரோக்சென் போன்ற மற்றொரு வலிநிவாரணியை சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] மருத்துவ ஆலோசனையின்றி பாராசிட்டமால் உள்ள பிற மருந்துகளுடன் சேர்க்க வேண்டாம்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] அதிக பாராசிட்டமால் எடுத்திருக்கலாம் என நினைத்தால், நலமாக இருந்தாலும் உடனே மருத்துவ உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] दर्द और सूजन के लिए उपयोग होने वाली सूजनरोधी दर्द की दवा।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पेट के अल्सर, रक्तस्राव, किडनी की बीमारी या NSAID एलर्जी में पहले पूछें।",
+        "[TODO: Verify translation] सलाह के बिना इबुप्रोफेन या नैप्रोक्सेन जैसी दूसरी सूजनरोधी दर्द की दवा न जोड़ें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] चिकित्सकीय सलाह के बिना पैरासिटामोल वाली अन्य दवाओं के साथ न लें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] पैरासिटामोल अधिक लिया हो सकता है तो ठीक महसूस होने पर भी तुरंत चिकित्सा मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "cetirizine-10",
+    "name": "Cetirizine 10",
+    "aliases": [
+      "Cetirizine"
+    ],
+    "activeIngredient": "Cetirizine",
+    "activeIngredient2": null,
+    "strength": "10 mg",
+    "form": "Tablet",
+    "category": "Allergy",
+    "tags": [
+      "allergy",
+      "drowsy"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Cetirizine",
+        "url": "https://www.nhs.uk/medicines/cetirizine/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Relieves allergy symptoms such as sneezing, a runny nose and itchy skin.",
+      "beforeYouTake": [
+        "Do not drive or use machinery if this medicine makes you sleepy or dizzy.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Sleepiness, headache or a dry mouth can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You develop a widespread blistering or peeling rash."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] தும்மல், மூக்கு ஒழுகுதல் மற்றும் தோல் அரிப்பு போன்ற ஒவ்வாமை அறிகுறிகளைத் தணிக்கிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] தூக்கமாகவோ மயக்கமாகவோ இருந்தால் வாகனம் ஓட்டவோ இயந்திரம் பயன்படுத்தவோ வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தூக்கம், தலைவலி அல்லது வாய் வறட்சி ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] பரவலான கொப்புளங்கள் அல்லது தோல் உரிதல் ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] छींक, बहती नाक और त्वचा की खुजली जैसे एलर्जी लक्षणों से राहत देती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] नींद या चक्कर आए तो गाड़ी या मशीन न चलाएं।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] नींद, सिरदर्द या मुंह सूखना हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] शरीर पर बहुत से फफोले हों या त्वचा उतरने लगे।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "loratadine-10",
+    "name": "Loratadine 10",
+    "aliases": [
+      "Loratadine"
+    ],
+    "activeIngredient": "Loratadine",
+    "activeIngredient2": null,
+    "strength": "10 mg",
+    "form": "Tablet",
+    "category": "Allergy",
+    "tags": [
+      "allergy"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Loratadine",
+        "url": "https://www.nhs.uk/medicines/loratadine/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Relieves allergy symptoms such as sneezing, a runny nose and itchy skin.",
+      "beforeYouTake": [
+        "Do not drive or use machinery if this medicine makes you sleepy or dizzy.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Sleepiness, headache or a dry mouth can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You develop a widespread blistering or peeling rash."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] தும்மல், மூக்கு ஒழுகுதல் மற்றும் தோல் அரிப்பு போன்ற ஒவ்வாமை அறிகுறிகளைத் தணிக்கிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] தூக்கமாகவோ மயக்கமாகவோ இருந்தால் வாகனம் ஓட்டவோ இயந்திரம் பயன்படுத்தவோ வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தூக்கம், தலைவலி அல்லது வாய் வறட்சி ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] பரவலான கொப்புளங்கள் அல்லது தோல் உரிதல் ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] छींक, बहती नाक और त्वचा की खुजली जैसे एलर्जी लक्षणों से राहत देती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] नींद या चक्कर आए तो गाड़ी या मशीन न चलाएं।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] नींद, सिरदर्द या मुंह सूखना हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] शरीर पर बहुत से फफोले हों या त्वचा उतरने लगे।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "fexofenadine-120",
+    "name": "Fexofenadine 120",
+    "aliases": [
+      "Fexofenadine"
+    ],
+    "activeIngredient": "Fexofenadine",
+    "activeIngredient2": null,
+    "strength": "120 mg",
+    "form": "Tablet",
+    "category": "Allergy",
+    "tags": [
+      "allergy"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Fexofenadine",
+        "url": "https://www.nhs.uk/medicines/fexofenadine/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Relieves allergy symptoms such as sneezing, a runny nose and itchy skin.",
+      "beforeYouTake": [
+        "Ask about spacing from antacids, iron and calcium supplements.",
+        "Do not drive or use machinery if this medicine makes you sleepy or dizzy.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Sleepiness, headache or a dry mouth can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You develop a widespread blistering or peeling rash."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] தும்மல், மூக்கு ஒழுகுதல் மற்றும் தோல் அரிப்பு போன்ற ஒவ்வாமை அறிகுறிகளைத் தணிக்கிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] அமிலநீக்கிகள், இரும்பு மற்றும் கால்சியம் மருந்துகளுக்கு இடையே இடைவெளி பற்றி கேட்கவும்.",
+        "[TODO: Verify translation] தூக்கமாகவோ மயக்கமாகவோ இருந்தால் வாகனம் ஓட்டவோ இயந்திரம் பயன்படுத்தவோ வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தூக்கம், தலைவலி அல்லது வாய் வறட்சி ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] பரவலான கொப்புளங்கள் அல்லது தோல் உரிதல் ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] छींक, बहती नाक और त्वचा की खुजली जैसे एलर्जी लक्षणों से राहत देती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] एंटासिड, आयरन और कैल्शियम से समय का अंतर रखने के बारे में पूछें।",
+        "[TODO: Verify translation] नींद या चक्कर आए तो गाड़ी या मशीन न चलाएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] नींद, सिरदर्द या मुंह सूखना हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] शरीर पर बहुत से फफोले हों या त्वचा उतरने लगे।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "amoxicillin-500",
+    "name": "Amoxicillin 500",
+    "aliases": [
+      "Amoxycillin"
+    ],
+    "activeIngredient": "Amoxicillin",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Capsule",
+    "category": "Antibiotic",
+    "tags": [
+      "antibiotic"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Amoxicillin",
+        "url": "https://www.nhs.uk/medicines/amoxicillin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A prescription antibiotic used for certain bacterial infections, not viral colds.",
+      "beforeYouTake": [
+        "Use only when prescribed for you. Antibiotics do not treat colds or flu.",
+        "Do not take if you have had a serious allergy to penicillin; check with your prescriber.",
+        "Follow the prescribed course. Do not share antibiotics or keep leftovers for a future illness.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You have severe or bloody diarrhoea during or after antibiotic treatment.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பாக்டீரியா தொற்றுகளுக்கான மருத்துவர் பரிந்துரைக்கும் மருந்து; வைரஸ் சளிக்கல்ல.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உங்களுக்கு பரிந்துரைக்கப்பட்டால் மட்டுமே பயன்படுத்தவும். நுண்ணுயிர் எதிர்ப்பு மருந்துகள் சளி அல்லது காய்ச்சல் வைரஸ்களுக்கு சிகிச்சையல்ல.",
+        "[TODO: Verify translation] பெனிசிலினுக்கு கடுமையான ஒவ்வாமை இருந்தால் எடுத்துக்கொள்ள வேண்டாம்; மருத்துவரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட காலம் வரை எடுத்துக்கொள்ளவும். மருந்தைப் பகிரவோ மீதியை எதிர்கால நோய்க்காக வைத்திருக்கவோ வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] நுண்ணுயிர் எதிர்ப்பு சிகிச்சையின்போது அல்லது பின்னர் கடுமையான அல்லது இரத்த வயிற்றுப்போக்கு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ बैक्टीरियल संक्रमणों के लिए पर्चे की एंटीबायोटिक; वायरल सर्दी के लिए नहीं।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] केवल अपने लिए लिखे पर्चे पर लें। एंटीबायोटिक सर्दी या फ्लू का इलाज नहीं हैं।",
+        "[TODO: Verify translation] पेनिसिलिन से गंभीर एलर्जी हुई हो तो न लें; अपने डॉक्टर से पूछें।",
+        "[TODO: Verify translation] निर्धारित कोर्स का पालन करें। एंटीबायोटिक साझा न करें या अगली बीमारी के लिए न बचाएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] एंटीबायोटिक के दौरान या बाद में गंभीर या खूनी दस्त हों।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "augmentin-625",
+    "name": "Augmentin 625",
+    "aliases": [
+      "Augmentin",
+      "Co amoxiclav"
+    ],
+    "activeIngredient": "Amoxicillin",
+    "activeIngredient2": "Clavulanic acid",
+    "strength": "500 mg + 125 mg",
+    "form": "Tablet",
+    "category": "Antibiotic",
+    "tags": [
+      "antibiotic"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Amoxicillin",
+        "url": "https://www.nhs.uk/medicines/co-amoxiclav/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A prescription antibiotic used for certain bacterial infections, not viral colds.",
+      "beforeYouTake": [
+        "Use only when prescribed for you. Antibiotics do not treat colds or flu.",
+        "Do not take if you have had a serious allergy to penicillin; check with your prescriber.",
+        "Follow the prescribed course. Do not share antibiotics or keep leftovers for a future illness.",
+        "Check with a pharmacist if you have liver or kidney problems."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You have severe or bloody diarrhoea during or after antibiotic treatment.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பாக்டீரியா தொற்றுகளுக்கான மருத்துவர் பரிந்துரைக்கும் மருந்து; வைரஸ் சளிக்கல்ல.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உங்களுக்கு பரிந்துரைக்கப்பட்டால் மட்டுமே பயன்படுத்தவும். நுண்ணுயிர் எதிர்ப்பு மருந்துகள் சளி அல்லது காய்ச்சல் வைரஸ்களுக்கு சிகிச்சையல்ல.",
+        "[TODO: Verify translation] பெனிசிலினுக்கு கடுமையான ஒவ்வாமை இருந்தால் எடுத்துக்கொள்ள வேண்டாம்; மருத்துவரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட காலம் வரை எடுத்துக்கொள்ளவும். மருந்தைப் பகிரவோ மீதியை எதிர்கால நோய்க்காக வைத்திருக்கவோ வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] நுண்ணுயிர் எதிர்ப்பு சிகிச்சையின்போது அல்லது பின்னர் கடுமையான அல்லது இரத்த வயிற்றுப்போக்கு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ बैक्टीरियल संक्रमणों के लिए पर्चे की एंटीबायोटिक; वायरल सर्दी के लिए नहीं।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] केवल अपने लिए लिखे पर्चे पर लें। एंटीबायोटिक सर्दी या फ्लू का इलाज नहीं हैं।",
+        "[TODO: Verify translation] पेनिसिलिन से गंभीर एलर्जी हुई हो तो न लें; अपने डॉक्टर से पूछें।",
+        "[TODO: Verify translation] निर्धारित कोर्स का पालन करें। एंटीबायोटिक साझा न करें या अगली बीमारी के लिए न बचाएं।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] एंटीबायोटिक के दौरान या बाद में गंभीर या खूनी दस्त हों।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "doxycycline-100",
+    "name": "Doxycycline 100",
+    "aliases": [
+      "Doxycycline"
+    ],
+    "activeIngredient": "Doxycycline",
+    "activeIngredient2": null,
+    "strength": "100 mg",
+    "form": "Tablet",
+    "category": "Antibiotic",
+    "tags": [
+      "antibiotic"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Doxycycline",
+        "url": "https://www.nhs.uk/medicines/doxycycline/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A prescription antibiotic used for certain bacterial infections, not viral colds.",
+      "beforeYouTake": [
+        "Use only when prescribed for you. Antibiotics do not treat colds or flu.",
+        "Follow the prescribed course. Do not share antibiotics or keep leftovers for a future illness.",
+        "Ask about spacing from antacids, iron and calcium supplements.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You have severe or bloody diarrhoea during or after antibiotic treatment.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பாக்டீரியா தொற்றுகளுக்கான மருத்துவர் பரிந்துரைக்கும் மருந்து; வைரஸ் சளிக்கல்ல.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உங்களுக்கு பரிந்துரைக்கப்பட்டால் மட்டுமே பயன்படுத்தவும். நுண்ணுயிர் எதிர்ப்பு மருந்துகள் சளி அல்லது காய்ச்சல் வைரஸ்களுக்கு சிகிச்சையல்ல.",
+        "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட காலம் வரை எடுத்துக்கொள்ளவும். மருந்தைப் பகிரவோ மீதியை எதிர்கால நோய்க்காக வைத்திருக்கவோ வேண்டாம்.",
+        "[TODO: Verify translation] அமிலநீக்கிகள், இரும்பு மற்றும் கால்சியம் மருந்துகளுக்கு இடையே இடைவெளி பற்றி கேட்கவும்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] நுண்ணுயிர் எதிர்ப்பு சிகிச்சையின்போது அல்லது பின்னர் கடுமையான அல்லது இரத்த வயிற்றுப்போக்கு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ बैक्टीरियल संक्रमणों के लिए पर्चे की एंटीबायोटिक; वायरल सर्दी के लिए नहीं।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] केवल अपने लिए लिखे पर्चे पर लें। एंटीबायोटिक सर्दी या फ्लू का इलाज नहीं हैं।",
+        "[TODO: Verify translation] निर्धारित कोर्स का पालन करें। एंटीबायोटिक साझा न करें या अगली बीमारी के लिए न बचाएं।",
+        "[TODO: Verify translation] एंटासिड, आयरन और कैल्शियम से समय का अंतर रखने के बारे में पूछें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] एंटीबायोटिक के दौरान या बाद में गंभीर या खूनी दस्त हों।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "metronidazole-400",
+    "name": "Metronidazole 400",
+    "aliases": [
+      "Metronidazole"
+    ],
+    "activeIngredient": "Metronidazole",
+    "activeIngredient2": null,
+    "strength": "400 mg",
+    "form": "Tablet",
+    "category": "Antibiotic",
+    "tags": [
+      "antibiotic",
+      "avoid-alcohol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Metronidazole",
+        "url": "https://www.nhs.uk/medicines/metronidazole/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A prescription antibiotic used for certain bacterial infections, not viral colds.",
+      "beforeYouTake": [
+        "Use only when prescribed for you. Antibiotics do not treat colds or flu.",
+        "Avoid alcohol during treatment and for 48 hours after finishing metronidazole.",
+        "Follow the prescribed course. Do not share antibiotics or keep leftovers for a future illness.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You have severe or bloody diarrhoea during or after antibiotic treatment.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பாக்டீரியா தொற்றுகளுக்கான மருத்துவர் பரிந்துரைக்கும் மருந்து; வைரஸ் சளிக்கல்ல.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உங்களுக்கு பரிந்துரைக்கப்பட்டால் மட்டுமே பயன்படுத்தவும். நுண்ணுயிர் எதிர்ப்பு மருந்துகள் சளி அல்லது காய்ச்சல் வைரஸ்களுக்கு சிகிச்சையல்ல.",
+        "[TODO: Verify translation] மெட்ரோனிடசோல் சிகிச்சையின்போதும் முடிந்த பின் 48 மணிநேரமும் மதுவைத் தவிர்க்கவும்.",
+        "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட காலம் வரை எடுத்துக்கொள்ளவும். மருந்தைப் பகிரவோ மீதியை எதிர்கால நோய்க்காக வைத்திருக்கவோ வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] நுண்ணுயிர் எதிர்ப்பு சிகிச்சையின்போது அல்லது பின்னர் கடுமையான அல்லது இரத்த வயிற்றுப்போக்கு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ बैक्टीरियल संक्रमणों के लिए पर्चे की एंटीबायोटिक; वायरल सर्दी के लिए नहीं।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] केवल अपने लिए लिखे पर्चे पर लें। एंटीबायोटिक सर्दी या फ्लू का इलाज नहीं हैं।",
+        "[TODO: Verify translation] मेट्रोनिडाजोल के दौरान और खत्म होने के बाद 48 घंटे तक शराब से बचें।",
+        "[TODO: Verify translation] निर्धारित कोर्स का पालन करें। एंटीबायोटिक साझा न करें या अगली बीमारी के लिए न बचाएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] एंटीबायोटिक के दौरान या बाद में गंभीर या खूनी दस्त हों।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "ciprofloxacin-500",
+    "name": "Ciprofloxacin 500",
+    "aliases": [
+      "Ciprofloxacin"
+    ],
+    "activeIngredient": "Ciprofloxacin",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Tablet",
+    "category": "Antibiotic",
+    "tags": [
+      "antibiotic"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Ciprofloxacin",
+        "url": "https://www.nhs.uk/medicines/ciprofloxacin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A prescription antibiotic used for certain bacterial infections, not viral colds.",
+      "beforeYouTake": [
+        "Use only when prescribed for you. Antibiotics do not treat colds or flu.",
+        "Tell your prescriber about previous tendon problems or serious reactions to quinolone antibiotics.",
+        "Ask about spacing from antacids, iron and calcium supplements.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "New tendon pain, swelling, numbness or burning develops; stop and contact your prescriber urgently.",
+        "You have severe or bloody diarrhoea during or after antibiotic treatment.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பாக்டீரியா தொற்றுகளுக்கான மருத்துவர் பரிந்துரைக்கும் மருந்து; வைரஸ் சளிக்கல்ல.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உங்களுக்கு பரிந்துரைக்கப்பட்டால் மட்டுமே பயன்படுத்தவும். நுண்ணுயிர் எதிர்ப்பு மருந்துகள் சளி அல்லது காய்ச்சல் வைரஸ்களுக்கு சிகிச்சையல்ல.",
+        "[TODO: Verify translation] முன்பு தசைநார் பிரச்சினை அல்லது குவினோலோன் மருந்துகளுக்கு கடுமையான எதிர்வினை இருந்தால் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] அமிலநீக்கிகள், இரும்பு மற்றும் கால்சியம் மருந்துகளுக்கு இடையே இடைவெளி பற்றி கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] புதிய தசைநார் வலி, வீக்கம், உணர்வின்மை அல்லது எரிச்சல் ஏற்பட்டால் நிறுத்தி உடனே மருத்துவரை அணுகவும்.",
+        "[TODO: Verify translation] நுண்ணுயிர் எதிர்ப்பு சிகிச்சையின்போது அல்லது பின்னர் கடுமையான அல்லது இரத்த வயிற்றுப்போக்கு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ बैक्टीरियल संक्रमणों के लिए पर्चे की एंटीबायोटिक; वायरल सर्दी के लिए नहीं।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] केवल अपने लिए लिखे पर्चे पर लें। एंटीबायोटिक सर्दी या फ्लू का इलाज नहीं हैं।",
+        "[TODO: Verify translation] पहले टेंडन की समस्या या क्विनोलोन एंटीबायोटिक से गंभीर प्रतिक्रिया हुई हो तो डॉक्टर को बताएं।",
+        "[TODO: Verify translation] एंटासिड, आयरन और कैल्शियम से समय का अंतर रखने के बारे में पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] नया टेंडन दर्द, सूजन, सुन्नपन या जलन हो तो रोकें और तुरंत डॉक्टर से संपर्क करें।",
+        "[TODO: Verify translation] एंटीबायोटिक के दौरान या बाद में गंभीर या खूनी दस्त हों।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "amlodipine-5",
+    "name": "Amlodipine 5",
+    "aliases": [
+      "Amlodipine"
+    ],
+    "activeIngredient": "Amlodipine",
+    "activeIngredient2": null,
+    "strength": "5 mg",
+    "form": "Tablet",
+    "category": "Blood pressure",
+    "tags": [
+      "blood-pressure"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Amlodipine",
+        "url": "https://www.nhs.uk/medicines/amlodipine/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used to treat high blood pressure and, for some medicines, other heart conditions.",
+      "beforeYouTake": [
+        "Dizziness can occur. Rise slowly and tell your doctor about fainting or very low blood pressure.",
+        "Do not stop a prescribed long-term medicine without discussing it with your doctor.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Swollen ankles, headache, flushing or dizziness can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] உயர் இரத்த அழுத்தம் மற்றும் சில மருந்துகளுக்கு பிற இதய நிலைகளுக்கும் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] மயக்கம் ஏற்படலாம். மெதுவாக எழுங்கள்; மயங்கி விழுதல் அல்லது குறைந்த இரத்த அழுத்தம் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] நீண்டகால மருந்தை மருத்துவரிடம் பேசாமல் நிறுத்த வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] கணுக்கால் வீக்கம், தலைவலி, முகச்சிவப்பு அல்லது மயக்கம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] उच्च रक्तचाप और कुछ दवाओं में अन्य हृदय स्थितियों के इलाज में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] चक्कर आ सकते हैं। धीरे उठें; बेहोशी या बहुत कम रक्तचाप के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] लंबे समय की निर्धारित दवा डॉक्टर से बात किए बिना बंद न करें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] टखनों में सूजन, सिरदर्द, चेहरा लाल या चक्कर हो सकते हैं।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "losartan-50",
+    "name": "Losartan 50",
+    "aliases": [
+      "Losartan"
+    ],
+    "activeIngredient": "Losartan",
+    "activeIngredient2": null,
+    "strength": "50 mg",
+    "form": "Tablet",
+    "category": "Blood pressure",
+    "tags": [
+      "blood-pressure"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Losartan",
+        "url": "https://www.nhs.uk/medicines/losartan/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used to treat high blood pressure and, for some medicines, other heart conditions.",
+      "beforeYouTake": [
+        "Check before taking potassium supplements or potassium-containing salt substitutes.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Dizziness can occur. Rise slowly and tell your doctor about fainting or very low blood pressure.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Dizziness, headache or tiredness can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] உயர் இரத்த அழுத்தம் மற்றும் சில மருந்துகளுக்கு பிற இதய நிலைகளுக்கும் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] பொட்டாசியம் சத்து அல்லது பொட்டாசியம் உள்ள உப்பு மாற்றுகளைப் பயன்படுத்துவதற்கு முன் கேட்கவும்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] மயக்கம் ஏற்படலாம். மெதுவாக எழுங்கள்; மயங்கி விழுதல் அல்லது குறைந்த இரத்த அழுத்தம் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] மயக்கம், தலைவலி அல்லது சோர்வு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] उच्च रक्तचाप और कुछ दवाओं में अन्य हृदय स्थितियों के इलाज में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पोटैशियम सप्लीमेंट या पोटैशियम वाले नमक विकल्प लेने से पहले पूछें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] चक्कर आ सकते हैं। धीरे उठें; बेहोशी या बहुत कम रक्तचाप के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] चक्कर, सिरदर्द या थकान हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "telmisartan-40",
+    "name": "Telmisartan 40",
+    "aliases": [
+      "Telmisartan"
+    ],
+    "activeIngredient": "Telmisartan",
+    "activeIngredient2": null,
+    "strength": "40 mg",
+    "form": "Tablet",
+    "category": "Blood pressure",
+    "tags": [
+      "blood-pressure"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "Drugs.com — Telmisartan",
+        "url": "https://www.drugs.com/telmisartan.html",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used to treat high blood pressure and, for some medicines, other heart conditions.",
+      "beforeYouTake": [
+        "Check before taking potassium supplements or potassium-containing salt substitutes.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Dizziness can occur. Rise slowly and tell your doctor about fainting or very low blood pressure.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Dizziness, headache or tiredness can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] உயர் இரத்த அழுத்தம் மற்றும் சில மருந்துகளுக்கு பிற இதய நிலைகளுக்கும் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] பொட்டாசியம் சத்து அல்லது பொட்டாசியம் உள்ள உப்பு மாற்றுகளைப் பயன்படுத்துவதற்கு முன் கேட்கவும்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] மயக்கம் ஏற்படலாம். மெதுவாக எழுங்கள்; மயங்கி விழுதல் அல்லது குறைந்த இரத்த அழுத்தம் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] மயக்கம், தலைவலி அல்லது சோர்வு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] उच्च रक्तचाप और कुछ दवाओं में अन्य हृदय स्थितियों के इलाज में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पोटैशियम सप्लीमेंट या पोटैशियम वाले नमक विकल्प लेने से पहले पूछें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] चक्कर आ सकते हैं। धीरे उठें; बेहोशी या बहुत कम रक्तचाप के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] चक्कर, सिरदर्द या थकान हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "atenolol-50",
+    "name": "Atenolol 50",
+    "aliases": [
+      "Atenolol"
+    ],
+    "activeIngredient": "Atenolol",
+    "activeIngredient2": null,
+    "strength": "50 mg",
+    "form": "Tablet",
+    "category": "Blood pressure",
+    "tags": [
+      "blood-pressure"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Atenolol",
+        "url": "https://www.nhs.uk/medicines/atenolol/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used to treat high blood pressure and, for some medicines, other heart conditions.",
+      "beforeYouTake": [
+        "Tell your doctor about asthma, a slow heartbeat or diabetes. Do not stop suddenly.",
+        "Dizziness can occur. Rise slowly and tell your doctor about fainting or very low blood pressure.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Dizziness, headache or tiredness can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] உயர் இரத்த அழுத்தம் மற்றும் சில மருந்துகளுக்கு பிற இதய நிலைகளுக்கும் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] ஆஸ்துமா, மெதுவான இதயத் துடிப்பு அல்லது நீரிழிவு பற்றி தெரிவிக்கவும். திடீரென நிறுத்த வேண்டாம்.",
+        "[TODO: Verify translation] மயக்கம் ஏற்படலாம். மெதுவாக எழுங்கள்; மயங்கி விழுதல் அல்லது குறைந்த இரத்த அழுத்தம் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] மயக்கம், தலைவலி அல்லது சோர்வு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] उच्च रक्तचाप और कुछ दवाओं में अन्य हृदय स्थितियों के इलाज में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] अस्थमा, धीमी धड़कन या मधुमेह के बारे में बताएं। अचानक बंद न करें।",
+        "[TODO: Verify translation] चक्कर आ सकते हैं। धीरे उठें; बेहोशी या बहुत कम रक्तचाप के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] चक्कर, सिरदर्द या थकान हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "bisoprolol-5",
+    "name": "Bisoprolol 5",
+    "aliases": [
+      "Bisoprolol"
+    ],
+    "activeIngredient": "Bisoprolol",
+    "activeIngredient2": null,
+    "strength": "5 mg",
+    "form": "Tablet",
+    "category": "Blood pressure",
+    "tags": [
+      "blood-pressure"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Bisoprolol",
+        "url": "https://www.nhs.uk/medicines/bisoprolol/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used to treat high blood pressure and, for some medicines, other heart conditions.",
+      "beforeYouTake": [
+        "Tell your doctor about asthma, a slow heartbeat or diabetes. Do not stop suddenly.",
+        "Dizziness can occur. Rise slowly and tell your doctor about fainting or very low blood pressure.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Dizziness, headache or tiredness can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] உயர் இரத்த அழுத்தம் மற்றும் சில மருந்துகளுக்கு பிற இதய நிலைகளுக்கும் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] ஆஸ்துமா, மெதுவான இதயத் துடிப்பு அல்லது நீரிழிவு பற்றி தெரிவிக்கவும். திடீரென நிறுத்த வேண்டாம்.",
+        "[TODO: Verify translation] மயக்கம் ஏற்படலாம். மெதுவாக எழுங்கள்; மயங்கி விழுதல் அல்லது குறைந்த இரத்த அழுத்தம் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] மயக்கம், தலைவலி அல்லது சோர்வு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] उच्च रक्तचाप और कुछ दवाओं में अन्य हृदय स्थितियों के इलाज में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] अस्थमा, धीमी धड़कन या मधुमेह के बारे में बताएं। अचानक बंद न करें।",
+        "[TODO: Verify translation] चक्कर आ सकते हैं। धीरे उठें; बेहोशी या बहुत कम रक्तचाप के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] चक्कर, सिरदर्द या थकान हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "ramipril-5",
+    "name": "Ramipril 5",
+    "aliases": [
+      "Ramipril"
+    ],
+    "activeIngredient": "Ramipril",
+    "activeIngredient2": null,
+    "strength": "5 mg",
+    "form": "Tablet",
+    "category": "Blood pressure",
+    "tags": [
+      "blood-pressure"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Ramipril",
+        "url": "https://www.nhs.uk/medicines/ramipril/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used to treat high blood pressure and, for some medicines, other heart conditions.",
+      "beforeYouTake": [
+        "Check before taking potassium supplements or potassium-containing salt substitutes.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Dizziness can occur. Rise slowly and tell your doctor about fainting or very low blood pressure.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "A dry cough, dizziness or headache can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You faint or develop a new fast or irregular heartbeat."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] உயர் இரத்த அழுத்தம் மற்றும் சில மருந்துகளுக்கு பிற இதய நிலைகளுக்கும் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] பொட்டாசியம் சத்து அல்லது பொட்டாசியம் உள்ள உப்பு மாற்றுகளைப் பயன்படுத்துவதற்கு முன் கேட்கவும்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] மயக்கம் ஏற்படலாம். மெதுவாக எழுங்கள்; மயங்கி விழுதல் அல்லது குறைந்த இரத்த அழுத்தம் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] வறட்டு இருமல், மயக்கம் அல்லது தலைவலி ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] उच्च रक्तचाप और कुछ दवाओं में अन्य हृदय स्थितियों के इलाज में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पोटैशियम सप्लीमेंट या पोटैशियम वाले नमक विकल्प लेने से पहले पूछें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] चक्कर आ सकते हैं। धीरे उठें; बेहोशी या बहुत कम रक्तचाप के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सूखी खांसी, चक्कर या सिरदर्द हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "atorvastatin-10",
+    "name": "Atorvastatin 10",
+    "aliases": [
+      "Atorvastatin"
+    ],
+    "activeIngredient": "Atorvastatin",
+    "activeIngredient2": null,
+    "strength": "10 mg",
+    "form": "Tablet",
+    "category": "Cholesterol",
+    "tags": [
+      "cholesterol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Atorvastatin",
+        "url": "https://www.nhs.uk/medicines/atorvastatin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Lowers cholesterol and helps reduce cardiovascular risk when prescribed.",
+      "beforeYouTake": [
+        "Tell your doctor about liver disease, pregnancy or unexplained muscle pain.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take.",
+        "Do not stop a prescribed long-term medicine without discussing it with your doctor."
+      ],
+      "sideEffects": "Headache, nausea or digestive discomfort can occur.",
+      "stopAndGetHelp": [
+        "You develop unexplained severe muscle pain, weakness or dark urine.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] பரிந்துரைக்கப்படும்போது கொழுப்பைக் குறைத்து இதய நோய் ஆபத்தைக் குறைக்க உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] கல்லீரல் நோய், கர்ப்பம் அல்லது காரணமற்ற தசைவலி பற்றி மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] நீண்டகால மருந்தை மருத்துவரிடம் பேசாமல் நிறுத்த வேண்டாம்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி, குமட்டல் அல்லது செரிமான அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] காரணமற்ற கடுமையான தசைவலி, பலவீனம் அல்லது கருமையான சிறுநீர் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] पर्चे पर उपयोग से कोलेस्ट्रॉल और हृदय-रक्तवाहिका जोखिम कम करने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] लिवर रोग, गर्भावस्था या बिना कारण मांसपेशी दर्द के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] लंबे समय की निर्धारित दवा डॉक्टर से बात किए बिना बंद न करें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द, मतली या पाचन में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बिना कारण तेज मांसपेशी दर्द, कमजोरी या गहरा पेशाब हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "rosuvastatin-10",
+    "name": "Rosuvastatin 10",
+    "aliases": [
+      "Rosuvastatin"
+    ],
+    "activeIngredient": "Rosuvastatin",
+    "activeIngredient2": null,
+    "strength": "10 mg",
+    "form": "Tablet",
+    "category": "Cholesterol",
+    "tags": [
+      "cholesterol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Rosuvastatin",
+        "url": "https://www.nhs.uk/medicines/rosuvastatin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Lowers cholesterol and helps reduce cardiovascular risk when prescribed.",
+      "beforeYouTake": [
+        "Tell your doctor about liver disease, pregnancy or unexplained muscle pain.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take.",
+        "Do not stop a prescribed long-term medicine without discussing it with your doctor."
+      ],
+      "sideEffects": "Headache, nausea or digestive discomfort can occur.",
+      "stopAndGetHelp": [
+        "You develop unexplained severe muscle pain, weakness or dark urine.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] பரிந்துரைக்கப்படும்போது கொழுப்பைக் குறைத்து இதய நோய் ஆபத்தைக் குறைக்க உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] கல்லீரல் நோய், கர்ப்பம் அல்லது காரணமற்ற தசைவலி பற்றி மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] நீண்டகால மருந்தை மருத்துவரிடம் பேசாமல் நிறுத்த வேண்டாம்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி, குமட்டல் அல்லது செரிமான அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] காரணமற்ற கடுமையான தசைவலி, பலவீனம் அல்லது கருமையான சிறுநீர் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] पर्चे पर उपयोग से कोलेस्ट्रॉल और हृदय-रक्तवाहिका जोखिम कम करने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] लिवर रोग, गर्भावस्था या बिना कारण मांसपेशी दर्द के बारे में डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] लंबे समय की निर्धारित दवा डॉक्टर से बात किए बिना बंद न करें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द, मतली या पाचन में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बिना कारण तेज मांसपेशी दर्द, कमजोरी या गहरा पेशाब हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "clopidogrel-75",
+    "name": "Clopidogrel 75",
+    "aliases": [
+      "Clopidogrel"
+    ],
+    "activeIngredient": "Clopidogrel",
+    "activeIngredient2": null,
+    "strength": "75 mg",
+    "form": "Tablet",
+    "category": "Heart health",
+    "tags": [
+      "bleeding"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Clopidogrel",
+        "url": "https://www.nhs.uk/medicines/clopidogrel/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Helps prevent blood clots in people for whom a clinician has prescribed it.",
+      "beforeYouTake": [
+        "Tell your pharmacist about blood thinners, bleeding problems or a planned operation.",
+        "Ask before combining with omeprazole, esomeprazole or non-prescription painkillers.",
+        "Do not stop a prescribed long-term medicine without discussing it with your doctor.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Indigestion, bruising or bleeding more easily can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] மருத்துவர் பரிந்துரைத்தவர்களுக்கு இரத்தக் கட்டிகள் உருவாவதைத் தடுக்க உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] இரத்தம் உறைவதைத் தடுக்கும் மருந்துகள், இரத்தப்போக்கு அல்லது திட்டமிட்ட அறுவைசிகிச்சை பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] ஒமேப்ரசோல், எசோமேப்ரசோல் அல்லது வலிநிவாரணிகளுடன் சேர்ப்பதற்கு முன் கேட்கவும்.",
+        "[TODO: Verify translation] நீண்டகால மருந்தை மருத்துவரிடம் பேசாமல் நிறுத்த வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] அஜீரணம், சிராய்ப்புகள் அல்லது எளிதில் இரத்தப்போக்கு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] डॉक्टर द्वारा निर्धारित लोगों में खून के थक्के रोकने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] खून पतला करने वाली दवाओं, रक्तस्राव या होने वाले ऑपरेशन के बारे में बताएं।",
+        "[TODO: Verify translation] ओमेप्राजोल, एसोमेप्राजोल या बिना पर्चे की दर्द की दवा के साथ लेने से पहले पूछें।",
+        "[TODO: Verify translation] लंबे समय की निर्धारित दवा डॉक्टर से बात किए बिना बंद न करें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] अपच, नील पड़ना या आसानी से खून आना हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "omeprazole-20",
+    "name": "Omeprazole 20",
+    "aliases": [
+      "Omeprazole"
+    ],
+    "activeIngredient": "Omeprazole",
+    "activeIngredient2": null,
+    "strength": "20 mg",
+    "form": "Tablet",
+    "category": "Stomach & digestion",
+    "tags": [
+      "acid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Omeprazole",
+        "url": "https://www.nhs.uk/medicines/omeprazole/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Reduces stomach acid; used for acid reflux and some stomach ulcers.",
+      "beforeYouTake": [
+        "Tell your doctor about difficulty swallowing, unexplained weight loss or persistent symptoms.",
+        "Ask before combining with omeprazole, esomeprazole or non-prescription painkillers.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Headache, nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வயிற்று அமிலத்தைக் குறைக்கிறது; அமிலம் மேலே வருதல் மற்றும் சில வயிற்றுப் புண்களுக்குப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] விழுங்குவதில் சிரமம், காரணமற்ற எடை குறைதல் அல்லது தொடரும் அறிகுறிகளை மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] ஒமேப்ரசோல், எசோமேப்ரசோல் அல்லது வலிநிவாரணிகளுடன் சேர்ப்பதற்கு முன் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி, குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] पेट का एसिड कम करती है; एसिड रिफ्लक्स और कुछ अल्सर में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] निगलने में कठिनाई, बिना कारण वजन कम होना या लगातार लक्षण डॉक्टर को बताएं।",
+        "[TODO: Verify translation] ओमेप्राजोल, एसोमेप्राजोल या बिना पर्चे की दर्द की दवा के साथ लेने से पहले पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द, मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "famotidine-20",
+    "name": "Famotidine 20",
+    "aliases": [
+      "Famotidine"
+    ],
+    "activeIngredient": "Famotidine",
+    "activeIngredient2": null,
+    "strength": "20 mg",
+    "form": "Tablet",
+    "category": "Stomach & digestion",
+    "tags": [
+      "acid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "Drugs.com — Famotidine",
+        "url": "https://www.drugs.com/famotidine.html",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Reduces stomach acid; used for acid reflux and some stomach ulcers.",
+      "beforeYouTake": [
+        "Tell your doctor about difficulty swallowing, unexplained weight loss or persistent symptoms.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Headache or constipation can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You develop a widespread blistering or peeling rash."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வயிற்று அமிலத்தைக் குறைக்கிறது; அமிலம் மேலே வருதல் மற்றும் சில வயிற்றுப் புண்களுக்குப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] விழுங்குவதில் சிரமம், காரணமற்ற எடை குறைதல் அல்லது தொடரும் அறிகுறிகளை மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி அல்லது மலச்சிக்கல் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] பரவலான கொப்புளங்கள் அல்லது தோல் உரிதல் ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] पेट का एसिड कम करती है; एसिड रिफ्लक्स और कुछ अल्सर में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] निगलने में कठिनाई, बिना कारण वजन कम होना या लगातार लक्षण डॉक्टर को बताएं।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द या कब्ज हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] शरीर पर बहुत से फफोले हों या त्वचा उतरने लगे।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "domperidone-10",
+    "name": "Domperidone 10",
+    "aliases": [
+      "Domperidone"
+    ],
+    "activeIngredient": "Domperidone",
+    "activeIngredient2": null,
+    "strength": "10 mg",
+    "form": "Tablet",
+    "category": "Nausea relief",
+    "tags": [
+      "nausea"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Domperidone",
+        "url": "https://www.nhs.uk/medicines/domperidone/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used for nausea and vomiting when prescribed by a clinician.",
+      "beforeYouTake": [
+        "Tell your doctor if you have heart rhythm problems.",
+        "Follow your prescription and the leaflet in your own packet. Do not change treatment using this app.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Sleepiness, headache or a dry mouth can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] மருத்துவர் பரிந்துரைக்கும்போது குமட்டல் மற்றும் வாந்திக்குப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] இதயத் துடிப்பு பிரச்சினைகள் இருந்தால் மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் மருந்துச் சீட்டையும் பொட்டலத்தில் உள்ள வழிமுறைகளையும் பின்பற்றவும். இந்த செயலியை வைத்து சிகிச்சையை மாற்ற வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தூக்கம், தலைவலி அல்லது வாய் வறட்சி ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] डॉक्टर के पर्चे पर मतली और उल्टी में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] दिल की धड़कन की समस्या हो तो डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपने पर्चे और पैकेट के निर्देशों का पालन करें। इस ऐप के आधार पर इलाज न बदलें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] नींद, सिरदर्द या मुंह सूखना हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "ondansetron-4",
+    "name": "Ondansetron 4",
+    "aliases": [
+      "Ondansetron"
+    ],
+    "activeIngredient": "Ondansetron",
+    "activeIngredient2": null,
+    "strength": "4 mg",
+    "form": "Tablet",
+    "category": "Nausea relief",
+    "tags": [
+      "nausea"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "Drugs.com — Ondansetron",
+        "url": "https://www.drugs.com/ondansetron.html",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Used for nausea and vomiting when prescribed by a clinician.",
+      "beforeYouTake": [
+        "Tell your doctor if you have heart rhythm problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take.",
+        "Follow your prescription and the leaflet in your own packet. Do not change treatment using this app."
+      ],
+      "sideEffects": "Headache or constipation can occur.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] மருத்துவர் பரிந்துரைக்கும்போது குமட்டல் மற்றும் வாந்திக்குப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] இதயத் துடிப்பு பிரச்சினைகள் இருந்தால் மருத்துவரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் மருந்துச் சீட்டையும் பொட்டலத்தில் உள்ள வழிமுறைகளையும் பின்பற்றவும். இந்த செயலியை வைத்து சிகிச்சையை மாற்ற வேண்டாம்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி அல்லது மலச்சிக்கல் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] डॉक्टर के पर्चे पर मतली और उल्टी में उपयोग होती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] दिल की धड़कन की समस्या हो तो डॉक्टर को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] अपने पर्चे और पैकेट के निर्देशों का पालन करें। इस ऐप के आधार पर इलाज न बदलें।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द या कब्ज हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "levothyroxine-50",
+    "name": "Levothyroxine 50",
+    "aliases": [
+      "Thyroxine"
+    ],
+    "activeIngredient": "Levothyroxine",
+    "activeIngredient2": null,
+    "strength": "50 mcg",
+    "form": "Tablet",
+    "category": "Thyroid",
+    "tags": [
+      "thyroid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Levothyroxine",
+        "url": "https://www.nhs.uk/medicines/levothyroxine/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Replaces thyroid hormone in people with an underactive thyroid.",
+      "beforeYouTake": [
+        "Tell your pharmacist about iron, calcium and antacids, which can affect absorption.",
+        "Keep the follow-up appointments and blood tests recommended by your clinician.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "An unsuitable amount can cause sweating, shaking, diarrhoea or a racing heartbeat. Ask your prescriber.",
+      "stopAndGetHelp": [
+        "You faint or develop a new fast or irregular heartbeat.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] தைராய்டு குறைவாகச் செயல்படுபவர்களுக்கு தைராய்டு ஹார்மோனை மாற்றீடு செய்கிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] உறிஞ்சுதலைப் பாதிக்கக்கூடிய இரும்பு, கால்சியம், அமிலநீக்கிகள் பற்றி மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] மருத்துவர் பரிந்துரைக்கும் மறுபரிசோதனை மற்றும் இரத்தப் பரிசோதனைகளுக்குச் செல்லவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] பொருந்தாத அளவு வியர்வை, நடுக்கம், வயிற்றுப்போக்கு அல்லது வேகமான இதயத் துடிப்பை ஏற்படுத்தலாம். மருத்துவரிடம் கேட்கவும்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] மயங்கி விழுந்தால் அல்லது புதிய வேகமான அல்லது ஒழுங்கற்ற இதயத் துடிப்பு ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कम सक्रिय थायरॉयड में थायरॉयड हार्मोन की पूर्ति करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] आयरन, कैल्शियम और एंटासिड के बारे में बताएं; ये दवा का अवशोषण बदल सकते हैं।",
+        "[TODO: Verify translation] डॉक्टर द्वारा बताई गई जांच और फॉलो-अप कराते रहें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] अनुपयुक्त मात्रा से पसीना, कंपकंपी, दस्त या तेज धड़कन हो सकती है। डॉक्टर से पूछें।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] बेहोशी आए या अचानक तेज या अनियमित धड़कन हो।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "glimepiride-1",
+    "name": "Glimepiride 1",
+    "aliases": [
+      "Glimepiride"
+    ],
+    "activeIngredient": "Glimepiride",
+    "activeIngredient2": null,
+    "strength": "1 mg",
+    "form": "Tablet",
+    "category": "Diabetes",
+    "tags": [
+      "diabetes",
+      "low-sugar"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Glimepiride",
+        "url": "https://www.nhs.uk/medicines/glimepiride/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Helps control blood sugar in type 2 diabetes as part of prescribed treatment.",
+      "beforeYouTake": [
+        "Know your clinician’s plan for low blood sugar, especially if taking other diabetes medicines.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Low blood sugar, nausea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "Low blood sugar causes confusion, a seizure or unconsciousness: seek emergency help.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட சிகிச்சையின் ஒரு பகுதியாக வகை 2 நீரிழிவில் இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] குறிப்பாக மற்ற நீரிழிவு மருந்துகளுடன் எடுத்தால், குறைந்த இரத்தச் சர்க்கரைக்கான மருத்துவரின் திட்டத்தை அறியவும்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குறைந்த இரத்தச் சர்க்கரை, குமட்டல் அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] குறைந்த இரத்தச் சர்க்கரையால் குழப்பம், வலிப்பு அல்லது சுயநினைவின்மை ஏற்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] निर्धारित इलाज के हिस्से के रूप में टाइप 2 मधुमेह में शुगर नियंत्रित करने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] खासकर अन्य मधुमेह दवाओं के साथ, कम शुगर के लिए डॉक्टर की योजना जानें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] कम ब्लड शुगर, मतली या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] कम शुगर से भ्रम, दौरा या बेहोशी हो तो आपात मदद लें।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "sitagliptin-100",
+    "name": "Sitagliptin 100",
+    "aliases": [
+      "Sitagliptin"
+    ],
+    "activeIngredient": "Sitagliptin",
+    "activeIngredient2": null,
+    "strength": "100 mg",
+    "form": "Tablet",
+    "category": "Diabetes",
+    "tags": [
+      "diabetes"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Sitagliptin",
+        "url": "https://www.nhs.uk/medicines/sitagliptin/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Helps control blood sugar in type 2 diabetes as part of prescribed treatment.",
+      "beforeYouTake": [
+        "Know your clinician’s plan for low blood sugar, especially if taking other diabetes medicines.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Headache, nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You develop severe, persistent stomach pain that may spread to your back.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட சிகிச்சையின் ஒரு பகுதியாக வகை 2 நீரிழிவில் இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] குறிப்பாக மற்ற நீரிழிவு மருந்துகளுடன் எடுத்தால், குறைந்த இரத்தச் சர்க்கரைக்கான மருத்துவரின் திட்டத்தை அறியவும்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி, குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] முதுகிற்குப் பரவக்கூடிய கடுமையான, தொடரும் வயிற்றுவலி ஏற்பட்டால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] निर्धारित इलाज के हिस्से के रूप में टाइप 2 मधुमेह में शुगर नियंत्रित करने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] खासकर अन्य मधुमेह दवाओं के साथ, कम शुगर के लिए डॉक्टर की योजना जानें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द, मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] लगातार तेज पेट दर्द हो जो पीठ तक फैल सकता है।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "gliclazide-80",
+    "name": "Gliclazide 80",
+    "aliases": [
+      "Gliclazide"
+    ],
+    "activeIngredient": "Gliclazide",
+    "activeIngredient2": null,
+    "strength": "80 mg",
+    "form": "Tablet",
+    "category": "Diabetes",
+    "tags": [
+      "diabetes",
+      "low-sugar"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Gliclazide",
+        "url": "https://www.nhs.uk/medicines/gliclazide/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Helps control blood sugar in type 2 diabetes as part of prescribed treatment.",
+      "beforeYouTake": [
+        "Know your clinician’s plan for low blood sugar, especially if taking other diabetes medicines.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Low blood sugar, nausea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "Low blood sugar causes confusion, a seizure or unconsciousness: seek emergency help.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] பரிந்துரைக்கப்பட்ட சிகிச்சையின் ஒரு பகுதியாக வகை 2 நீரிழிவில் இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] குறிப்பாக மற்ற நீரிழிவு மருந்துகளுடன் எடுத்தால், குறைந்த இரத்தச் சர்க்கரைக்கான மருத்துவரின் திட்டத்தை அறியவும்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குறைந்த இரத்தச் சர்க்கரை, குமட்டல் அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] குறைந்த இரத்தச் சர்க்கரையால் குழப்பம், வலிப்பு அல்லது சுயநினைவின்மை ஏற்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] निर्धारित इलाज के हिस्से के रूप में टाइप 2 मधुमेह में शुगर नियंत्रित करने में मदद करती है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] खासकर अन्य मधुमेह दवाओं के साथ, कम शुगर के लिए डॉक्टर की योजना जानें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] कम ब्लड शुगर, मतली या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] कम शुगर से भ्रम, दौरा या बेहोशी हो तो आपात मदद लें।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "ibuprofen-400",
+    "name": "Ibuprofen 400",
+    "aliases": [
+      "Ibuprofen"
+    ],
+    "activeIngredient": "Ibuprofen",
+    "activeIngredient2": null,
+    "strength": "400 mg",
+    "form": "Tablet",
+    "category": "Pain & inflammation",
+    "tags": [
+      "pain",
+      "nsaid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Ibuprofen",
+        "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "An anti-inflammatory painkiller used for pain and inflammation.",
+      "beforeYouTake": [
+        "Ask first if you have had a stomach ulcer, bleeding, kidney disease or an NSAID allergy.",
+        "Do not add another anti-inflammatory painkiller such as ibuprofen or naproxen without advice.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வலி மற்றும் அழற்சிக்குப் பயன்படுத்தப்படும் அழற்சி எதிர்ப்பு வலிநிவாரணி.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] வயிற்றுப் புண், இரத்தப்போக்கு, சிறுநீரக நோய் அல்லது NSAID ஒவ்வாமை இருந்தால் முதலில் கேட்கவும்.",
+        "[TODO: Verify translation] ஆலோசனையின்றி இபுபுரோஃபென் அல்லது நாப்ரோக்சென் போன்ற மற்றொரு வலிநிவாரணியை சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] दर्द और सूजन के लिए उपयोग होने वाली सूजनरोधी दर्द की दवा।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पेट के अल्सर, रक्तस्राव, किडनी की बीमारी या NSAID एलर्जी में पहले पूछें।",
+        "[TODO: Verify translation] सलाह के बिना इबुप्रोफेन या नैप्रोक्सेन जैसी दूसरी सूजनरोधी दर्द की दवा न जोड़ें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "diclofenac-50",
+    "name": "Diclofenac 50",
+    "aliases": [
+      "Diclofenac"
+    ],
+    "activeIngredient": "Diclofenac",
+    "activeIngredient2": null,
+    "strength": "50 mg",
+    "form": "Tablet",
+    "category": "Pain & inflammation",
+    "tags": [
+      "pain",
+      "nsaid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Diclofenac",
+        "url": "https://www.nhs.uk/medicines/diclofenac/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "An anti-inflammatory painkiller used for pain and inflammation.",
+      "beforeYouTake": [
+        "Ask first if you have had a stomach ulcer, bleeding, kidney disease or an NSAID allergy.",
+        "Do not add another anti-inflammatory painkiller such as ibuprofen or naproxen without advice.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வலி மற்றும் அழற்சிக்குப் பயன்படுத்தப்படும் அழற்சி எதிர்ப்பு வலிநிவாரணி.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] வயிற்றுப் புண், இரத்தப்போக்கு, சிறுநீரக நோய் அல்லது NSAID ஒவ்வாமை இருந்தால் முதலில் கேட்கவும்.",
+        "[TODO: Verify translation] ஆலோசனையின்றி இபுபுரோஃபென் அல்லது நாப்ரோக்சென் போன்ற மற்றொரு வலிநிவாரணியை சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] दर्द और सूजन के लिए उपयोग होने वाली सूजनरोधी दर्द की दवा।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पेट के अल्सर, रक्तस्राव, किडनी की बीमारी या NSAID एलर्जी में पहले पूछें।",
+        "[TODO: Verify translation] सलाह के बिना इबुप्रोफेन या नैप्रोक्सेन जैसी दूसरी सूजनरोधी दर्द की दवा न जोड़ें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "naproxen-250",
+    "name": "Naproxen 250",
+    "aliases": [
+      "Naproxen"
+    ],
+    "activeIngredient": "Naproxen",
+    "activeIngredient2": null,
+    "strength": "250 mg",
+    "form": "Tablet",
+    "category": "Pain & inflammation",
+    "tags": [
+      "pain",
+      "nsaid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Naproxen",
+        "url": "https://www.nhs.uk/medicines/naproxen/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "An anti-inflammatory painkiller used for pain and inflammation.",
+      "beforeYouTake": [
+        "Ask first if you have had a stomach ulcer, bleeding, kidney disease or an NSAID allergy.",
+        "Do not add another anti-inflammatory painkiller such as ibuprofen or naproxen without advice.",
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] வலி மற்றும் அழற்சிக்குப் பயன்படுத்தப்படும் அழற்சி எதிர்ப்பு வலிநிவாரணி.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] வயிற்றுப் புண், இரத்தப்போக்கு, சிறுநீரக நோய் அல்லது NSAID ஒவ்வாமை இருந்தால் முதலில் கேட்கவும்.",
+        "[TODO: Verify translation] ஆலோசனையின்றி இபுபுரோஃபென் அல்லது நாப்ரோக்சென் போன்ற மற்றொரு வலிநிவாரணியை சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] दर्द और सूजन के लिए उपयोग होने वाली सूजनरोधी दर्द की दवा।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] पेट के अल्सर, रक्तस्राव, किडनी की बीमारी या NSAID एलर्जी में पहले पूछें।",
+        "[TODO: Verify translation] सलाह के बिना इबुप्रोफेन या नैप्रोक्सेन जैसी दूसरी सूजनरोधी दर्द की दवा न जोड़ें।",
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "fluconazole-150",
+    "name": "Fluconazole 150",
+    "aliases": [
+      "Fluconazole"
+    ],
+    "activeIngredient": "Fluconazole",
+    "activeIngredient2": null,
+    "strength": "150 mg",
+    "form": "Tablet",
+    "category": "Antifungal",
+    "tags": [
+      "antifungal"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Fluconazole",
+        "url": "https://www.nhs.uk/medicines/fluconazole/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "An antifungal medicine used for certain fungal infections.",
+      "beforeYouTake": [
+        "Ask a pharmacist before use if pregnant, planning pregnancy or breastfeeding.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Headache, nausea, diarrhoea or stomach discomfort can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You develop a widespread blistering or peeling rash."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில பூஞ்சைத் தொற்றுகளுக்குப் பயன்படுத்தப்படும் பூஞ்சை எதிர்ப்பு மருந்து.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] கர்ப்பமாக இருந்தால், கர்ப்பம் திட்டமிட்டால் அல்லது தாய்ப்பால் கொடுத்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] தலைவலி, குமட்டல், வயிற்றுப்போக்கு அல்லது வயிற்று அசௌகரியம் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] பரவலான கொப்புளங்கள் அல்லது தோல் உரிதல் ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ फंगल संक्रमणों के लिए उपयोग होने वाली एंटीफंगल दवा।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] गर्भवती होने, गर्भधारण की योजना या स्तनपान के दौरान पहले फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सिरदर्द, मतली, दस्त या पेट में परेशानी हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] शरीर पर बहुत से फफोले हों या त्वचा उतरने लगे।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "folic-acid-5",
+    "name": "Folic Acid 5",
+    "aliases": [
+      "Folate"
+    ],
+    "activeIngredient": "Folic acid",
+    "activeIngredient2": null,
+    "strength": "5 mg",
+    "form": "Tablet",
+    "category": "Vitamin",
+    "tags": [
+      "vitamin"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Folic acid",
+        "url": "https://www.nhs.uk/medicines/folic-acid/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A vitamin used to treat or prevent folate deficiency and for other prescribed purposes.",
+      "beforeYouTake": [
+        "Tell your doctor about vitamin B12 deficiency and medicines such as methotrexate.",
+        "Follow your prescription and the leaflet in your own packet. Do not change treatment using this app.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Nausea, bloating or wind can occur.",
+      "stopAndGetHelp": [
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help.",
+        "You develop a widespread blistering or peeling rash."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] ஃபோலேட் குறைபாட்டைத் தடுக்க அல்லது சிகிச்சையளிக்க மற்றும் பிற பரிந்துரைக்கப்பட்ட காரணங்களுக்கான வைட்டமின்.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] வைட்டமின் B12 குறைபாடு மற்றும் மெத்தோட்ரெக்சேட் போன்ற மருந்துகள் பற்றி தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் மருந்துச் சீட்டையும் பொட்டலத்தில் உள்ள வழிமுறைகளையும் பின்பற்றவும். இந்த செயலியை வைத்து சிகிச்சையை மாற்ற வேண்டாம்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] குமட்டல், வயிறு உப்புசம் அல்லது வாயு ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்.",
+        "[TODO: Verify translation] பரவலான கொப்புளங்கள் அல்லது தோல் உரிதல் ஏற்பட்டால்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] फोलेट की कमी रोकने या इलाज और अन्य निर्धारित कारणों के लिए विटामिन।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] विटामिन B12 की कमी और मेथोट्रेक्सेट जैसी दवाओं के बारे में बताएं।",
+        "[TODO: Verify translation] अपने पर्चे और पैकेट के निर्देशों का पालन करें। इस ऐप के आधार पर इलाज न बदलें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] मतली, पेट फूलना या गैस हो सकती है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।",
+        "[TODO: Verify translation] शरीर पर बहुत से फफोले हों या त्वचा उतरने लगे।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "prednisolone-5",
+    "name": "Prednisolone 5",
+    "aliases": [
+      "Prednisolone"
+    ],
+    "activeIngredient": "Prednisolone",
+    "activeIngredient2": null,
+    "strength": "5 mg",
+    "form": "Tablet",
+    "category": "Anti-inflammatory",
+    "tags": [
+      "steroid"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Prednisolone",
+        "url": "https://www.nhs.uk/medicines/prednisolone/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "A corticosteroid used for certain inflammatory and immune conditions.",
+      "beforeYouTake": [
+        "Do not suddenly stop after prolonged treatment. Ask your prescriber about infections and vaccines.",
+        "Know your clinician’s plan for low blood sugar, especially if taking other diabetes medicines.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Indigestion, sleep problems, increased appetite or mood changes can occur.",
+      "stopAndGetHelp": [
+        "You vomit blood or pass black, tar-like stools.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] சில அழற்சி மற்றும் நோய் எதிர்ப்பு நிலைகளுக்கான கார்டிகோஸ்டீராய்டு.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] நீண்டகால சிகிச்சைக்குப் பின் திடீரென நிறுத்த வேண்டாம். தொற்றுகள் மற்றும் தடுப்பூசிகள் பற்றி மருத்துவரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] குறிப்பாக மற்ற நீரிழிவு மருந்துகளுடன் எடுத்தால், குறைந்த இரத்தச் சர்க்கரைக்கான மருத்துவரின் திட்டத்தை அறியவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] அஜீரணம், தூக்கப் பிரச்சினைகள், அதிகப் பசி அல்லது மனநிலை மாற்றங்கள் ஏற்படலாம்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] இரத்த வாந்தி அல்லது கருப்பு தார் போன்ற மலம் வந்தால்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] कुछ सूजन और प्रतिरक्षा संबंधी स्थितियों के लिए कॉर्टिकोस्टेरॉयड।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] लंबे इलाज के बाद अचानक बंद न करें। संक्रमण और टीकों के बारे में डॉक्टर से पूछें।",
+        "[TODO: Verify translation] खासकर अन्य मधुमेह दवाओं के साथ, कम शुगर के लिए डॉक्टर की योजना जानें।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] अपच, नींद में परेशानी, ज्यादा भूख या मूड में बदलाव हो सकता है।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] खून की उल्टी या काला तारकोल जैसा मल आए।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  },
+  {
+    "id": "paracetamol-500",
+    "name": "Paracetamol 500",
+    "aliases": [
+      "Acetaminophen 500"
+    ],
+    "activeIngredient": "Paracetamol",
+    "activeIngredient2": null,
+    "strength": "500 mg",
+    "form": "Tablet",
+    "category": "Pain & fever",
+    "tags": [
+      "pain",
+      "paracetamol"
+    ],
+    "verified": false,
+    "sources": [
+      {
+        "title": "NHS — Paracetamol",
+        "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+        "sourceType": "medical-reference"
+      }
+    ],
+    "en": {
+      "uses": "Commonly used for mild to moderate pain and fever.",
+      "beforeYouTake": [
+        "Do not combine with other medicines containing paracetamol without professional advice.",
+        "Check with a pharmacist if you have liver or kidney problems.",
+        "Tell your pharmacist if you regularly drink alcohol.",
+        "Tell your pharmacist about allergies and every medicine or supplement you take."
+      ],
+      "sideEffects": "Side effects are uncommon when used correctly. See the leaflet for the complete list.",
+      "stopAndGetHelp": [
+        "You may have taken too much paracetamol, even if you feel well: get urgent medical help.",
+        "Your lips, mouth or throat swell, or breathing becomes difficult: seek emergency help."
+      ],
+      "preChecklist": [
+        "I checked the name, strength and expiry on my own packet.",
+        "I checked this against my prescription or asked a pharmacist.",
+        "I checked whether another medicine has the same active ingredient."
+      ]
+    },
+    "ta": {
+      "uses": "[TODO: Verify translation] லேசான முதல் மிதமான வலி மற்றும் காய்ச்சலுக்குப் பொதுவாகப் பயன்படுகிறது.",
+      "beforeYouTake": [
+        "[TODO: Verify translation] மருத்துவ ஆலோசனையின்றி பாராசிட்டமால் உள்ள பிற மருந்துகளுடன் சேர்க்க வேண்டாம்.",
+        "[TODO: Verify translation] கல்லீரல் அல்லது சிறுநீரகப் பிரச்சினைகள் இருந்தால் மருந்தாளரிடம் கேட்கவும்.",
+        "[TODO: Verify translation] நீங்கள் அடிக்கடி மது அருந்தினால் மருந்தாளரிடம் தெரிவிக்கவும்.",
+        "[TODO: Verify translation] உங்கள் ஒவ்வாமைகள் மற்றும் எடுத்துக்கொள்ளும் அனைத்து மருந்துகளையும் மருந்தாளரிடம் தெரிவிக்கவும்."
+      ],
+      "sideEffects": "[TODO: Verify translation] சரியாகப் பயன்படுத்தும்போது பக்கவிளைவுகள் அரிது. முழுப் பட்டியலுக்கு வழிமுறையைப் பார்க்கவும்.",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] அதிக பாராசிட்டமால் எடுத்திருக்கலாம் என நினைத்தால், நலமாக இருந்தாலும் உடனே மருத்துவ உதவி பெறவும்.",
+        "[TODO: Verify translation] உதடு, வாய் அல்லது தொண்டை வீங்கினால் அல்லது மூச்சுவிட சிரமப்பட்டால் அவசர உதவி பெறவும்."
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] என் பொட்டலத்தில் பெயர், வலிமை மற்றும் காலாவதியைச் சரிபார்த்தேன்.",
+        "[TODO: Verify translation] மருந்துச் சீட்டுடன் ஒப்பிட்டேன் அல்லது மருந்தாளரிடம் கேட்டேன்.",
+        "[TODO: Verify translation] வேறு மருந்தில் இதே செயற்பொருள் உள்ளதா எனச் சரிபார்த்தேன்."
+      ]
+    },
+    "hi": {
+      "uses": "[TODO: Verify translation] आमतौर पर हल्के से मध्यम दर्द और बुखार के लिए उपयोग होता है।",
+      "beforeYouTake": [
+        "[TODO: Verify translation] चिकित्सकीय सलाह के बिना पैरासिटामोल वाली अन्य दवाओं के साथ न लें।",
+        "[TODO: Verify translation] लिवर या किडनी की समस्या हो तो फार्मासिस्ट से पूछें।",
+        "[TODO: Verify translation] यदि नियमित शराब पीते हैं तो फार्मासिस्ट को बताएं।",
+        "[TODO: Verify translation] अपनी एलर्जी और सभी दवाओं व सप्लीमेंट के बारे में फार्मासिस्ट को बताएं।"
+      ],
+      "sideEffects": "[TODO: Verify translation] सही उपयोग पर दुष्प्रभाव कम होते हैं। पूरी सूची के लिए पर्चा देखें।",
+      "stopAndGetHelp": [
+        "[TODO: Verify translation] पैरासिटामोल अधिक लिया हो सकता है तो ठीक महसूस होने पर भी तुरंत चिकित्सा मदद लें।",
+        "[TODO: Verify translation] होंठ, मुंह या गला सूजे या सांस लेने में कठिनाई हो तो आपात मदद लें।"
+      ],
+      "preChecklist": [
+        "[TODO: Verify translation] मैंने अपने पैकेट पर नाम, ताकत और एक्सपायरी जांची है।",
+        "[TODO: Verify translation] मैंने इसे अपने पर्चे से मिलाया है या फार्मासिस्ट से पूछा है।",
+        "[TODO: Verify translation] मैंने जांचा है कि दूसरी दवा में यही सक्रिय तत्व तो नहीं है।"
+      ]
+    }
+  }
+]

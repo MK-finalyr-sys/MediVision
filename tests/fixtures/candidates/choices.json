@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dolo-650",
+    "index": 0,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/mu5bahqxfrp28cut6que.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/candidates/dolo-650-0.jpg"
+  },
+  {
+    "id": "dolo-650",
+    "index": 1,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/czt7vf4ed5kwgmof19yr.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/candidates/dolo-650-1.jpg"
+  },
+  {
+    "id": "dolo-650",
+    "index": 2,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/vrcg9oxisw4qhvfly85b.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/candidates/dolo-650-2.jpg"
+  },
+  {
+    "id": "dolo-650",
+    "index": 3,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/rmb6xvecv0xrau4tywer.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/candidates/dolo-650-3.jpg"
+  },
+  {
+    "id": "azithral-500",
+    "index": 0,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/kqkouvaqejbyk47dvjfu.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/candidates/azithral-500-0.jpg"
+  },
+  {
+    "id": "azithral-500",
+    "index": 1,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/fpxwi4imv9qn4czfkez9.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/candidates/azithral-500-1.jpg"
+  },
+  {
+    "id": "azithral-500",
+    "index": 2,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/rnquikryuze9ger1cqic.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/candidates/azithral-500-2.jpg"
+  },
+  {
+    "id": "azithral-500",
+    "index": 3,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/fy2ylbebugclrouuson7.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/candidates/azithral-500-3.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 0,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/y6khp04ugd6csjrlehgd.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/pan-40-tablet-325250",
+    "file": "tests/fixtures/candidates/pan-40-0.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 1,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/y6jecgw887tanw80ricm.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/pan-40-tablet-325250",
+    "file": "tests/fixtures/candidates/pan-40-1.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 2,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/d7dlx5rwyhef5zr1ek0l.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/pan-40-tablet-325250",
+    "file": "tests/fixtures/candidates/pan-40-2.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 3,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/msfg9tdz5ykbbqjzkrzl.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/pan-40-tablet-325250",
+    "file": "tests/fixtures/candidates/pan-40-3.jpg"
+  },
+  {
+    "id": "ecosprin-75",
+    "index": 0,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/reowbvajejs6awykdplk.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/ecosprin-75-tablet-40765",
+    "file": "tests/fixtures/candidates/ecosprin-75-0.jpg"
+  },
+  {
+    "id": "ecosprin-75",
+    "index": 1,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/y0i2o5zpr0qyikpt0f1o.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/ecosprin-75-tablet-40765",
+    "file": "tests/fixtures/candidates/ecosprin-75-1.jpg"
+  },
+  {
+    "id": "ecosprin-75",
+    "index": 2,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/elm8pnas8rt5ty6hv7gr.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/ecosprin-75-tablet-40765",
+    "file": "tests/fixtures/candidates/ecosprin-75-2.jpg"
+  },
+  {
+    "id": "ecosprin-75",
+    "index": 3,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/jasykpbogbljycmmwxnk.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/ecosprin-75-tablet-40765",
+    "file": "tests/fixtures/candidates/ecosprin-75-3.jpg"
+  },
+  {
+    "id": "glycomet-500",
+    "index": 0,
+    "imageUrl": "https://pharma.medibuddy.in/41625/51a3c420-3e7b-11ed-a018-bfa63c2eb46d.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/glycomet-tablet-41625",
+    "file": "tests/fixtures/candidates/glycomet-500-0.jpg"
+  },
+  {
+    "id": "glycomet-500",
+    "index": 1,
+    "imageUrl": "https://pharma.medibuddy.in/41625/53d12b70-3e7b-11ed-a018-bfa63c2eb46d.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/glycomet-tablet-41625",
+    "file": "tests/fixtures/candidates/glycomet-500-1.jpg"
+  },
+  {
+    "id": "dolo-650",
+    "index": 4,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/ejm9e9zlzlzl5kcbshuu.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/candidates/dolo-650-4.jpg"
+  },
+  {
+    "id": "dolo-650",
+    "index": 5,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/i4fciaj1hojnrcwrbmkv.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/candidates/dolo-650-5.jpg"
+  },
+  {
+    "id": "azithral-500",
+    "index": 4,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/uf8liwyfjso1hvbjbo52.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/candidates/azithral-500-4.jpg"
+  },
+  {
+    "id": "azithral-500",
+    "index": 5,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/qhwohxwun7ffblwzs6fe.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/candidates/azithral-500-5.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 100,
+    "imageUrl": "https://pharma.medibuddy.in/10214694/80c2e2c0-3f2c-11ed-acc5-39e0e37ebbd0.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/pan-40-tablet-10214694",
+    "file": "tests/fixtures/candidates/pan-40-medibuddy-0.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 101,
+    "imageUrl": "https://pharma.medibuddy.in/10214694/81a55380-3f2c-11ed-acc5-39e0e37ebbd0.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/pan-40-tablet-10214694",
+    "file": "tests/fixtures/candidates/pan-40-medibuddy-1.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 102,
+    "imageUrl": "https://pharma.medibuddy.in/10214694/838473c0-3f2c-11ed-acc5-39e0e37ebbd0.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/pan-40-tablet-10214694",
+    "file": "tests/fixtures/candidates/pan-40-medibuddy-2.jpg"
+  },
+  {
+    "id": "pan-40",
+    "index": 103,
+    "imageUrl": "https://pharma.medibuddy.in/10214694/850bb000-3f2c-11ed-acc5-39e0e37ebbd0.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/pan-40-tablet-10214694",
+    "file": "tests/fixtures/candidates/pan-40-medibuddy-3.jpg"
+  }
+]

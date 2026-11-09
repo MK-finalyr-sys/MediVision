@@ -1,0 +1,14 @@
+import {mkdir,copyFile,readdir,writeFile} from 'node:fs/promises';
+import sharp from 'sharp';
+await mkdir('public/ocr',{recursive:true});
+await copyFile('node_modules/tesseract.js/dist/worker.min.js','public/ocr/worker.min.js');
+for(const name of await readdir('node_modules/tesseract.js-core')) if(name.endsWith('.wasm.js') || name.endsWith('.wasm') || name==='LICENSE') await copyFile(`node_modules/tesseract.js-core/${name}`,`public/ocr/${name}`);
+await copyFile('node_modules/tesseract.js/dist/worker.min.js.LICENSE.txt','public/ocr/worker.LICENSE.txt');
+const url='https://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz';
+const response=await fetch(url);if(!response.ok)throw new Error(`English OCR model download failed: ${response.status}`);
+await writeFile('public/ocr/eng.traineddata.gz',Buffer.from(await response.arrayBuffer()));
+const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><rect width="512" height="512" rx="120" fill="#4166dc"/><g fill="none" stroke="white" stroke-width="24" stroke-linecap="round"><path d="M178 116h-38a24 24 0 0 0-24 24v38M334 116h38a24 24 0 0 1 24 24v38M116 334v38a24 24 0 0 0 24 24h38M396 334v38a24 24 0 0 1-24 24h-38"/></g><rect x="184" y="236" width="144" height="40" rx="10" fill="white"/><rect x="236" y="184" width="40" height="144" rx="10" fill="white"/></svg>`;
+await writeFile('public/icon.svg',svg);
+for(const size of [192,512]) await sharp(Buffer.from(svg)).resize(size,size).png().toFile(`public/icon-${size}.png`);
+await sharp('public/images/medicine-hero.png').resize(1000).webp({quality:88}).toFile('public/images/medicine-hero.webp');
+console.log('Bundled OCR worker, WASM variants, English model, PWA icons and optimized decorative hero.');

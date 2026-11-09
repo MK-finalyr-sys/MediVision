@@ -1,0 +1,81 @@
+[
+  {
+    "id": "dolo-650",
+    "kind": "genuine retail product photograph",
+    "variance": 948.2507588809175,
+    "ocrText": "Over dose may be inj\n\ns to Liver.\n\nM/600/2 2\n\ndq\n\n(iE\n\nLABS LIME\n\n\" To\n\nN\n\nroxas:\n\nSa\n\n650\n\ni\n\niy\n\nol Tablets |P\n\ntablet\n\noH\n\n650 mg.\n\nAN\n\n!\n\naN\n\ni\n\nmay be ir\n\nM/600/2012\n\n1\n\n=\n\nBS Lit\n\nN\n\nergo\n\n§\n",
+    "ocrConfidence": 51,
+    "topMatch": null,
+    "matchScore": 0,
+    "tier": "LOW",
+    "correct": false,
+    "identificationResult": "NEEDS PHONE TEST — safe uncertainty or obscured text",
+    "pipelineResult": "PASSED (in sandbox)"
+  },
+  {
+    "id": "azithral-500",
+    "kind": "genuine retail product photograph",
+    "variance": 1379.3741480579622,
+    "ocrText": "rosy\n\nsave\n\n27.\n\nYo\n\nJghE-400\n\n2.\n\nN\n\nSe\n\n454\n\nfim-coated tat\n\nFo\n\n5%\n\noki 0\n\n3\n\nas.\n\nYellow\n\n5\n\nF7\n\n“a,\n\npor\n\nLo\n\nSa\n\n2\n\n.\n\npe\n\nde\n\nm moet\n\nfatod 3\n\npat\n\nile\n\n25\n\n2\n\nphediog X\n\npo\n\na\n\nVrs\n\n=\n\n7\n\n“a\n\nAlda\n\nsy\n\nLAs\n\nro\n\nZl\n\n2\n\nez\n\nPes\n\n5\n\npo or\n\npoy;\n\nz\n\na! Pract;\n\nia\n\nbo\n\n77\n\n2\n\nAST\n\nIT WE\n\n7%\n\n7\n\nALS A\n\n7\n\nve\n\nZs\n\nas\n\n2%\n\nia\n\nVs\n\nrs\n\nbs\n\nJest, Karck\n\nA\n\nvy\n\nSir\n\n7\n\nVs\n\n5\n\nSs\n\nPEI;\n\nos\n\nDEEP\n\nYo\n\nVr\n\nIi\n\nLis\n\nol\n\n7\n\n7\n\nSli\n\n774\n\nis\n\nii\n\nLilia\n\n77s\n\n7\n\nGry\n\ne248\n\n7\n\nFr rs\n\n7%\n\n7\n\nGA\n\n7\n\n2%]\n\n77:\n\npz\n\nSip\n\nrs\n\nats\n\ni\n\noldass\n\nj= 5\n\n5%;\n\nis\n\nSirs\n\n5\n\na\n\nVes\n\n>\n\n“i\n\n&\n\n7\n\nSs\n\nVe\n\nWS\n\n7\n\nDied’\n\n=\n\n77\n\n2\n",
+    "ocrConfidence": 28,
+    "topMatch": null,
+    "matchScore": 0,
+    "tier": "LOW",
+    "correct": false,
+    "identificationResult": "NEEDS PHONE TEST — safe uncertainty or obscured text",
+    "pipelineResult": "PASSED (in sandbox)"
+  },
+  {
+    "id": "pan-40",
+    "kind": "genuine retail product photograph",
+    "variance": 428.7784240175986,
+    "ocrText": "{ox Cont ist S505 pr\n\npan by\n\nrazole\n\n10 Resista\n\nnt Tablets IP\n\n40\n",
+    "ocrConfidence": 42,
+    "topMatch": "pan-40",
+    "matchScore": 0.69,
+    "tier": "MEDIUM",
+    "correct": true,
+    "identificationResult": "NEEDS PHONE TEST — safe uncertainty or obscured text",
+    "pipelineResult": "PASSED (in sandbox)"
+  },
+  {
+    "id": "ecosprin-75",
+    "kind": "genuine retail product photograph",
+    "variance": 5434.350876749039,
+    "ocrText": "na\n\n»\n\nS0ITl\n\nIN\n\nad\n",
+    "ocrConfidence": 38,
+    "topMatch": null,
+    "matchScore": 0,
+    "tier": "LOW",
+    "correct": false,
+    "identificationResult": "NEEDS PHONE TEST — safe uncertainty or obscured text",
+    "pipelineResult": "PASSED (in sandbox)"
+  },
+  {
+    "id": "glycomet-500",
+    "kind": "genuine retail product photograph",
+    "variance": 1028.4450048730077,
+    "ocrText": "@MediBuddy\n\nuddy\n\nPies\n\nnior\n\ndy\n\ner’\n\nBi\n\ndy\n\nhg\n\nLIC\n",
+    "ocrConfidence": 45,
+    "topMatch": null,
+    "matchScore": 0,
+    "tier": "LOW",
+    "correct": false,
+    "identificationResult": "NEEDS PHONE TEST — safe uncertainty or obscured text",
+    "pipelineResult": "PASSED (in sandbox)"
+  },
+  {
+    "id": "dolo-650-blurry",
+    "kind": "real photo, deterministic Gaussian blur sigma 12",
+    "variance": 2.4776657440191303,
+    "result": "PASSED (in sandbox)"
+  },
+  {
+    "id": "azithral-500-obscured",
+    "kind": "real photo, 45% opaque vertical occlusion",
+    "ocrText": "resre\n\nBiblio\n\npoz\n\n>\n\n25\n\n75%\n\nGi\n\nbs\n\n27\n\n2\n\n>\n\nss\n\n“\n\nlag\n\nfo,\n\n7\n\nprow:\n\npat\n\n>\n\nthe me\n\n7\n\n7\n\n77\n\n27,\n\n2\n\nPs\n\n715%\n\n“rr\n\nFords\n\na.\n\nPs\n\n25\n\nys\n\nVs\n\nrs\n\nii\n\nVes\n\n% Ed\n\nYA\n\ni G4\n\nBy\n\n5\n\nia\n",
+    "topMatch": null,
+    "tier": "LOW",
+    "result": "PASSED (in sandbox) — safe-confidence assertion"
+  }
+]

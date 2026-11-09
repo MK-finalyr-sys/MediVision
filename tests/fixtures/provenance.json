@@ -1,0 +1,52 @@
+[
+  {
+    "id": "dolo-650",
+    "index": 4,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/ejm9e9zlzlzl5kcbshuu.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/dolo-650-tablet-74467",
+    "file": "tests/fixtures/dolo-650.jpg",
+    "status": "GENUINE printed strip photograph — visually inspected",
+    "license": "Evaluation fixture only; copyrighted by source owner; not distributed in the public app.",
+    "downloadedAt": "2026-11-08T12:21:29.978Z"
+  },
+  {
+    "id": "azithral-500",
+    "index": 4,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/uf8liwyfjso1hvbjbo52.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/azithral-500-tablet-325616",
+    "file": "tests/fixtures/azithral-500.jpg",
+    "status": "GENUINE printed strip photograph — visually inspected",
+    "license": "Evaluation fixture only; copyrighted by source owner; not distributed in the public app.",
+    "downloadedAt": "2026-11-08T12:21:29.980Z"
+  },
+  {
+    "id": "pan-40",
+    "index": 0,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/y6khp04ugd6csjrlehgd.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/pan-40-tablet-325250",
+    "file": "tests/fixtures/pan-40.jpg",
+    "status": "GENUINE packaging-and-strip photograph, visually inspected. Isolated printed-side Pan fixture unavailable; needs an authorized physical capture.",
+    "license": "Evaluation fixture only; copyrighted by source owner; not distributed in the public app.",
+    "downloadedAt": "2026-11-08T12:21:29.980Z"
+  },
+  {
+    "id": "ecosprin-75",
+    "index": 3,
+    "imageUrl": "https://onemg.gumlet.io/l_watermark_346/a_ignore,c_fit,q_auto,f_auto/cropped/jasykpbogbljycmmwxnk.jpg",
+    "pageUrl": "https://www.1mg.com/drugs/ecosprin-75-tablet-40765",
+    "file": "tests/fixtures/ecosprin-75.jpg",
+    "status": "GENUINE printed strip photograph — visually inspected",
+    "license": "Evaluation fixture only; copyrighted by source owner; not distributed in the public app.",
+    "downloadedAt": "2026-11-08T12:21:29.981Z"
+  },
+  {
+    "id": "glycomet-500",
+    "index": 0,
+    "imageUrl": "https://pharma.medibuddy.in/41625/51a3c420-3e7b-11ed-a018-bfa63c2eb46d.jpg",
+    "pageUrl": "https://www.medibuddy.in/order-medicines/glycomet-tablet-41625",
+    "file": "tests/fixtures/glycomet-500.jpg",
+    "status": "GENUINE printed strip photograph — visually inspected",
+    "license": "Evaluation fixture only; copyrighted by source owner; not distributed in the public app.",
+    "downloadedAt": "2026-11-08T12:21:29.981Z"
+  }
+]

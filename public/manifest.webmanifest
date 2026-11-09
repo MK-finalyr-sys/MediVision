@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "MediVision AI",
+  "short_name": "MediVision",
+  "description": "Know what you take. Think before you take it.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fc",
+  "theme_color": "#4164db",
+  "lang": "en-IN",
+  "categories": ["health", "medical", "utilities"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

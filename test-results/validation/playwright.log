@@ -1,0 +1,21 @@
+
+Running 16 tests using 1 worker
+
+  ✓   1 tests/browser/app.spec.ts:5:1 › 360px overview is honest, has no overflow, and all views render (1.4s)
+  ✓   2 tests/browser/app.spec.ts:10:1 › desktop overview evidence at 1440px (725ms)
+  ✓   3 tests/browser/app.spec.ts:11:1 › manual medicine → cabinet → duplicate guard → reminder → caregiver summary persists (5.1s)
+  ✓   4 tests/browser/app.spec.ts:16:1 › language, safety copy, source links and speech unavailability are visible (1.7s)
+  ✓   5 tests/browser/app.spec.ts:19:1 › unknown manual searches never fabricate a medicine (517ms)
+  ✓   6 tests/browser/app.spec.ts:20:1 › blurred real capture has visible retake and preprocessing evidence (1.2s)
+  ✓   7 tests/browser/app.spec.ts:21:1 › actual browser OCR produces a real result or conservative uncertainty (2.9s)
+  ✓   8 tests/browser/app.spec.ts:22:1 › corrupted storage reports recovery without silently deleting records (452ms)
+  ✓   9 tests/browser/app.spec.ts:23:1 › offline shell, cached search and local persistence work after preparation (3.9s)
+  ✓  10 tests/browser/edge-cases.spec.ts:5:1 › empty and detail-free images show visible retry errors (812ms)
+  ✓  11 tests/browser/edge-cases.spec.ts:6:1 › unavailable real camera falls back to a file chooser (2.1s)
+  ✓  12 tests/browser/edge-cases.spec.ts:7:1 › EXIF orientation is honored before preprocessing (1.3s)
+  ✓  13 tests/browser/edge-cases.spec.ts:8:1 › a new real-photo OCR job runs entirely offline after initial preparation (4.1s)
+  ✓  14 tests/browser/edge-cases.spec.ts:9:1 › downloaded app QR decodes correctly and clipboard uses real browser API (2.3s)
+  ✓  15 tests/browser/edge-cases.spec.ts:10:1 › all medical body text is at least 18px and translated cards stay within 360px (1.4s)
+  ✓  16 tests/browser/edge-cases.spec.ts:11:1 › medicine removal and full local deletion require explicit confirmation (3.3s)
+
+  16 passed (34.3s)

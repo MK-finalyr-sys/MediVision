@@ -1,0 +1,10 @@
+import {it,expect} from "vitest";
+import {medicines} from "../src/lib/catalog";
+import {confidenceTier,matchMedicines,tokenize} from "../src/lib/engine";
+import {savedSchema,logsSchema} from "../src/lib/contracts";
+it("generic ingredient fragments cannot identify a medicine",()=>expect(confidenceTier(matchMedicines("stomach acid 5",medicines).matches[0]?.score||0)).toBe("LOW"));
+it("a combination is not confidently substituted with single-ingredient amoxicillin",()=>{const result=matchMedicines("Amoxicillin 500 mg Clavulanic acid 125 mg",medicines);const single=result.matches.find(m=>m.medicine.id==='amoxicillin-500');expect(confidenceTier(single?.score||0)).toBe("LOW");});
+it("two explicitly labelled medicines still trigger the one-strip guard when both salts are present",()=>expect(matchMedicines("Dolo 650 Paracetamol Azithral 500 Azithromycin",medicines).multiple).toBe(true));
+it("leading-decimal strength is not confused with a tenfold larger strength",()=>{expect(tokenize(".5 mg")).toEqual(["0.5"]);expect(confidenceTier(matchMedicines("Amlodipine .5 mg",medicines).matches[0]?.score||0)).toBe("LOW");});
+it("impossible calendar dates are rejected",()=>expect(logsSchema.safeParse([{medicineId:'dolo-650',date:'2026-02-30',slot:'Morning',status:'taken'}]).success).toBe(false));
+it("duplicate saved IDs and repeated dose slots are rejected",()=>{const record={id:'dolo-650',slots:[],addedAt:'2026-01-01T00:00:00.000Z'};expect(savedSchema.safeParse([record,record]).success).toBe(false);expect(savedSchema.safeParse([{...record,slots:['Morning','Morning']}]).success).toBe(false);const dose={medicineId:'dolo-650',date:'2026-01-01',slot:'Morning',status:'taken'};expect(logsSchema.safeParse([dose,dose]).success).toBe(false);});

@@ -1,0 +1,33 @@
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.1.0 [39m[90m/app[39m
+
+Warning: Invalid resolution 25 dpi. Using 70 instead.
+Estimating resolution as 255
+Warning: Invalid resolution 25 dpi. Using 70 instead.
+Estimating resolution as 142
+Warning: Invalid resolution 25 dpi. Using 70 instead.
+Estimating resolution as 297
+Detected 15 diacritics
+Warning: Invalid resolution 25 dpi. Using 70 instead.
+Estimating resolution as 224
+Warning: Invalid resolution 25 dpi. Using 70 instead.
+Estimating resolution as 327
+ [32m✓[39m tests/ocr.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 3735[2mms[22m[39m
+   [32m✓[39m real photographs — measured OCR, no mocked recognition [2m(7)[22m
+     [33m[2m✓[22m[39m safely processes the genuine dolo-650 fixture[33m 616[2mms[22m[39m
+     [33m[2m✓[22m[39m safely processes the genuine azithral-500 fixture[33m 1598[2mms[22m[39m
+     [33m[2m✓[22m[39m safely processes the genuine glycomet-500 fixture[33m 332[2mms[22m[39m
+     [33m[2m✓[22m[39m does not confidently invent a medicine on a partially obscured real strip[33m 437[2mms[22m[39m
+ [32m✓[39m tests/engine.test.ts [2m([22m[2m39 tests[22m[2m)[22m[32m 69[2mms[22m[39m
+ [32m✓[39m tests/safety-regressions.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m tests/qr.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 81[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m53 passed[39m[22m[90m (53)[39m
+[2m   Start at [22m 12:30:58
+[2m   Duration [22m 4.94s[2m (tests 87%, import 9%, transform 4%)[22m
+
+[2m    Isolate [22m [33m4 workers spawned[39m[2m · ~99ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~296ms faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+
+JSON report written to /app/test-results/vitest.json

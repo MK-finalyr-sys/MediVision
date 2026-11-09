@@ -1,0 +1,14 @@
+{
+  "unitTests": 53,
+  "browserTests": 16,
+  "typeGeneration": "PASSED (in sandbox)",
+  "typescript": "PASSED (in sandbox)",
+  "productionBuild": "PASSED (in sandbox)",
+  "httpsHealth": "PASSED (in sandbox)",
+  "physicalPhoneTests": "NEEDS PHONE TEST",
+  "clinicalValidation": "BLOCKED",
+  "highConfidenceIdentificationsOnFiveFinalPhotos": 0,
+  "correctMediumCandidatesOnFiveFinalPhotos": 1,
+  "lowRejectionsOnFiveFinalPhotos": 4,
+  "recordedAt": "2026-11-08T12:36:38.032Z"
+}
