@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
-
 const nextConfig: NextConfig = {
-  reactStrictMode: false,
-  typescript: {
-    // The AI source ships the full shadcn/ui component set; skip strict
-    // type-failures at build so the deploy never blocks on third-party types.
-    ignoreBuildErrors: true,
+  async headers() {
+    return [
+      { source: "/:path*", headers: [{ key: "X-Content-Type-Options", value: "nosniff" }, { key: "Referrer-Policy", value: "no-referrer" }, { key: "Permissions-Policy", value: "camera=(self), microphone=(), geolocation=()" }] },
+      { source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache, no-store, must-revalidate" }, { key: "Service-Worker-Allowed", value: "/" }] },
+    ];
   },
 };
-
 export default nextConfig;

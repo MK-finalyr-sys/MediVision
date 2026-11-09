@@ -1,27 +1,8 @@
-/* MediVision AI service worker — offline app shell (network-first, cache fallback) */
-const CACHE = 'medivision-v1'
-const CORE = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png']
-
-self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()))
-})
-
-self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim()),
-  )
-})
-
-self.addEventListener('fetch', (event) => {
-  const req = event.request
-  if (req.method !== 'GET') return
-  event.respondWith(
-    fetch(req)
-      .then((res) => {
-        const copy = res.clone()
-        caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {})
-        return res
-      })
-      .catch(() => caches.match(req).then((hit) => hit || caches.match('/'))),
-  )
-})
+/* MediVision: local app assets only. Never caches photos, external sources or APIs. */
+const CACHE='medivision-shell-v2';
+const CORE=['/','/manifest.webmanifest','/icon.svg','/icon-192.png','/icon-512.png','/images/medicine-hero.webp','/fonts/inter.woff2','/fonts/manrope.woff2','/ocr/worker.min.js','/ocr/eng.traineddata.gz',...['','-simd','-lstm','-simd-lstm','-relaxedsimd','-relaxedsimd-lstm'].map(s=>`/ocr/tesseract-core${s}.wasm.js`)];
+async function tell(type){for(const client of await self.clients.matchAll({includeUncontrolled:true,type:'window'}))client.postMessage({type});}
+self.addEventListener('install',event=>{event.waitUntil((async()=>{try{const cache=await caches.open(CACHE);await cache.addAll(CORE);const html=await (await cache.match('/')).text();const assets=[...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m=>m[1]).filter(u=>u.startsWith('/_next/static/'));await cache.addAll([...new Set(assets)]);await self.skipWaiting();}catch(error){await tell('OFFLINE_ERROR');throw error;}})());});
+self.addEventListener('activate',event=>{event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('medivision-')&&key!==CACHE)await caches.delete(key);await self.clients.claim();})());});
+self.addEventListener('message',event=>{if(event.data?.type==='CHECK_READY')event.waitUntil((async()=>{const ready=await (await caches.open(CACHE)).match('/__offline_ready');if(ready)event.source?.postMessage({type:'OFFLINE_READY'});})());if(event.data?.type==='CACHE_ASSETS')event.waitUntil((async()=>{try{const cache=await caches.open(CACHE);const urls=(event.data.urls||[]).filter(url=>{const parsed=new URL(url,self.location.origin);return parsed.origin===self.location.origin&&parsed.pathname.startsWith('/_next/static/');});await cache.addAll([...new Set(urls)]);await cache.put('/__offline_ready',new Response('ready'));await tell('OFFLINE_READY');}catch{await tell('OFFLINE_ERROR');}})());});
+self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||url.pathname.startsWith('/api/'))return;if(event.request.mode==='navigate'){event.respondWith((async()=>{const cache=await caches.open(CACHE);try{const response=await fetch(event.request);if(response.ok&&url.pathname==='/')await cache.put('/',response.clone());return response;}catch{return (await cache.match('/'))||new Response('MediVision has not finished offline preparation. Reconnect and reload to try again.',{status:503,headers:{'Content-Type':'text/plain'}});}})());return;}if(url.pathname.startsWith('/_next/static/')||url.pathname.startsWith('/ocr/')||CORE.includes(url.pathname)){event.respondWith((async()=>{const cache=await caches.open(CACHE);const cached=await cache.match(event.request);if(cached)return cached;const response=await fetch(event.request);if(response.ok)await cache.put(event.request,response.clone());return response;})());}});
